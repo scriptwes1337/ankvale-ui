@@ -38,7 +38,7 @@ Keep this checklist updated as work progresses. Version 0.1.0 is published on np
 npx @ankvalelabs/ui init
 ```
 
-The same package supplies runtime imports and the `ankvale` command. Initialization adds the provider, styles, project-local agent instructions, skills and documentation. Use `npx @ankvalelabs/ui doctor` to inspect an installation. See the [installation guide](https://ui.ankvale.com/docs/installation) for prerequisites, manual React/Vite setup and editable source alternatives.
+The same package supplies runtime imports and the `ankvale` command. Initialization adds the provider, styles, project-local agent instructions, skills and documentation. Use `npx @ankvalelabs/ui doctor` to inspect an installation. See the [installation guide](https://ui.ankvale.com/docs/system/installation) for prerequisites, manual React/Vite setup and editable source alternatives.
 
 ## Develop
 

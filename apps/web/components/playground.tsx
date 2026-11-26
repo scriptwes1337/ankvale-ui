@@ -669,7 +669,7 @@ function InstallationView() {
           setup is needed.
         </p>
       </section>
-      <Link href="/docs/installation" className="font-medium text-primary">
+      <Link href="/docs/system/installation" className="font-medium text-primary">
         Read the installation guide
       </Link>
       <section className="space-y-4">

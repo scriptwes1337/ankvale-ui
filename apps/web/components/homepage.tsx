@@ -139,7 +139,7 @@ export function Homepage() {
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-6 text-sm">
               <Link
-                href="/docs/installation"
+                href="/docs/system/installation"
                 className="inline-flex min-h-11 items-center gap-1.5 font-medium text-primary"
               >
                 Installation guide <ArrowUpRightIcon />
