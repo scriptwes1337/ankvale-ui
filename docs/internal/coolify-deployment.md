@@ -2,6 +2,8 @@
 
 The public website is hosted by Coolify at `https://ui.ankvale.com`, with DNS and proxying managed by Cloudflare. This deployment is independent of npm publication.
 
+Verified 27 November 2026: the first production image built from commit `dd77ce8` is running healthy. All eight routes listed below returned HTTP 200 over public HTTPS. Browser review confirmed homepage styles and the interactive workspace's list view. Cloudflare's existing zone SSL mode is Full; it was not changed during this deployment.
+
 ## Coolify configuration
 
 - Project: Ankvale UI; environment: production.
@@ -13,7 +15,7 @@ The public website is hosted by Coolify at `https://ui.ankvale.com`, with DNS an
 
 The root Dockerfile installs the locked monorepo dependencies, generates registries/API/docs/skills through the web prebuild, and builds Next.js standalone output. The runtime image contains the traced server, static assets and public downloads, and runs as the unprivileged Node user. The root `.dockerignore` excludes credentials, local dependency/build directories, Git history and unpublished npm candidates.
 
-Cloudflare's proxied `ui` A record targets the existing Coolify host. TLS terminates at Cloudflare and Coolify's HTTPS proxy. Keep certificate validation enabled and verify the origin certificate after initial deployment; changing zone-wide TLS settings can affect other Ankvale websites.
+Cloudflare's proxied `ui` A record targets the existing Coolify host. TLS terminates at Cloudflare and Coolify's HTTPS proxy. Do not weaken TLS settings to work around certificate errors; changing zone-wide TLS settings can affect other Ankvale websites.
 
 ## Deploy and verify
 
