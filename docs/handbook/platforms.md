@@ -13,7 +13,7 @@ Ankvale's web components use React and TypeScript. A separate React Native packa
 | shadcn | Source-registry workflow | Installing editable components and their dependencies |
 | React Native | Peer range `^0.88.0`, with React `^19.3.0` | Separate native component package |
 
-These versions describe the current development baseline. Vite and other React bundlers are targets for the forthcoming standalone package. A released compatibility matrix for that package is not available yet.
+The npm package `@ankvalelabs/ui@0.1.0` requires Node.js 22.13+ and React/React DOM `^19.3.0`. Packed installations pass production builds with Next.js 16.4.6 and Vite 7.3.8. Automatic initialization supports Next.js App Router; Vite uses manual provider/styles setup. Other frameworks and bundlers have not been verified. The npm styles are precompiled, so Tailwind and shadcn setup are only needed for the source-registry alternative.
 
 ## Feature technologies
 

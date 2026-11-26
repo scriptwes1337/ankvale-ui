@@ -8,6 +8,8 @@ Ankvale preserves third-party copyrights and licenses and does not claim ownersh
 
 **Complete release compliance is not yet established.** Missing package notices, platform-specific artifacts, font binary revisions, bundled native libraries and final distribution terms still require review. A blanket “fully compliant” statement would not be supported by the current evidence. Public package release must resolve the obligations applicable to the actual artifacts being distributed.
 
+The unified npm 0.1.0 distribution has a separate [artifact review](npm-release-review-0.1.0.md). It records shipped files, retained notices and excluded binaries/fonts. Its narrower scope does not close unrelated repository-wide findings below.
+
 ## Ankvale's own terms
 
 Ankvale Labs adopted the custom Ankvale Attribution License 1.0 on 27 November 2026. It grants personal/commercial use, modification and redistribution of original Ankvale work, requires the exact visible credit “Built with Ankvale UI by Ankvale Labs” in every app/website using it, and requires retaining the full license. Public docs must describe this custom license without calling it MIT or OSI-approved.

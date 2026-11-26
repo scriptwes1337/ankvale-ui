@@ -1,6 +1,6 @@
 # Standalone npm release
 
-Prepared 27 November 2026. Status: unpublished release candidate, version 0.1.0.
+Prepared 27 November 2026. Status: @ankvalelabs/ui@0.1.0 published with public access on 27 November 2026. Registry integrity matches the reviewed tarball; see [the artifact review](npm-release-review-0.1.0.md).
 
 ## Package boundaries
 
@@ -29,7 +29,7 @@ Only `.release` is reset by the build. It is ignored by Git. Review `.release/re
 
 The consumer test installs real tarballs outside this monorepo, exercises the npm install path, dry runs, preservation of existing AGENTS.md and layout markup, repeat initialization, both skill adapters, managed-file conflicts, template route safeguards and doctor. It builds clean Next.js and Vite applications, and checks every catalog import/export against packed declarations. Fixtures remain in the reported temporary directory for browser verification. Production Next.js browser checks verified blue controls, calendar, modal portal and animation; Vite checks verified that an outside host button retains its native styling.
 
-## Customer commands after publication
+## Customer commands
 
 ```sh
 npx @ankvalelabs/ui@0.1.0 init --agent both
@@ -41,12 +41,12 @@ Use `--cwd` for the actual Next.js application in a monorepo. `--dry-run` perfor
 
 For manual React setup, install the runtime and compatible React peers, import `@ankvalelabs/ui/styles.css` once, and wrap the application in `AnkvaleProvider`. Use `context/catalog.json` and its API records for actual imports. Manual map setup also requires copying the supplied worker into `public/ankvale-assets` or supplying a hosted worker URL. Product services, authentication, data persistence and map tile terms remain the application's responsibility.
 
-## Remaining release gates
+## Release maintenance
 
 - Review the actual artifacts against [licensing findings](licensing-audit.md), including copied worker notices and missing upstream notice findings applicable to shipped materials. The retained repository-wide notices are evidence, not a compliance certification or artifact-specific SBOM. The packages do not bundle native components or font binaries.
-- Confirm the maintainer's npm account can publish in `@ankvalelabs`. Authenticate interactively without putting credentials in repository files. Initial publication remains a separate owner decision.
+- Publication used the authenticated organization owner. Authenticate interactively for future releases without putting credentials in repository files.
 - Commit release tooling and evidence, rebuild, rerun consumer verification and inspect the exact tarballs that will be published.
 - Publish the single reviewed `@ankvalelabs/ui` tarball with public access. Verify registry versions and integrity, then test the real registry command in a fresh Next.js project.
-- Update customer installation documentation from the existing registry instructions only after the scoped packages are publicly available. Keep publication status and README roadmap current.
+- Keep customer installation documentation, publication status and the README roadmap current. Verify registry visibility and tarball integrity before updating commands for each new version.
 
 Do not run `npm publish` from the repository root or private source workspaces. Publish only reviewed staged tarballs. Never claim npm installation works publicly before registry verification.

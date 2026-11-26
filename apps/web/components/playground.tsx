@@ -641,46 +641,48 @@ function FoundationView() {
 }
 
 function InstallationView() {
-  const [origin, setOrigin] = React.useState("http://localhost:3000")
-  React.useEffect(() => setOrigin(window.location.origin), [])
-  const command = `npx shadcn@latest add ${origin}/r/ankvale-ui.json`
+  const command = "npx @ankvalelabs/ui init"
   return (
     <div className="max-w-3xl space-y-9">
       <div>
-        <Badge variant="secondary">Base UI · Tailwind v4</Badge>
+        <Badge variant="secondary">React · npm</Badge>
         <h1 className="mt-5 text-4xl font-semibold tracking-tight">
           Installation
         </h1>
         <p className="mt-3 text-base leading-7 text-muted-foreground">
-          Add Ankvale to an existing shadcn project.
+          Add the frontend system to your Next.js App Router project.
         </p>
       </div>
       <section className="space-y-4">
         <h2 className="text-lg font-semibold">Add the library</h2>
         <p className="text-sm leading-6 text-muted-foreground">
-          Start with a configured React + Tailwind v4 shadcn project. This
-          installs the component source, dependencies, and Ankvale styles.
-          Review overwrite prompts if components already exist.
+          Run this from your application directory. Setup installs the package,
+          provider, styles, local documentation and coding-agent skills. It
+          preserves existing routes and project instructions.
         </p>
         <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border bg-card p-4">
           <code className="min-w-0 text-sm break-all">{command}</code>
           <CopyButton value={command} />
         </div>
         <p className="text-sm text-muted-foreground">
-          Keep this development server running while installing locally.
+          Node.js 22.13+ and React 19.3+ are required. No shadcn or Tailwind
+          setup is needed.
         </p>
       </section>
+      <Link href="/docs/installation" className="font-medium text-primary">
+        Read the installation guide
+      </Link>
       <section className="space-y-4">
         <h2 className="text-lg font-semibold">Usage</h2>
         <pre className="overflow-x-auto rounded-xl border bg-card p-5 text-sm leading-7">
           {
-            'import { Button } from "@/components/ui/button"\n\nexport function Example() {\n  return <Button variant="outline">Save changes</Button>\n}'
+            'import { Button } from "@ankvalelabs/ui/components/button"\n\nexport function Example() {\n  return <Button variant="outline">Save changes</Button>\n}'
           }
         </pre>
         <p className="text-sm leading-6 text-muted-foreground">
-          Wrap your app with TooltipProvider when using tooltips. Use your own
-          font or set Inter as your sans-serif font. Every component is yours to
-          edit.
+          The initializer adds AnkvaleProvider and the compiled stylesheet. See
+          the installation guide for manual React/Vite setup and source registry
+          alternatives.
         </p>
       </section>
     </div>

@@ -31,7 +31,7 @@ The current web collection includes 176 component modules, 97 blocks including h
 
 ## Installation
 
-Web components are currently installed through the source registry. The standalone npm package and automatic setup CLI are upcoming. You can begin using the registry now; see [Installation and first use](getting-started.md).
+Install the frontend system with `npx @ankvalelabs/ui init` in a Next.js App Router project. Manual React/Vite setup and the editable source registry are also available; see [Installation and first use](getting-started.md).
 
 ## License
 

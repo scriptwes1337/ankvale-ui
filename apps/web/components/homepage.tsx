@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import dynamic from "next/dynamic"
-import { useState, useSyncExternalStore } from "react"
+import { useState } from "react"
 import {
   ArrowRightIcon,
   ArrowDownIcon,
@@ -28,13 +28,9 @@ const WebsiteShowcases = dynamic(() =>
 const AgentShowcase = dynamic(() =>
   import("./home/component-showcases").then((module) => module.AgentShowcase)
 )
-const subscribe = () => () => {}
-const originSnapshot = () => window.location.origin
-const serverOrigin = () => "<registry-origin>"
 export function Homepage() {
-  const origin = useSyncExternalStore(subscribe, originSnapshot, serverOrigin),
-    [copyState, setCopyState] = useState("")
-  const command = `npx shadcn@latest add ${origin}/r/ankvale-ui.json`
+  const [copyState, setCopyState] = useState("")
+  const command = "npx @ankvalelabs/ui init"
   async function copyInstall() {
     try {
       await navigator.clipboard.writeText(command)
@@ -115,7 +111,7 @@ export function Homepage() {
               Make it your own.
             </h2>
             <p className="mt-4 text-sm leading-6 text-muted-foreground">
-              Add Ankvale to your shadcn + Tailwind v4 project.
+              Set up your Next.js project, including agent guides and skills.
             </p>
             <div className="mt-7 flex items-center gap-3 rounded-lg border bg-background p-3 text-start sm:p-4">
               <CodeIcon className="hidden size-4 shrink-0 text-muted-foreground sm:block" />
@@ -143,11 +139,17 @@ export function Homepage() {
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-6 text-sm">
               <Link
-                href="/docs/ankvale-provider"
+                href="/docs/installation"
                 className="inline-flex min-h-11 items-center gap-1.5 font-medium text-primary"
               >
-                Provider & setup <ArrowUpRightIcon />
+                Installation guide <ArrowUpRightIcon />
               </Link>
+              <a
+                href="https://www.npmjs.com/package/@ankvalelabs/ui"
+                className="inline-flex min-h-11 items-center gap-1.5 font-medium"
+              >
+                View on npm <ArrowUpRightIcon />
+              </a>
               <Link
                 href="/templates"
                 className="inline-flex min-h-11 items-center gap-1.5 font-medium"

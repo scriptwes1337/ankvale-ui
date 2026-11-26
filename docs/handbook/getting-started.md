@@ -1,53 +1,59 @@
 # Installation and first use
 
-Install Ankvale components into your React project through the source registry. You receive editable source code, its required dependencies and theme configuration. The standalone npm package and automatic setup CLI are upcoming.
+Install the frontend system from npm. One package includes components, blocks, templates, compiled styles, animations, icons, the setup CLI and version-matched agent resources.
 
 ## Prerequisites
 
-Use a React project configured for shadcn and Tailwind CSS v4. For a Next.js project, use TypeScript and the App Router, and keep your existing application routes and provider setup.
+Use Node.js 22.13 or newer and React/React DOM 19.3 or newer within major version 19. Automatic setup supports Next.js App Router. Other React applications, including Vite, use the manual setup below. No shadcn CLI or Tailwind build is required for the npm package.
 
-The [supported technologies guide](platforms.md) lists the current framework baseline. Use the package manager and runtime versions supported by your application.
+See [supported technologies](platforms.md) for the tested framework baseline.
 
-## Install components
+## Set up a Next.js project
 
-Replace `<registry-origin>` with the origin of the Ankvale website serving the registry. The website's Get started section displays the complete command for its current host.
+Run this from your application's directory:
 
 ```sh
-# Start with one component
-npx shadcn@latest add <registry-origin>/r/button.json
-
-# Add a composed section
-npx shadcn@latest add <registry-origin>/r/feature-bento.json
-
-# Or install the complete collection
-npx shadcn@latest add <registry-origin>/r/ankvale-ui.json
+npx @ankvalelabs/ui init
 ```
 
-Install individual items when you need only part of the system. Review overwrite prompts when adding source to a project with existing components. Keep the installed license files with the source and add the [required project credit](../legal/licensing.md) to your application.
+The CLI installs the matching package version, imports compiled styles, adds a provider boundary and visible attribution, and preserves existing layout content and routes. It creates or extends `AGENTS.md`, adds `.ankvale` documentation/catalogs, and installs project-local skills. Use `--agent both` for Codex and Claude, or choose `codex`, `claude` or `none`. Global agent settings are unchanged.
+
+Review changes first with `--dry-run`. In a monorepo, select the application with `--cwd apps/my-app`. Edited managed files produce conflicts rather than being overwritten.
+
+```sh
+npx @ankvalelabs/ui init --dry-run
+npx @ankvalelabs/ui doctor
+npx @ankvalelabs/ui add dashboard --path app/dashboard/page.tsx
+```
+
+The last command creates an explicitly selected template route. Templates start with demo data; connect your own services.
 
 ## Use a component
 
-Imports follow the aliases configured in your project. With the usual shadcn alias:
-
 ```tsx
-import { Button } from "@/components/ui/button"
+import { Button } from "@ankvalelabs/ui/components/button"
 
 export function SaveAction() {
   return <Button type="submit">Save changes</Button>
 }
 ```
 
-Each component's API reference provides its exports, props and examples. Blocks and templates have their own usage examples and data contracts.
+Use direct feature imports. The installed `.ankvale/catalog.json` maps component, block and template IDs to imports and exact API records. The package is also listed on [npm](https://www.npmjs.com/package/@ankvalelabs/ui).
 
-## Add shared preferences
+## Manual React or Vite setup
 
-Create a client provider boundary for appearance, locale, direction, density and motion preferences:
+```sh
+npm install @ankvalelabs/ui
+```
+
+Import `@ankvalelabs/ui/styles.css` once at your application boundary and wrap your UI in the provider. In Next.js, keep this provider in a client component and mount it inside your root layout's body:
 
 ```tsx
 "use client"
 
 import type { ReactNode } from "react"
-import { AnkvaleProvider } from "@/components/ui/ankvale-provider"
+import "@ankvalelabs/ui/styles.css"
+import { AnkvaleProvider } from "@ankvalelabs/ui"
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
@@ -55,23 +61,31 @@ export function Providers({ children }: { children: ReactNode }) {
       appearance="inherit"
       locale="en-SG"
       timeZone="Asia/Singapore"
-      direction="ltr"
-      density="comfortable"
       motion="system"
-      toasts
     >
       {children}
+      <footer>Built with Ankvale UI by Ankvale Labs</footer>
     </AnkvaleProvider>
   )
 }
 ```
 
-Mount this below your root layout and load the installed theme stylesheet once. Use your application's theme setup for a site-wide light/dark preference, or select an explicit provider appearance for a section. If your app already has a global toaster, leave the provider's `toasts` option disabled.
+Use your application's theme setup for a site-wide preference, or an explicit provider appearance for a section. Load custom CSS after the package stylesheet. Styles are scoped to the provider, while default semantic variables are global; an optional global reset is available at `@ankvalelabs/ui/reset.css`. Arbitrary new utility classes still need your own CSS or utility build.
 
-The provider supplies scoped defaults and portal context. Your application controls saved preferences, fonts and service connections. Some widgets have separate localization props; use their API reference when configuring dates or translated labels.
+Manual map setup requires copying `node_modules/@ankvalelabs/ui/assets/maplibre-gl-worker.mjs` to `public/ankvale-assets/maplibre-gl-worker.mjs`, or supplying a hosted `workerUrl` to Map. The CLI handles the copy for Next.js.
 
-## Build your first screen
+## Updates and agent resources
 
-Choose a [template or block](building-apps.md), supply your own content and connect its callbacks to your application's services. Try the main action, loading and error states, keyboard navigation and a narrow layout.
+Use `npx @ankvalelabs/ui@<version> update` to install that version and refresh its managed context. Review conflicts and local changes before accepting an update. Run `doctor` with the same version as your installed package. Read [coding agents](agents.md) for local skill setup and discovery.
 
-Continue with [customization](customization.md) to adjust the brand or [coding agents](agents.md) to install the companion guides and skills.
+## Editable source alternative
+
+The shadcn source registry remains available for projects that want to own and edit component source. This alternative requires a configured shadcn + Tailwind CSS v4 project:
+
+```sh
+npx shadcn@latest add https://ui.ankvale.com/r/button.json
+```
+
+Registry imports follow your configured aliases, such as `@/components/ui/button`; npm imports use `@ankvalelabs/ui/components/button`. Choose a consistent installation approach per component and review overwrite prompts.
+
+Keep the installed licenses and [required visible attribution](../legal/licensing.md). Continue with [building apps](building-apps.md) and [customization](customization.md) to choose layouts and adapt your brand.

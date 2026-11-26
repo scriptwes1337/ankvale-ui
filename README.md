@@ -2,7 +2,7 @@
 
 Components, blocks, and templates by **Ankvale Labs**, built for people and coding agents. Ankvale takes its name from Anchorvale, Singapore, where the business began.
 
-The source workspace packages `@ankvale/ui`, `@ankvale/native-ui`, and `@ankvale/design-system` remain private. The standalone release candidate is `@ankvalelabs/ui`, including its setup CLI; it is not published yet. The existing shadcn source registry remains available. See [npm release preparation](docs/internal/npm-release.md).
+The source workspace packages `@ankvale/ui`, `@ankvale/native-ui`, and `@ankvale/design-system` remain private. The standalone npm package is [`@ankvalelabs/ui`](https://www.npmjs.com/package/@ankvalelabs/ui), including its setup CLI. The existing shadcn source registry remains available. See [npm release preparation](docs/internal/npm-release.md).
 
 Read the [project documentation](docs/README.md) for intentions, installation, supported technologies, customization, animations, agent workflows and maintenance. The customer-facing handbook is available at `/docs`, with Markdown and a downloadable reference bundle.
 
@@ -18,10 +18,10 @@ A shadcn preset built on Base UI. Notion is the sole design reference: bold ink-
 
 Ankvale is a complete frontend system for teams and coding agents: design tokens, typography, icons, illustrations, motion, components, blocks, templates and implementation guidance. Track unfinished system layers here alongside runtime and distribution work.
 
-Keep this checklist updated as work progresses. Release candidates are built locally; npm publication and catalog-wide release hardening remain pending.
+Keep this checklist updated as work progresses. Version 0.1.0 is published on npm. Catalog-wide release hardening and the remaining system layers stay tracked below.
 
 - [x] **Standalone npm build:** compiled ESM/types, scoped precompiled CSS, per-feature imports, and one runtime/CLI package with local agent resources. Marketing and hosted documentation apps are excluded.
-- [ ] **npm publication:** publish reviewed the `@ankvalelabs/ui` release artifact after artifact-specific licensing review and npm authentication.
+- [x] **npm publication:** `@ankvalelabs/ui@0.1.0` published with public access; registry integrity matches the reviewed tarball.
 - [x] **Fresh-project validation:** packed packages build in isolated Next.js and Vite apps; browser checks cover styles, portal dialogs, animation and host-style isolation.
 - [ ] **Bundle optimization:** measure feature-specific production chunks and set dependency/CSS size budgets.
 - [ ] **Team starter:** provide shared providers, typography, an app shell, authentication screens and error/loading states so projects can begin with features and content.
@@ -32,13 +32,13 @@ Keep this checklist updated as work progresses. Release candidates are built loc
 - [ ] **Product graphics:** extract reusable browser/phone frames, diagrams, connectors and product scenes from bespoke showcase artwork; compose them into blocks and templates.
 - [ ] **Asset catalog and agent guidance:** document when to choose an icon, illustration or product scene; provide exact asset IDs, imports, editable SVG downloads, provenance and usage terms. Integrate the catalog into agent recipes and ship only assets a project uses.
 
-## Standalone setup (after npm publication)
+## Install
 
 ```sh
 npx @ankvalelabs/ui init
 ```
 
-The same package supplies runtime imports and the `ankvale` command. Initialization adds the provider, styles, project-local agent instructions, skills and documentation. Use `npx @ankvalelabs/ui doctor` to inspect an installation. These commands become publicly available after the first release.
+The same package supplies runtime imports and the `ankvale` command. Initialization adds the provider, styles, project-local agent instructions, skills and documentation. Use `npx @ankvalelabs/ui doctor` to inspect an installation. See the [installation guide](https://ui.ankvale.com/docs/installation) for prerequisites, manual React/Vite setup and editable source alternatives.
 
 ## Develop
 
@@ -93,22 +93,22 @@ Sections accept your heading, description, content arrays, and visual/action slo
 
 The Forma example uses illustrative brands, profiles, quotes, and prices. Replace them with verified content before publishing.
 
-## Install
+## Editable source alternative
 
-Start with an initialized shadcn + Tailwind v4 React project. Replace the host and port below with your running server URL.
+Start with an initialized shadcn + Tailwind v4 React project. The public registry is hosted at `https://ui.ankvale.com`.
 
 ```sh
 # Complete style, components, and blocks
-npx shadcn@latest add http://localhost:3001/r/ankvale-ui.json
+npx shadcn@latest add https://ui.ankvale.com/r/ankvale-ui.json
 
 # Website block collection
-npx shadcn@latest add http://localhost:3001/r/website-blocks.json
+npx shadcn@latest add https://ui.ankvale.com/r/website-blocks.json
 
 # A single block and its category module/dependencies
-npx shadcn@latest add http://localhost:3001/r/feature-bento.json
+npx shadcn@latest add https://ui.ankvale.com/r/feature-bento.json
 
 # Hero layouts
-npx shadcn@latest add http://localhost:3001/r/hero-blocks.json
+npx shadcn@latest add https://ui.ankvale.com/r/hero-blocks.json
 ```
 
 Review overwrite prompts for existing components. Installed blocks live under your configured `components/blocks` path. Set your preferred sans-serif font and wrap your app with `TooltipProvider` when using tooltips.

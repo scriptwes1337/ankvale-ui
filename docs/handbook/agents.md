@@ -4,14 +4,15 @@ Give your coding agent the Ankvale guides and skills so it can select suitable c
 
 ## Install the guides and skills
 
-Open the website's [Developer tools](/tools) page to download the coding skill, design skill and agent guide bundle. Each skill includes its reference material.
+For an npm installation in a Next.js App Router project, run:
 
-1. Keep the agent guide bundle together in a project-local directory.
-2. Add an Ankvale section to your project's `AGENTS.md`, creating the file if needed.
-3. Point it to the guide entry point and your saved design manifest, if you have one.
-4. Install the skills in the project location supported by your coding agent.
+```sh
+npx @ankvalelabs/ui init --agent both
+```
 
-The forthcoming setup CLI will automate this process. For now, the downloadable bundles provide the same selection and design guidance for manual setup.
+Setup creates or extends `AGENTS.md` and installs version-matched API/design resources in `.ankvale`, Codex skills in `.agents/skills`, and Claude skills in `.claude/skills`. Choose just `codex` or `claude` if preferred. Existing project instructions are preserved; global configuration is unchanged. Run `npx @ankvalelabs/ui doctor` to inspect the setup and read the installed guide before composing screens.
+
+For manual or source-registry installations, [Developer tools](/tools) offers downloadable coding/design skills and an agent guide bundle. Keep the bundle together, place the skills in your agent's supported project-local directory, and point `AGENTS.md` to its guide entry point. Match references to the version installed in your project.
 
 ## Add project instructions
 

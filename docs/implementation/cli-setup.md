@@ -1,6 +1,6 @@
 # CLI setup contract
 
-Status: implemented as an unpublished 0.1.0 candidate for Next.js App Router. The contract below remains the acceptance target; [release preparation](../internal/npm-release.md) records verified behavior and remaining gates. One public package, `@ankvalelabs/ui`, contains both runtime exports and an `ankvale` executable. Initialize with `npx @ankvalelabs/ui init` after publication.
+Status: shipped in @ankvalelabs/ui@0.1.0 for Next.js App Router. The contract below remains the acceptance target; [release preparation](../internal/npm-release.md) records verified behavior and remaining gates. One public package, `@ankvalelabs/ui`, contains both runtime exports and an `ankvale` executable. Initialize with `npx @ankvalelabs/ui init`.
 
 Installing Ankvale into a Next.js project must also set up the local context needed by coding agents. This is part of normal initialization, not a separate manual documentation step. The package supplies shared runtime behavior; scaffolded application screens belong to the consuming project.
 
