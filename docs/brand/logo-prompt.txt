@@ -1,0 +1,6 @@
+Use case: logo-brand
+Asset type: production brand symbol for Ankvale UI, the component library by Ankvale Labs.
+Primary request: Design one professional, distinctive minimalist AV monogram symbol. Ankvale is derived from Anchorvale, the Singapore neighborhood where the company began. Quietly connect a strong architectural A peak and an open V valley through clean negative space, suggesting modular interface building blocks. A refined simple silhouette that works at 24 pixels, precise balanced geometry, modest optical corner softening, strong crafted identity.
+Composition: One large centered standalone symbol, square canvas, generous but not excessive safe margin. No wordmark or lettering other than the abstract AV symbol. Flat solid Bootstrap blue #0d6efd. True transparent background.
+Style: understated contemporary software infrastructure brand, flat vector-like edges and impeccable geometric balance.
+Constraints: only one symbol, no presentation sheet, no mockups, no gradients, no glass, no shadows, no textures, no nautical anchor clipart, no extra ornaments, no slogan, no watermark.

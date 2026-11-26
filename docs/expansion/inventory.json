@@ -1,0 +1,1340 @@
+{
+  "reference": "HeroUI Pro public catalog, reviewed 2026-11-26",
+  "rules": [
+    "Original Ankvale implementations; no licensed source copied.",
+    "White surfaces, Bootstrap blue, no gradients or glass.",
+    "Complete requires source, meaningful preview/docs, installable output, and relevant verification.",
+    "Existing means a baseline equivalent; additional variant coverage must be audited."
+  ],
+  "web": [
+    {
+      "id": "area-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/area-chart",
+      "anchor": "packages/ui/src/components/area-chart.tsx",
+      "preview": "/playground#area-chart",
+      "api": "/docs/area-chart",
+      "registry": "/r/area-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "bar-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/bar-chart",
+      "anchor": "packages/ui/src/components/bar-chart.tsx",
+      "preview": "/playground#bar-chart",
+      "api": "/docs/bar-chart",
+      "registry": "/r/bar-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chart-tooltip",
+      "category": "charts",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/chart-tooltip",
+      "anchor": "chart"
+    },
+    {
+      "id": "composed-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/composed-chart",
+      "anchor": "packages/ui/src/components/composed-chart.tsx",
+      "preview": "/playground#composed-chart",
+      "api": "/docs/composed-chart",
+      "registry": "/r/composed-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "line-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/line-chart",
+      "anchor": "packages/ui/src/components/line-chart.tsx",
+      "preview": "/playground#line-chart",
+      "api": "/docs/line-chart",
+      "registry": "/r/line-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "pie-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/pie-chart",
+      "anchor": "packages/ui/src/components/pie-chart.tsx",
+      "preview": "/playground#pie-chart",
+      "api": "/docs/pie-chart",
+      "registry": "/r/pie-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "radar-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/radar-chart",
+      "anchor": "packages/ui/src/components/radar-chart.tsx",
+      "preview": "/playground#radar-chart",
+      "api": "/docs/radar-chart",
+      "registry": "/r/radar-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "radial-chart",
+      "category": "charts",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/radial-chart",
+      "anchor": "packages/ui/src/components/radial-chart.tsx",
+      "preview": "/playground#radial-chart",
+      "api": "/docs/radial-chart",
+      "registry": "/r/radial-chart.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "agenda",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/agenda",
+      "anchor": "packages/ui/src/components/agenda.tsx",
+      "preview": "/playground#agenda",
+      "api": "/docs/agenda",
+      "registry": "/r/agenda.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "action-bar",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/action-bar",
+      "anchor": "packages/ui/src/components/action-bar.tsx",
+      "preview": "/playground#action-bar",
+      "api": "/docs/action-bar",
+      "registry": "/r/action-bar.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "carousel",
+      "category": "data-display",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/carousel",
+      "anchor": "carousel"
+    },
+    {
+      "id": "data-grid",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/data-grid",
+      "anchor": "packages/ui/src/components/data-grid.tsx",
+      "preview": "/playground#data-grid",
+      "api": "/docs/data-grid",
+      "registry": "/r/data-grid.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "empty",
+      "category": "data-display",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/empty-state",
+      "anchor": "empty"
+    },
+    {
+      "id": "file-tree",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/file-tree",
+      "anchor": "packages/ui/src/components/file-tree.tsx",
+      "preview": "/playground#file-tree",
+      "api": "/docs/file-tree",
+      "registry": "/r/file-tree.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "floating-toc",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/floating-toc",
+      "anchor": "packages/ui/src/components/floating-toc.tsx",
+      "preview": "/playground#floating-toc",
+      "api": "/docs/floating-toc",
+      "registry": "/r/floating-toc.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "holo-card",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/holo-card",
+      "anchor": "packages/ui/src/components/holo-card.tsx",
+      "preview": "/playground#holo-card",
+      "api": "/docs/holo-card",
+      "registry": "/r/holo-card.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "hover-card",
+      "category": "data-display",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/hover-card",
+      "anchor": "hover-card"
+    },
+    {
+      "id": "kanban",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/kanban",
+      "anchor": "packages/ui/src/components/kanban.tsx",
+      "preview": "/playground#kanban",
+      "api": "/docs/kanban",
+      "registry": "/r/kanban.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "item-card",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/item-card",
+      "anchor": "packages/ui/src/components/item-card.tsx",
+      "preview": "/playground#item-card",
+      "api": "/docs/item-card",
+      "registry": "/r/item-card.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "item-card-group",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/item-card-group",
+      "anchor": "packages/ui/src/components/item-card-group.tsx",
+      "preview": "/playground#item-card-group",
+      "api": "/docs/item-card-group",
+      "registry": "/r/item-card-group.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "kpi",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/kpi",
+      "anchor": "packages/ui/src/components/kpi.tsx",
+      "preview": "/playground#kpi",
+      "api": "/docs/kpi",
+      "registry": "/r/kpi.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "kpi-group",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/kpi-group",
+      "anchor": "packages/ui/src/components/kpi-group.tsx",
+      "preview": "/playground#kpi-group",
+      "api": "/docs/kpi-group",
+      "registry": "/r/kpi-group.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "list-view",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/list-view",
+      "anchor": "packages/ui/src/components/list-view.tsx",
+      "preview": "/playground#list-view",
+      "api": "/docs/list-view",
+      "registry": "/r/list-view.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "map",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/map",
+      "anchor": "packages/ui/src/components/map.tsx",
+      "preview": "/playground#map",
+      "api": "/docs/map",
+      "registry": "/r/map.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "timeline",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/timeline",
+      "anchor": "packages/ui/src/components/timeline.tsx",
+      "preview": "/playground#timeline",
+      "api": "/docs/timeline",
+      "registry": "/r/timeline.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "widget",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/widget",
+      "anchor": "packages/ui/src/components/widget.tsx",
+      "preview": "/playground#widget",
+      "api": "/docs/widget",
+      "registry": "/r/widget.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "approval-card",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/approval-card",
+      "anchor": "packages/ui/src/components/approval-card.tsx",
+      "preview": "/playground#approval-card",
+      "api": "/docs/approval-card",
+      "registry": "/r/approval-card.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chain-of-thought",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chain-of-thought",
+      "anchor": "packages/ui/src/components/chain-of-thought.tsx",
+      "preview": "/playground#chain-of-thought",
+      "api": "/docs/chain-of-thought",
+      "registry": "/r/chain-of-thought.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-attachment",
+      "category": "ai",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/chat-attachment",
+      "anchor": "attachment"
+    },
+    {
+      "id": "chat-conversation",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-conversation",
+      "anchor": "packages/ui/src/components/chat-conversation.tsx",
+      "preview": "/playground#chat-conversation",
+      "api": "/docs/chat-conversation",
+      "registry": "/r/chat-conversation.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-list-view",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-list-view",
+      "anchor": "packages/ui/src/components/chat-list-view.tsx",
+      "preview": "/playground#chat-list-view",
+      "api": "/docs/chat-list-view",
+      "registry": "/r/chat-list-view.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-loader",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-loader",
+      "anchor": "packages/ui/src/components/chat-loader.tsx",
+      "preview": "/playground#chat-loader",
+      "api": "/docs/chat-loader",
+      "registry": "/r/chat-loader.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-message",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-message",
+      "anchor": "packages/ui/src/components/chat-message.tsx",
+      "preview": "/playground#chat-message",
+      "api": "/docs/chat-message",
+      "registry": "/r/chat-message.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-message-actions",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-message-actions",
+      "anchor": "packages/ui/src/components/chat-message-actions.tsx",
+      "preview": "/playground#chat-message-actions",
+      "api": "/docs/chat-message-actions",
+      "registry": "/r/chat-message-actions.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-source",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-source",
+      "anchor": "packages/ui/src/components/chat-source.tsx",
+      "preview": "/playground#chat-source",
+      "api": "/docs/chat-source",
+      "registry": "/r/chat-source.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "chat-tool",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/chat-tool",
+      "anchor": "packages/ui/src/components/chat-tool.tsx",
+      "preview": "/playground#chat-tool",
+      "api": "/docs/chat-tool",
+      "registry": "/r/chat-tool.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "code-block",
+      "category": "ai",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/code-block",
+      "anchor": "code-block"
+    },
+    {
+      "id": "loader",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/loader",
+      "anchor": "packages/ui/src/components/loader.tsx",
+      "preview": "/playground#loader",
+      "api": "/docs/loader",
+      "registry": "/r/loader.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "markdown",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/markdown",
+      "anchor": "packages/ui/src/components/markdown.tsx",
+      "preview": "/playground#markdown",
+      "api": "/docs/markdown",
+      "registry": "/r/markdown.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "model-selector",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/model-selector",
+      "anchor": "packages/ui/src/components/model-selector.tsx",
+      "preview": "/playground#model-selector",
+      "api": "/docs/model-selector",
+      "registry": "/r/model-selector.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "prompt-input",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/prompt-input",
+      "anchor": "packages/ui/src/components/prompt-input.tsx",
+      "preview": "/playground#prompt-input",
+      "api": "/docs/prompt-input",
+      "registry": "/r/prompt-input.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "prompt-suggestion",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/prompt-suggestion",
+      "anchor": "packages/ui/src/components/prompt-suggestion.tsx",
+      "preview": "/playground#prompt-suggestion",
+      "api": "/docs/prompt-suggestion",
+      "registry": "/r/prompt-suggestion.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "reasoning",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/reasoning",
+      "anchor": "packages/ui/src/components/reasoning.tsx",
+      "preview": "/playground#reasoning",
+      "api": "/docs/reasoning",
+      "registry": "/r/reasoning.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "text-shimmer",
+      "category": "ai",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/text-shimmer",
+      "anchor": "packages/ui/src/components/text-shimmer.tsx",
+      "preview": "/playground#text-shimmer",
+      "api": "/docs/text-shimmer",
+      "registry": "/r/text-shimmer.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "emoji-reaction-button",
+      "category": "feedback",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/emoji-reaction-button",
+      "anchor": "packages/ui/src/components/emoji-reaction-button.tsx",
+      "preview": "/playground#emoji-reaction-button",
+      "api": "/docs/emoji-reaction-button",
+      "registry": "/r/emoji-reaction-button.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "number-value",
+      "category": "feedback",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/number-value",
+      "anchor": "packages/ui/src/components/number-value.tsx",
+      "preview": "/playground#number-value",
+      "api": "/docs/number-value",
+      "registry": "/r/number-value.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "pressable-feedback",
+      "category": "feedback",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/pressable-feedback",
+      "anchor": "packages/ui/src/components/pressable-feedback.tsx",
+      "preview": "/playground#pressable-feedback",
+      "api": "/docs/pressable-feedback",
+      "registry": "/r/pressable-feedback.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "rating",
+      "category": "feedback",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/rating",
+      "anchor": "packages/ui/src/components/rating.tsx",
+      "preview": "/playground#rating",
+      "api": "/docs/rating",
+      "registry": "/r/rating.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "trend-chip",
+      "category": "feedback",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/trend-chip",
+      "anchor": "packages/ui/src/components/trend-chip.tsx",
+      "preview": "/playground#trend-chip",
+      "api": "/docs/trend-chip",
+      "registry": "/r/trend-chip.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "cell-color-picker",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/cell-color-picker",
+      "anchor": "packages/ui/src/components/cell-color-picker.tsx",
+      "preview": "/playground#cell-color-picker",
+      "api": "/docs/cell-color-picker",
+      "registry": "/r/cell-color-picker.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "cell-select",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/cell-select",
+      "anchor": "packages/ui/src/components/cell-select.tsx",
+      "preview": "/playground#cell-select",
+      "api": "/docs/cell-select",
+      "registry": "/r/cell-select.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "cell-slider",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/cell-slider",
+      "anchor": "packages/ui/src/components/cell-slider.tsx",
+      "preview": "/playground#cell-slider",
+      "api": "/docs/cell-slider",
+      "registry": "/r/cell-slider.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "cell-switch",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/cell-switch",
+      "anchor": "packages/ui/src/components/cell-switch.tsx",
+      "preview": "/playground#cell-switch",
+      "api": "/docs/cell-switch",
+      "registry": "/r/cell-switch.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "checkbox-button-group",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/checkbox-button-group",
+      "anchor": "packages/ui/src/components/checkbox-button-group.tsx",
+      "preview": "/playground#checkbox-button-group",
+      "api": "/docs/checkbox-button-group",
+      "registry": "/r/checkbox-button-group.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "drop-zone",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/drop-zone",
+      "anchor": "packages/ui/src/components/drop-zone.tsx",
+      "preview": "/playground#drop-zone",
+      "api": "/docs/drop-zone",
+      "registry": "/r/drop-zone.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "inline-select",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/inline-select",
+      "anchor": "packages/ui/src/components/inline-select.tsx",
+      "preview": "/playground#inline-select",
+      "api": "/docs/inline-select",
+      "registry": "/r/inline-select.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "native-select",
+      "category": "forms",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/native-select",
+      "anchor": "native-select"
+    },
+    {
+      "id": "number-stepper",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/number-stepper",
+      "anchor": "packages/ui/src/components/number-stepper.tsx",
+      "preview": "/playground#number-stepper",
+      "api": "/docs/number-stepper",
+      "registry": "/r/number-stepper.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "radio-button-group",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/radio-button-group",
+      "anchor": "packages/ui/src/components/radio-button-group.tsx",
+      "preview": "/playground#radio-button-group",
+      "api": "/docs/radio-button-group",
+      "registry": "/r/radio-button-group.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "rich-text-editor",
+      "category": "forms",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/rich-text-editor",
+      "anchor": "packages/ui/src/components/rich-text-editor.tsx",
+      "preview": "/playground#rich-text-editor",
+      "api": "/docs/rich-text-editor",
+      "registry": "/r/rich-text-editor.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "app-layout",
+      "category": "navigation",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/app-layout",
+      "anchor": "packages/ui/src/components/app-layout.tsx",
+      "preview": "/playground#app-layout",
+      "api": "/docs/app-layout",
+      "registry": "/r/app-layout.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "command",
+      "category": "navigation",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/command",
+      "anchor": "command"
+    },
+    {
+      "id": "context-menu",
+      "category": "navigation",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/context-menu",
+      "anchor": "context-menu"
+    },
+    {
+      "id": "navbar",
+      "category": "navigation",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/navbar",
+      "anchor": "../blocks/navigation"
+    },
+    {
+      "id": "segment",
+      "category": "navigation",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/segment",
+      "anchor": "packages/ui/src/components/segment.tsx",
+      "preview": "/playground#segment",
+      "api": "/docs/segment",
+      "registry": "/r/segment.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "sidebar",
+      "category": "navigation",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/sidebar",
+      "anchor": "sidebar"
+    },
+    {
+      "id": "stepper",
+      "category": "navigation",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/stepper",
+      "anchor": "packages/ui/src/components/stepper.tsx",
+      "preview": "/playground#stepper",
+      "api": "/docs/stepper",
+      "registry": "/r/stepper.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    },
+    {
+      "id": "resizable",
+      "category": "layout",
+      "status": "existing",
+      "source": "https://heroui.pro/docs/react/components/resizable",
+      "anchor": "resizable"
+    },
+    {
+      "id": "emoji-picker",
+      "category": "overlays",
+      "status": "implemented",
+      "source": "https://heroui.pro/docs/react/components/emoji-picker",
+      "anchor": "packages/ui/src/components/emoji-picker.tsx",
+      "preview": "/playground#emoji-picker",
+      "api": "/docs/emoji-picker",
+      "registry": "/r/emoji-picker.json",
+      "verification": "Source, live preview, API example and installable registry provided. Preview smoke, targeted interactions and consumer type checks passed. See verification.md for browser coverage and limits."
+    }
+  ],
+  "templates": [
+    {
+      "id": "dashboard",
+      "status": "implemented",
+      "anchor": "packages/ui/src/templates/dashboard.tsx",
+      "preview": "/examples/dashboard",
+      "registry": "/r/dashboard-template.json",
+      "api": "/docs/templates/dashboard",
+      "source": "https://template-dashboard.heroui.pro/",
+      "verification": "Source, live preview, API and registry provided. All five render and local workflow interaction tests pass; browser review covered all five templates and mobile CRM navigation."
+    },
+    {
+      "id": "mail",
+      "status": "implemented",
+      "anchor": "packages/ui/src/templates/mail.tsx",
+      "preview": "/examples/mail",
+      "registry": "/r/mail-template.json",
+      "api": "/docs/templates/mail",
+      "source": "https://template-email.heroui.pro/inbox",
+      "verification": "Source, live preview, API and registry provided. All five render and local workflow interaction tests pass; browser review covered all five templates and mobile CRM navigation."
+    },
+    {
+      "id": "chat",
+      "status": "implemented",
+      "anchor": "packages/ui/src/templates/chat.tsx",
+      "preview": "/examples/chat",
+      "registry": "/r/chat-template.json",
+      "api": "/docs/templates/chat",
+      "source": "https://template-chat.heroui.pro/pro-ai-showcase",
+      "verification": "Source, live preview, API and registry provided. All five render and local workflow interaction tests pass; browser review covered all five templates and mobile CRM navigation."
+    },
+    {
+      "id": "crm",
+      "status": "implemented",
+      "anchor": "packages/ui/src/templates/crm.tsx",
+      "preview": "/examples/crm",
+      "registry": "/r/crm-template.json",
+      "api": "/docs/templates/crm",
+      "source": "https://template-crm.heroui.pro/",
+      "verification": "Source, live preview, API and registry provided. All five render and local workflow interaction tests pass; browser review covered all five templates and mobile CRM navigation."
+    },
+    {
+      "id": "finances",
+      "status": "implemented",
+      "anchor": "packages/ui/src/templates/finances.tsx",
+      "preview": "/examples/finances",
+      "registry": "/r/finances-template.json",
+      "api": "/docs/templates/finances",
+      "source": "https://template-4.heroui.pro/",
+      "verification": "Source, live preview, API and registry provided. All five render and local workflow interaction tests pass; browser review covered all five templates and mobile CRM navigation."
+    }
+  ],
+  "native": [
+    {
+      "id": "fab",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/fab.tsx",
+      "preview": "/native#fab",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/fab",
+      "source": "https://heroui.pro/docs/native/components/fab"
+    },
+    {
+      "id": "morph-button",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/morph-button.tsx",
+      "preview": "/native#morph-button",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/morph-button",
+      "source": "https://heroui.pro/docs/native/components/morph-button"
+    },
+    {
+      "id": "progress-button",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/progress-button.tsx",
+      "preview": "/native#progress-button",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/progress-button",
+      "source": "https://heroui.pro/docs/native/components/progress-button"
+    },
+    {
+      "id": "slide-button",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/slide-button.tsx",
+      "preview": "/native#slide-button",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/slide-button",
+      "source": "https://heroui.pro/docs/native/components/slide-button"
+    },
+    {
+      "id": "social-auth-button",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/social-auth-button.tsx",
+      "preview": "/native#social-auth-button",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/social-auth-button",
+      "source": "https://heroui.pro/docs/native/components/social-auth-button"
+    },
+    {
+      "id": "toggle-button",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/toggle-button.tsx",
+      "preview": "/native#toggle-button",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/toggle-button",
+      "source": "https://heroui.pro/docs/native/components/toggle-button"
+    },
+    {
+      "id": "toggle-button-group",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/toggle-button-group.tsx",
+      "preview": "/native#toggle-button-group",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/toggle-button-group",
+      "source": "https://heroui.pro/docs/native/components/toggle-button-group"
+    },
+    {
+      "id": "area-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/area-chart.tsx",
+      "preview": "/native#area-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/area-chart",
+      "source": "https://heroui.pro/docs/native/components/area-chart"
+    },
+    {
+      "id": "bar-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/bar-chart.tsx",
+      "preview": "/native#bar-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/bar-chart",
+      "source": "https://heroui.pro/docs/native/components/bar-chart"
+    },
+    {
+      "id": "composed-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/composed-chart.tsx",
+      "preview": "/native#composed-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/composed-chart",
+      "source": "https://heroui.pro/docs/native/components/composed-chart"
+    },
+    {
+      "id": "line-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/line-chart.tsx",
+      "preview": "/native#line-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/line-chart",
+      "source": "https://heroui.pro/docs/native/components/line-chart"
+    },
+    {
+      "id": "live-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/live-chart.tsx",
+      "preview": "/native#live-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/live-chart",
+      "source": "https://heroui.pro/docs/native/components/live-chart"
+    },
+    {
+      "id": "pie-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/pie-chart.tsx",
+      "preview": "/native#pie-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/pie-chart",
+      "source": "https://heroui.pro/docs/native/components/pie-chart"
+    },
+    {
+      "id": "radar-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/radar-chart.tsx",
+      "preview": "/native#radar-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/radar-chart",
+      "source": "https://heroui.pro/docs/native/components/radar-chart"
+    },
+    {
+      "id": "radial-chart",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/radial-chart.tsx",
+      "preview": "/native#radial-chart",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/radial-chart",
+      "source": "https://heroui.pro/docs/native/components/radial-chart"
+    },
+    {
+      "id": "stacked-meter",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/stacked-meter.tsx",
+      "preview": "/native#stacked-meter",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/stacked-meter",
+      "source": "https://heroui.pro/docs/native/components/stacked-meter"
+    },
+    {
+      "id": "badge",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/badge.tsx",
+      "preview": "/native#badge",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/badge",
+      "source": "https://heroui.pro/docs/native/components/badge"
+    },
+    {
+      "id": "carousel",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/carousel.tsx",
+      "preview": "/native#carousel",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/carousel",
+      "source": "https://heroui.pro/docs/native/components/carousel"
+    },
+    {
+      "id": "empty-state",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/empty-state.tsx",
+      "preview": "/native#empty-state",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/empty-state",
+      "source": "https://heroui.pro/docs/native/components/empty-state"
+    },
+    {
+      "id": "flip-card",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/flip-card.tsx",
+      "preview": "/native#flip-card",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/flip-card",
+      "source": "https://heroui.pro/docs/native/components/flip-card"
+    },
+    {
+      "id": "swipeable-row",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/swipeable-row.tsx",
+      "preview": "/native#swipeable-row",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/swipeable-row",
+      "source": "https://heroui.pro/docs/native/components/swipeable-row"
+    },
+    {
+      "id": "table",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/table.tsx",
+      "preview": "/native#table",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/table",
+      "source": "https://heroui.pro/docs/native/components/table"
+    },
+    {
+      "id": "timeline",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/timeline.tsx",
+      "preview": "/native#timeline",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/timeline",
+      "source": "https://heroui.pro/docs/native/components/timeline"
+    },
+    {
+      "id": "widget",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/widget.tsx",
+      "preview": "/native#widget",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/widget",
+      "source": "https://heroui.pro/docs/native/components/widget"
+    },
+    {
+      "id": "agenda",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/agenda.tsx",
+      "preview": "/native#agenda",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/agenda",
+      "source": "https://heroui.pro/docs/native/components/agenda"
+    },
+    {
+      "id": "calendar",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/calendar.tsx",
+      "preview": "/native#calendar",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/calendar",
+      "source": "https://heroui.pro/docs/native/components/calendar"
+    },
+    {
+      "id": "date-field",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/date-field.tsx",
+      "preview": "/native#date-field",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/date-field",
+      "source": "https://heroui.pro/docs/native/components/date-field"
+    },
+    {
+      "id": "date-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/date-picker.tsx",
+      "preview": "/native#date-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/date-picker",
+      "source": "https://heroui.pro/docs/native/components/date-picker"
+    },
+    {
+      "id": "date-range-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/date-range-picker.tsx",
+      "preview": "/native#date-range-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/date-range-picker",
+      "source": "https://heroui.pro/docs/native/components/date-range-picker"
+    },
+    {
+      "id": "date-time-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/date-time-picker.tsx",
+      "preview": "/native#date-time-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/date-time-picker",
+      "source": "https://heroui.pro/docs/native/components/date-time-picker"
+    },
+    {
+      "id": "range-calendar",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/range-calendar.tsx",
+      "preview": "/native#range-calendar",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/range-calendar",
+      "source": "https://heroui.pro/docs/native/components/range-calendar"
+    },
+    {
+      "id": "time-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/time-picker.tsx",
+      "preview": "/native#time-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/time-picker",
+      "source": "https://heroui.pro/docs/native/components/time-picker"
+    },
+    {
+      "id": "wheel-date-time-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/wheel-date-time-picker.tsx",
+      "preview": "/native#wheel-date-time-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/wheel-date-time-picker",
+      "source": "https://heroui.pro/docs/native/components/wheel-date-time-picker"
+    },
+    {
+      "id": "wheel-time-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/wheel-time-picker.tsx",
+      "preview": "/native#wheel-time-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/wheel-time-picker",
+      "source": "https://heroui.pro/docs/native/components/wheel-time-picker"
+    },
+    {
+      "id": "number-value",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/number-value.tsx",
+      "preview": "/native#number-value",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/number-value",
+      "source": "https://heroui.pro/docs/native/components/number-value"
+    },
+    {
+      "id": "progress-bar",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/progress-bar.tsx",
+      "preview": "/native#progress-bar",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/progress-bar",
+      "source": "https://heroui.pro/docs/native/components/progress-bar"
+    },
+    {
+      "id": "progress-circle",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/progress-circle.tsx",
+      "preview": "/native#progress-circle",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/progress-circle",
+      "source": "https://heroui.pro/docs/native/components/progress-circle"
+    },
+    {
+      "id": "rating",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/rating.tsx",
+      "preview": "/native#rating",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/rating",
+      "source": "https://heroui.pro/docs/native/components/rating"
+    },
+    {
+      "id": "trend-chip",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/trend-chip.tsx",
+      "preview": "/native#trend-chip",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/trend-chip",
+      "source": "https://heroui.pro/docs/native/components/trend-chip"
+    },
+    {
+      "id": "autocomplete",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/autocomplete.tsx",
+      "preview": "/native#autocomplete",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/autocomplete",
+      "source": "https://heroui.pro/docs/native/components/autocomplete"
+    },
+    {
+      "id": "combo-box",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/combo-box.tsx",
+      "preview": "/native#combo-box",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/combo-box",
+      "source": "https://heroui.pro/docs/native/components/combo-box"
+    },
+    {
+      "id": "number-field",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/number-field.tsx",
+      "preview": "/native#number-field",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/number-field",
+      "source": "https://heroui.pro/docs/native/components/number-field"
+    },
+    {
+      "id": "number-pad",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/number-pad.tsx",
+      "preview": "/native#number-pad",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/number-pad",
+      "source": "https://heroui.pro/docs/native/components/number-pad"
+    },
+    {
+      "id": "number-stepper",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/number-stepper.tsx",
+      "preview": "/native#number-stepper",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/number-stepper",
+      "source": "https://heroui.pro/docs/native/components/number-stepper"
+    },
+    {
+      "id": "phone-number-field",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/phone-number-field.tsx",
+      "preview": "/native#phone-number-field",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/phone-number-field",
+      "source": "https://heroui.pro/docs/native/components/phone-number-field"
+    },
+    {
+      "id": "radio-button-group",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/radio-button-group.tsx",
+      "preview": "/native#radio-button-group",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/radio-button-group",
+      "source": "https://heroui.pro/docs/native/components/radio-button-group"
+    },
+    {
+      "id": "wheel-picker",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/wheel-picker.tsx",
+      "preview": "/native#wheel-picker",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/wheel-picker",
+      "source": "https://heroui.pro/docs/native/components/wheel-picker"
+    },
+    {
+      "id": "wheel-picker-group",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/wheel-picker-group.tsx",
+      "preview": "/native#wheel-picker-group",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/wheel-picker-group",
+      "source": "https://heroui.pro/docs/native/components/wheel-picker-group"
+    },
+    {
+      "id": "morph-tabs",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/morph-tabs.tsx",
+      "preview": "/native#morph-tabs",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/morph-tabs",
+      "source": "https://heroui.pro/docs/native/components/morph-tabs"
+    },
+    {
+      "id": "segment",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/segment.tsx",
+      "preview": "/native#segment",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/segment",
+      "source": "https://heroui.pro/docs/native/components/segment"
+    },
+    {
+      "id": "stepper",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/stepper.tsx",
+      "preview": "/native#stepper",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/stepper",
+      "source": "https://heroui.pro/docs/native/components/stepper"
+    },
+    {
+      "id": "split-view",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/split-view.tsx",
+      "preview": "/native#split-view",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/split-view",
+      "source": "https://heroui.pro/docs/native/components/split-view"
+    },
+    {
+      "id": "swipeable-tabs",
+      "status": "implemented",
+      "anchor": "packages/native-ui/src/components/swipeable-tabs.tsx",
+      "preview": "/native#swipeable-tabs",
+      "verification": "53 React Native Web previews render; targeted input, calendar, selection, chart and lifecycle tests pass. Packed consumer imports type-check without DOM types. Physical device and full variant fidelity are unverified; see verification.md.",
+      "api": "/docs/native/swipeable-tabs",
+      "source": "https://heroui.pro/docs/native/components/swipeable-tabs"
+    }
+  ],
+  "tooling": [
+    {
+      "id": "visual-design-editor",
+      "status": "implemented",
+      "anchor": "apps/web/components/design-studio.tsx",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "website-brand-import",
+      "status": "implemented",
+      "anchor": "apps/web/app/api/brand-import/route.ts",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "saved-design-systems",
+      "status": "implemented",
+      "anchor": "apps/web/components/design-studio.tsx",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "component-style-editor",
+      "status": "implemented",
+      "anchor": "apps/web/components/design-studio.tsx",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "theme-guidance-exports",
+      "status": "implemented",
+      "anchor": "packages/design-system/src/index.ts",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "design-agent",
+      "status": "implemented",
+      "anchor": "apps/web/app/api/design-agent/route.ts",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "interface-builder",
+      "status": "implemented",
+      "anchor": "apps/web/components/interface-builder.tsx",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md."
+    },
+    {
+      "id": "react-figma-kit",
+      "status": "excluded",
+      "note": "Removed from scope at the user’s request on 2026-11-26."
+    },
+    {
+      "id": "native-figma-kit",
+      "status": "excluded",
+      "note": "Removed from scope at the user’s request on 2026-11-26."
+    },
+    {
+      "id": "figma-sync",
+      "status": "excluded",
+      "note": "Removed from scope at the user’s request on 2026-11-26."
+    },
+    {
+      "id": "mcp-server",
+      "status": "complete",
+      "anchor": "mcp/server.ts",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md.",
+      "verification": "MCP in-memory and real stdio protocol checks, type check, or skill frontmatter validation and ZIP integrity checks passed; setup documentation provided."
+    },
+    {
+      "id": "coding-skill",
+      "status": "complete",
+      "anchor": "skills/ankvale-code/SKILL.md",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md.",
+      "verification": "MCP in-memory and real stdio protocol checks, type check, or skill frontmatter validation and ZIP integrity checks passed; setup documentation provided."
+    },
+    {
+      "id": "design-skill",
+      "status": "complete",
+      "anchor": "skills/ankvale-design/SKILL.md",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md.",
+      "verification": "MCP in-memory and real stdio protocol checks, type check, or skill frontmatter validation and ZIP integrity checks passed; setup documentation provided."
+    },
+    {
+      "id": "api-docs",
+      "status": "implemented",
+      "note": "Implemented with documented capabilities and limits in docs/tooling/README.md. Verification coverage is recorded in docs/expansion/verification.md.",
+      "anchor": "scripts/build-component-docs.mjs",
+      "verification": "120 web examples type-check with consumer imports; 54 native API pages and five template API pages build successfully."
+    }
+  ]
+}

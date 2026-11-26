@@ -9,15 +9,22 @@
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prebuild": "node ../../scripts/build-registry.mjs",
+    "predev": "node ../../scripts/build-registry.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
-    "@workspace/ui": "*",
+    "@ankvale/design-system": "^0.0.0",
+    "@ankvale/native-ui": "^0.0.0",
+    "@ankvale/ui": "*",
+    "ai": "^7.0.183",
     "next": "16.4.6",
     "next-themes": "^0.4.6",
     "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react-dom": "19.3.1",
+    "react-native-web": "^0.21.4",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -28,5 +35,6 @@
     "@workspace/typescript-config": "*",
     "eslint": "^10",
     "typescript": "^5"
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }

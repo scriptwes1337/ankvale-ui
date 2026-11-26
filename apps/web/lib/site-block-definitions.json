@@ -1,0 +1,266 @@
+[
+  {
+    "id": "contact-section",
+    "name": "Contact Section",
+    "module": "site-contact",
+    "component": "ContactSection",
+    "category": "Contact",
+    "backlogId": "W01"
+  },
+  {
+    "id": "about-story",
+    "name": "About Story",
+    "module": "site-company",
+    "component": "AboutStory",
+    "category": "Company",
+    "backlogId": "W02"
+  },
+  {
+    "id": "team-grid",
+    "name": "Team Grid",
+    "module": "site-company",
+    "component": "TeamGrid",
+    "category": "Company",
+    "backlogId": "W03"
+  },
+  {
+    "id": "team-profile",
+    "name": "Team Profile",
+    "module": "site-company",
+    "component": "TeamProfile",
+    "category": "Company",
+    "backlogId": "W03"
+  },
+  {
+    "id": "careers-list",
+    "name": "Careers List",
+    "module": "site-careers",
+    "component": "CareersList",
+    "category": "Careers",
+    "backlogId": "W04"
+  },
+  {
+    "id": "job-detail",
+    "name": "Job Detail",
+    "module": "site-careers",
+    "component": "JobDetail",
+    "category": "Careers",
+    "backlogId": "W04"
+  },
+  {
+    "id": "job-application",
+    "name": "Job Application",
+    "module": "site-careers",
+    "component": "JobApplication",
+    "category": "Careers",
+    "backlogId": "W04"
+  },
+  {
+    "id": "blog-index",
+    "name": "Blog Index",
+    "module": "site-editorial",
+    "component": "BlogIndex",
+    "category": "Editorial",
+    "backlogId": "W05"
+  },
+  {
+    "id": "article-layout",
+    "name": "Article Layout",
+    "module": "site-editorial",
+    "component": "ArticleLayout",
+    "category": "Editorial",
+    "backlogId": "W05"
+  },
+  {
+    "id": "case-study-index",
+    "name": "Case Study Index",
+    "module": "site-editorial",
+    "component": "CaseStudyIndex",
+    "category": "Editorial",
+    "backlogId": "W06"
+  },
+  {
+    "id": "case-study-story",
+    "name": "Case Study Story",
+    "module": "site-editorial",
+    "component": "CaseStudyStory",
+    "category": "Editorial",
+    "backlogId": "W06"
+  },
+  {
+    "id": "how-it-works",
+    "name": "How It Works",
+    "module": "site-product",
+    "component": "HowItWorks",
+    "category": "Product",
+    "backlogId": "W07"
+  },
+  {
+    "id": "integration-directory",
+    "name": "Integration Directory",
+    "module": "site-product",
+    "component": "IntegrationDirectory",
+    "category": "Product",
+    "backlogId": "W08"
+  },
+  {
+    "id": "integration-detail",
+    "name": "Integration Detail",
+    "module": "site-product",
+    "component": "IntegrationDetail",
+    "category": "Product",
+    "backlogId": "W08"
+  },
+  {
+    "id": "product-comparison",
+    "name": "Product Comparison",
+    "module": "site-product",
+    "component": "ProductComparison",
+    "category": "Product",
+    "backlogId": "W09"
+  },
+  {
+    "id": "release-feed",
+    "name": "Release Feed",
+    "module": "site-product",
+    "component": "ReleaseFeed",
+    "category": "Product",
+    "backlogId": "W10"
+  },
+  {
+    "id": "roadmap",
+    "name": "Roadmap",
+    "module": "site-product",
+    "component": "Roadmap",
+    "category": "Product",
+    "backlogId": "W10"
+  },
+  {
+    "id": "documentation-shell",
+    "name": "Documentation Shell",
+    "module": "site-documentation",
+    "component": "DocumentationShell",
+    "category": "Documentation",
+    "backlogId": "W11"
+  },
+  {
+    "id": "media-gallery",
+    "name": "Media Gallery",
+    "module": "site-media",
+    "component": "MediaGallery",
+    "category": "Media",
+    "backlogId": "W12"
+  },
+  {
+    "id": "video-showcase",
+    "name": "Video Showcase",
+    "module": "site-media",
+    "component": "VideoShowcase",
+    "category": "Media",
+    "backlogId": "W12"
+  },
+  {
+    "id": "download-section",
+    "name": "Download Section",
+    "module": "site-download",
+    "component": "DownloadSection",
+    "category": "Downloads",
+    "backlogId": "W13"
+  },
+  {
+    "id": "event-index",
+    "name": "Event Index",
+    "module": "site-events",
+    "component": "EventIndex",
+    "category": "Events",
+    "backlogId": "W14"
+  },
+  {
+    "id": "event-detail",
+    "name": "Event Detail",
+    "module": "site-events",
+    "component": "EventDetail",
+    "category": "Events",
+    "backlogId": "W14"
+  },
+  {
+    "id": "event-registration",
+    "name": "Event Registration",
+    "module": "site-events",
+    "component": "EventRegistration",
+    "category": "Events",
+    "backlogId": "W14"
+  },
+  {
+    "id": "evidence-metrics",
+    "name": "Evidence Metrics",
+    "module": "site-evidence",
+    "component": "EvidenceMetrics",
+    "category": "Evidence",
+    "backlogId": "W15"
+  },
+  {
+    "id": "announcement-bar",
+    "name": "Announcement Bar",
+    "module": "site-announcement",
+    "component": "AnnouncementBar",
+    "category": "Announcements",
+    "backlogId": "W16"
+  },
+  {
+    "id": "release-highlights",
+    "name": "Release Highlights",
+    "module": "site-announcement",
+    "component": "ReleaseHighlights",
+    "category": "Announcements",
+    "backlogId": "W16"
+  },
+  {
+    "id": "policy-layout",
+    "name": "Policy Layout",
+    "module": "site-legal",
+    "component": "PolicyLayout",
+    "category": "Legal",
+    "backlogId": "W17"
+  },
+  {
+    "id": "consent-preferences",
+    "name": "Consent Preferences",
+    "module": "site-legal",
+    "component": "ConsentPreferences",
+    "category": "Legal",
+    "backlogId": "W17"
+  },
+  {
+    "id": "product-site",
+    "name": "Product Site",
+    "module": "site-starters",
+    "component": "ProductSite",
+    "category": "Site starters",
+    "backlogId": "W18"
+  },
+  {
+    "id": "business-site",
+    "name": "Business Site",
+    "module": "site-starters",
+    "component": "BusinessSite",
+    "category": "Site starters",
+    "backlogId": "W18"
+  },
+  {
+    "id": "publication-site",
+    "name": "Publication Site",
+    "module": "site-starters",
+    "component": "PublicationSite",
+    "category": "Site starters",
+    "backlogId": "W18"
+  },
+  {
+    "id": "commerce-site",
+    "name": "Commerce Site",
+    "module": "site-starters",
+    "component": "CommerceSite",
+    "category": "Site starters",
+    "backlogId": "W18"
+  }
+]

@@ -1,28 +1,70 @@
 {
-  "name": "anchor-ui",
+  "name": "ankvale-ui",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "pretest:documentation": "npm run registry:build",
+    "test:documentation": "node scripts/test-tooling.mjs tests/documentation.test.ts",
+    "audit:dependencies": "node scripts/audit-dependencies.mjs",
+    "docs:build": "node scripts/build-documentation.mjs",
+    "pretest:website": "node scripts/build-icon-catalog.mjs",
+    "test:website": "node scripts/test-tooling.mjs tests/website.test.tsx",
+    "test:playground": "node scripts/test-tooling.mjs tests/playground.test.tsx",
+    "test:homepage": "node scripts/test-tooling.mjs tests/homepage.test.tsx",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "turbo format",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "registry:build": "node scripts/build-registry.mjs",
+    "test:blocks": "node scripts/test-blocks.mjs",
+    "test:expansion": "node scripts/test-expansion.mjs",
+    "test:native": "node scripts/test-native.mjs",
+    "mcp": "node scripts/run-mcp.mjs",
+    "test:tooling": "node scripts/test-tooling.mjs",
+    "test:api": "node scripts/test-api-examples.mjs",
+    "pretypecheck": "node scripts/build-registry.mjs",
+    "test:registry": "node scripts/test-registry-consumer.mjs",
+    "test:mcp-types": "tsc --project mcp/tsconfig.json --noEmit",
+    "test:native-package": "node scripts/test-native-package.mjs",
+    "test:agent-guides": "node scripts/test-tooling.mjs tests/agent-guides.test.tsx",
+    "test:heroes": "node scripts/test-tooling.mjs tests/heroes.test.tsx",
+    "test:system-components": "node scripts/test-tooling.mjs tests/system-components.test.tsx",
+    "test:animation-system": "node scripts/test-tooling.mjs tests/animation-system.test.tsx",
+    "test:app-blocks": "node scripts/test-tooling.mjs tests/app-blocks.test.tsx",
+    "test:site-blocks": "node scripts/test-tooling.mjs tests/site-blocks.test.tsx",
+    "test:component-depth": "node scripts/test-tooling.mjs tests/component-depth.test.tsx",
+    "test:scheduler": "node scripts/test-tooling.mjs tests/scheduler.test.tsx",
+    "test:provider-styles": "node scripts/test-tooling.mjs tests/provider-styles.test.tsx",
+    "test:image-cropper": "node scripts/test-tooling.mjs tests/image-cropper.test.tsx",
+    "test:upload-directory": "node scripts/test-tooling.mjs tests/upload-directory.test.tsx",
+    "test:advanced-chart": "node scripts/test-tooling.mjs tests/advanced-chart.test.tsx",
+    "test:grid-analysis": "node scripts/test-tooling.mjs tests/grid-analysis.test.tsx",
+    "test:query-builder": "node scripts/test-tooling.mjs tests/query-builder.test.tsx"
   },
   "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
     "@workspace/eslint-config": "*",
     "@workspace/typescript-config": "*",
+    "esbuild": "^0.28.2",
+    "fflate": "^0.8.3",
+    "jsdom": "^31.0.1",
+    "postcss": "^8.5.33",
     "prettier": "^3.10.1",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "turbo": "^2.11.11",
-    "typescript": "^5"
+    "typescript": "^5",
+    "zod": "^4.6.7"
   },
   "packageManager": "npm@10.9.9",
   "engines": {
-    "node": ">=20.9.0"
+    "node": "^22.13.0 || ^24.3.0 || >=26.0.0"
   },
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "license": "SEE LICENSE IN LICENSE"
 }

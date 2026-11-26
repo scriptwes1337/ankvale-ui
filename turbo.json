@@ -3,22 +3,62 @@
   "ui": "tui",
   "tasks": {
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [".next/**", "!.next/cache/**", "!.next/dev/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        ".env*"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "!.next/dev/**",
+        "public/r/**",
+        "public/api/**",
+        "components/generated-previews/**",
+        "public/downloads/**",
+        "public/ankvale-assets/**",
+        "public/llms*.txt",
+        "components/generated-block-previews/**",
+        "lib/block-examples.json"
+      ]
     },
     "lint": {
-      "dependsOn": ["^lint"]
+      "dependsOn": [
+        "^lint"
+      ]
     },
     "format": {
-      "dependsOn": ["^format"]
+      "dependsOn": [
+        "^format"
+      ]
     },
     "typecheck": {
-      "dependsOn": ["^typecheck"]
+      "dependsOn": [
+        "^typecheck"
+      ]
     },
     "dev": {
       "cache": false,
       "persistent": true
     }
-  }
+  },
+  "globalDependencies": [
+    "scripts/build-registry.mjs",
+    "packages/ui/src/**",
+    "packages/ui/package.json",
+    "scripts/component-examples.mjs",
+    "scripts/build-component-docs.mjs",
+    "scripts/build-previews.mjs",
+    "packages/native-ui/src/**",
+    "packages/design-system/src/**",
+    "docs/expansion/inventory.json",
+    "scripts/build-skill-downloads.mjs",
+    "skills/**",
+    "docs/agents/**",
+    "docs/design-language.md",
+    "scripts/build-agent-docs.mjs",
+    "scripts/build-block-previews.mjs"
+  ]
 }

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "overview",
+    "title": "Project overview",
+    "description": "What Ankvale includes and how it fits your project.",
+    "file": "handbook/overview.md",
+    "group": "Start here"
+  },
+  {
+    "id": "installation",
+    "title": "Installation & first use",
+    "description": "Install components and set up your first screen.",
+    "file": "handbook/getting-started.md",
+    "group": "Start here"
+  },
+  {
+    "id": "platforms",
+    "title": "Supported technologies",
+    "description": "React, Next.js, native components and feature integrations.",
+    "file": "handbook/platforms.md",
+    "group": "Start here"
+  },
+  {
+    "id": "building",
+    "title": "Building apps & websites",
+    "description": "Select templates, layouts and blocks, then connect real services.",
+    "file": "handbook/building-apps.md",
+    "group": "Implementation"
+  },
+  {
+    "id": "customization",
+    "title": "Customization",
+    "description": "Colors, typography, UI variants, scoped themes and product manifests.",
+    "file": "handbook/customization.md",
+    "group": "Implementation"
+  },
+  {
+    "id": "motion-assets",
+    "title": "Motion, icons & graphics",
+    "description": "Animation policy, reduced motion, icons and neutral illustration direction.",
+    "file": "handbook/motion-assets.md",
+    "group": "Implementation"
+  },
+  {
+    "id": "agents",
+    "title": "Coding agents",
+    "description": "AGENTS.md, skills, local documentation and MCP discovery.",
+    "file": "handbook/agents.md",
+    "group": "Implementation"
+  },
+  {
+    "id": "quality",
+    "title": "Accessibility & security",
+    "description": "Accessible interfaces and secure application integration.",
+    "file": "handbook/quality.md",
+    "group": "Implementation"
+  },
+  {
+    "id": "credits",
+    "title": "Credits",
+    "description": "Open-source projects and typography behind Ankvale.",
+    "file": "legal/credits.md",
+    "group": "License & credits"
+  },
+  {
+    "id": "licensing",
+    "title": "License & attribution",
+    "description": "Usage permissions and the required visible credit.",
+    "file": "legal/licensing.md",
+    "group": "License & credits"
+  },
+  {
+    "id": "dependencies",
+    "title": "Dependency versions",
+    "description": "Package versions and third-party license identifiers.",
+    "file": "handbook/dependencies.md",
+    "group": "License & credits"
+  }
+]

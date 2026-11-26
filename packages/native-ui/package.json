@@ -1,0 +1,40 @@
+{
+  "name": "@ankvale/native-ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./theme": "./src/theme.tsx",
+    "./components/*": "./src/components/*.tsx"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.13.17",
+    "react-native-svg": "^15.15.1"
+  },
+  "peerDependencies": {
+    "react": "^19.3.0",
+    "react-native": "^0.88.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@workspace/eslint-config": "*",
+    "eslint": "^10",
+    "react": "^19.3.1",
+    "react-native": "^0.88.1",
+    "typescript": "^5"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || >=26.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

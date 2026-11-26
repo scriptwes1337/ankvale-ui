@@ -1,0 +1,15 @@
+[
+  "text-field",
+  "selection-field",
+  "number-field",
+  "color-picker",
+  "editable-grid",
+  "server-data-grid",
+  "collection-list",
+  "tree",
+  "upload-manager",
+  "advanced-chart",
+  "scheduler",
+  "avatar-picker",
+  "data-analysis"
+]

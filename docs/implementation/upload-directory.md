@@ -1,0 +1,13 @@
+# Directory drops
+
+`UploadManager allowDirectory` supports the native directory input and dropped directories when the browser supplies `DataTransferItem.webkitGetAsEntry`. The manager captures the drop before the ordinary DropZone file handler to avoid duplicate or partial queue entries. It captures browser entry handles synchronously, walks subdirectories, and keeps calling each reader's `readEntries` until the terminal empty batch. File entries resolve through their asynchronous `file` callback.
+
+The exported `readDroppedFiles(dataTransfer, { signal?, maxFiles? })` returns `UploadCandidate[]` with `{ file, relativePath? }`. Browsers without the entry API fall back to ordinary file payloads; they cannot expose hidden folder contents through a flat FileList. `maxFiles` defaults to 1000, is capped at 10000, and traversal rejects nesting deeper than 64 levels. Empty directories produce no files. Errors discard that drop's staged files, announce a retryable failure and leave existing queue entries intact. Unmount aborts active readers; an outstanding browser callback may complete, but its result cannot enqueue uploads.
+
+No upload starts for a drop until its entire traversal succeeds and enters the existing queue. The queue then uses its configured concurrency, transforms, transport, progress, cancellation and retry flow. Multiple drops may be read independently. A reading status remains until all active reads finish.
+
+`useUploadQueue.add` accepts ordinary File values and explicit `UploadCandidate` records. `UploadItem.relativePath` and `UploadTransport`'s `context.relativePath` preserve the source path, including after `beforeUpload` returns a transformed File. The path is metadata; a transform can change the output filename, so transport code decides the resulting storage key. Queue IDs include paths, preserving same-named files in different folders. Duplicate candidates within one batch are deduplicated. Native directory File values retain their `webkitRelativePath` through the same queue metadata.
+
+Paths use slash separators, discard empty/current-directory segments and reject parent traversal segments. They do not grant filesystem access or authorize storage paths. Transport/server code must apply its own storage-key policy, file validation and authorization. This feature reads user-dropped browser files; it never writes local directories or disk files.
+
+`node scripts/test-tooling.mjs tests/upload-directory.test.tsx` covers multiple reader batches, nested hierarchy, File callbacks, fallback payloads, limits/abort, staging before uploads, same-named files in separate folders, source-path transport metadata, and read-error feedback. Browser-specific directory availability remains dependent on browser/OS support.

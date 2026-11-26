@@ -1,0 +1,274 @@
+[
+  {
+    "id": "app-auth",
+    "name": "Authentication",
+    "module": "app-auth",
+    "component": "AuthPanel",
+    "category": "application",
+    "backlogId": "B01"
+  },
+  {
+    "id": "app-password-recovery",
+    "name": "Password recovery",
+    "module": "app-auth",
+    "component": "PasswordRecovery",
+    "category": "application",
+    "backlogId": "B02"
+  },
+  {
+    "id": "app-verification",
+    "name": "Verification and MFA",
+    "module": "app-auth",
+    "component": "VerificationPanel",
+    "category": "application",
+    "backlogId": "B03"
+  },
+  {
+    "id": "app-onboarding",
+    "name": "Organization onboarding",
+    "module": "app-auth",
+    "component": "OrganizationOnboarding",
+    "category": "application",
+    "backlogId": "B04"
+  },
+  {
+    "id": "app-workspace-switcher",
+    "name": "Workspace switcher",
+    "module": "app-auth",
+    "component": "WorkspaceSwitcher",
+    "category": "application",
+    "backlogId": "B05"
+  },
+  {
+    "id": "app-profile-settings",
+    "name": "Profile settings",
+    "module": "app-settings",
+    "component": "ProfileSettings",
+    "category": "application",
+    "backlogId": "B06"
+  },
+  {
+    "id": "app-workspace-settings",
+    "name": "Workspace settings",
+    "module": "app-settings",
+    "component": "WorkspaceSettings",
+    "category": "application",
+    "backlogId": "B07"
+  },
+  {
+    "id": "app-members",
+    "name": "Members and invitations",
+    "module": "app-settings",
+    "component": "MembersPanel",
+    "category": "application",
+    "backlogId": "B08"
+  },
+  {
+    "id": "app-permissions",
+    "name": "Roles and permissions",
+    "module": "app-settings",
+    "component": "PermissionsEditor",
+    "category": "application",
+    "backlogId": "B09"
+  },
+  {
+    "id": "app-security-settings",
+    "name": "Security settings",
+    "module": "app-settings",
+    "component": "SecuritySettings",
+    "category": "application",
+    "backlogId": "B10"
+  },
+  {
+    "id": "app-notification-preferences",
+    "name": "Notification preferences",
+    "module": "app-settings",
+    "component": "NotificationPreferences",
+    "category": "application",
+    "backlogId": "B11"
+  },
+  {
+    "id": "app-billing",
+    "name": "Billing and subscription",
+    "module": "app-billing",
+    "component": "BillingOverview",
+    "category": "application",
+    "backlogId": "B12"
+  },
+  {
+    "id": "app-invoice",
+    "name": "Invoice details",
+    "module": "app-billing",
+    "component": "InvoiceDetails",
+    "category": "application",
+    "backlogId": "B13"
+  },
+  {
+    "id": "app-integrations",
+    "name": "Integrations",
+    "module": "app-integrations",
+    "component": "IntegrationsPanel",
+    "category": "application",
+    "backlogId": "B14"
+  },
+  {
+    "id": "app-api-keys",
+    "name": "API keys and webhooks",
+    "module": "app-integrations",
+    "component": "ApiKeysPanel",
+    "category": "application",
+    "backlogId": "B15"
+  },
+  {
+    "id": "app-audit-log",
+    "name": "Audit log",
+    "module": "app-data",
+    "component": "AuditLog",
+    "category": "application",
+    "backlogId": "B16"
+  },
+  {
+    "id": "app-notifications",
+    "name": "Notification center",
+    "module": "app-data",
+    "component": "NotificationCenter",
+    "category": "application",
+    "backlogId": "B17"
+  },
+  {
+    "id": "app-search",
+    "name": "Global search",
+    "module": "app-data",
+    "component": "GlobalSearch",
+    "category": "application",
+    "backlogId": "B18"
+  },
+  {
+    "id": "app-collection-toolbar",
+    "name": "Collection filters",
+    "module": "app-data",
+    "component": "CollectionToolbar",
+    "category": "application",
+    "backlogId": "B19"
+  },
+  {
+    "id": "app-crud",
+    "name": "CRUD collection",
+    "module": "app-data",
+    "component": "CrudCollection",
+    "category": "application",
+    "backlogId": "B20"
+  },
+  {
+    "id": "app-record-detail",
+    "name": "Record details",
+    "module": "app-data",
+    "component": "RecordDetail",
+    "category": "application",
+    "backlogId": "B21"
+  },
+  {
+    "id": "app-import-export",
+    "name": "Import and export",
+    "module": "app-files",
+    "component": "ImportExportWizard",
+    "category": "application",
+    "backlogId": "B22"
+  },
+  {
+    "id": "app-files",
+    "name": "File manager",
+    "module": "app-files",
+    "component": "FileManager",
+    "category": "application",
+    "backlogId": "B23"
+  },
+  {
+    "id": "app-project-detail",
+    "name": "Project details",
+    "module": "app-projects",
+    "component": "ProjectDetail",
+    "category": "application",
+    "backlogId": "B24"
+  },
+  {
+    "id": "app-comments",
+    "name": "Comment thread",
+    "module": "app-projects",
+    "component": "CommentThread",
+    "category": "application",
+    "backlogId": "B25"
+  },
+  {
+    "id": "app-booking",
+    "name": "Booking flow",
+    "module": "app-support",
+    "component": "BookingFlow",
+    "category": "application",
+    "backlogId": "B26"
+  },
+  {
+    "id": "app-setup",
+    "name": "Setup checklist",
+    "module": "app-support",
+    "component": "SetupChecklist",
+    "category": "application",
+    "backlogId": "B27"
+  },
+  {
+    "id": "app-help",
+    "name": "Help center",
+    "module": "app-support",
+    "component": "HelpCenter",
+    "category": "application",
+    "backlogId": "B28"
+  },
+  {
+    "id": "app-feedback",
+    "name": "Feedback form",
+    "module": "app-support",
+    "component": "FeedbackForm",
+    "category": "application",
+    "backlogId": "B29"
+  },
+  {
+    "id": "app-state",
+    "name": "App state page",
+    "module": "app-safety",
+    "component": "AppStatePage",
+    "category": "application",
+    "backlogId": "B30"
+  },
+  {
+    "id": "app-danger-zone",
+    "name": "Danger zone",
+    "module": "app-safety",
+    "component": "DangerZone",
+    "category": "application",
+    "backlogId": "B31"
+  },
+  {
+    "id": "app-catalog",
+    "name": "Product catalog",
+    "module": "app-commerce",
+    "component": "ProductCatalog",
+    "category": "application",
+    "backlogId": "B32"
+  },
+  {
+    "id": "app-checkout",
+    "name": "Cart and checkout",
+    "module": "app-commerce",
+    "component": "CheckoutFlow",
+    "category": "application",
+    "backlogId": "B33"
+  },
+  {
+    "id": "app-orders",
+    "name": "Order management",
+    "module": "app-commerce",
+    "component": "OrderManagement",
+    "category": "application",
+    "backlogId": "B34"
+  }
+]

@@ -1,0 +1,60 @@
+Ankvale Attribution License
+Version 1.0 — 27 November 2026
+
+Copyright (c) 2026 Ankvale Labs. Ankvale UI.
+
+1. Scope
+
+This license applies to the original software, documentation and other original
+material that Ankvale Labs makes available as part of Ankvale UI under this
+license (the "Software"). Third-party material is governed by its own licenses.
+This license does not replace those licenses or impose additional restrictions
+on third-party material used independently of the Software.
+
+2. Permission
+
+Permission is granted, free of charge, to any person obtaining a copy of the
+Software to use, copy, modify, merge, publish, distribute, sublicense and sell
+copies of the Software, and to permit others to do so, for personal, internal,
+commercial and non-commercial purposes, subject to the following conditions.
+You are not required to publish your application's source code or your
+modifications solely because you use the Software.
+
+3. Required visible attribution
+
+Every application or website that uses the Software, including a modified
+version or a substantial portion of it, must display this exact credit:
+
+    Built with Ankvale UI by Ankvale Labs
+
+The credit must be legible and reasonably discoverable in the normal user
+interface. It may appear in a footer, an About page, or a Credits or Legal
+screen accessible through normal navigation. A credit present only in source
+code, package metadata, developer tools, build output or a non-user-facing
+license file does not satisfy this requirement. No logo, tracking code or
+external network request is required.
+
+4. Preservation of notices
+
+Copies or substantial portions of the Software must retain the above copyright
+notice and this license, including when redistributed in source or binary form
+or as a component, template or derived library. Recipients must receive these
+terms. Sublicensing or redistribution must not remove the visible-attribution
+requirement for use of the Software. Preserve all applicable third-party
+copyright, license and attribution notices as well.
+
+5. Names and endorsement
+
+This license permits the attribution required above. It does not grant a right
+to use Ankvale Labs or Ankvale UI names or marks to imply endorsement,
+sponsorship or affiliation, or to use an Ankvale logo as your own product mark.
+
+6. Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED
+BY APPLICABLE LAW, IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,4239 @@
+{
+  "audited_on": "2026-11-26",
+  "scope": "Named public web catalogs; component-family and selected documented capability audit, not exhaustive prop/variant or visual parity certification. Ancillary ecosystems separated.",
+  "catalogs": {
+    "Material UI Core and Lab": [
+      {
+        "name": "Autocomplete",
+        "status": "Partial",
+        "ankvale": "combobox",
+        "remaining": "Async/free-text/virtualized recipes and integration tests"
+      },
+      {
+        "name": "Button",
+        "status": "Covered",
+        "ankvale": "button",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Button Group",
+        "status": "Covered",
+        "ankvale": "button-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Checkbox",
+        "status": "Covered",
+        "ankvale": "checkbox",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Floating Action Button",
+        "status": "Missing",
+        "ankvale": "button can supply visual base",
+        "remaining": "Floating action composition"
+      },
+      {
+        "name": "Number Field",
+        "status": "Partial",
+        "ankvale": "number-stepper",
+        "remaining": "Locale-aware parsing and formatting; MUI documents a Base UI composition"
+      },
+      {
+        "name": "Radio Group",
+        "status": "Covered",
+        "ankvale": "radio-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Rating",
+        "status": "Covered",
+        "ankvale": "rating",
+        "remaining": "Variant and accessibility validation"
+      },
+      {
+        "name": "Select",
+        "status": "Covered",
+        "ankvale": "select; native-select",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Slider",
+        "status": "Covered",
+        "ankvale": "slider",
+        "remaining": "Range recipe and validation"
+      },
+      {
+        "name": "Switch",
+        "status": "Covered",
+        "ankvale": "switch",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Text Field",
+        "status": "Partial",
+        "ankvale": "input; input-group; field; textarea",
+        "remaining": "Single consistent labeled/validated field API"
+      },
+      {
+        "name": "Transfer List",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Dual-list transfer composition; MUI offers a composition example"
+      },
+      {
+        "name": "Toggle Button",
+        "status": "Covered",
+        "ankvale": "toggle; toggle-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Avatar",
+        "status": "Covered",
+        "ankvale": "avatar",
+        "remaining": "Group overflow recipe"
+      },
+      {
+        "name": "Badge",
+        "status": "Partial",
+        "ankvale": "badge; marker",
+        "remaining": "Anchored count/dot badge with overflow semantics"
+      },
+      {
+        "name": "Chip",
+        "status": "Partial",
+        "ankvale": "badge; combobox chips",
+        "remaining": "Standalone interactive/removable chip"
+      },
+      {
+        "name": "Divider",
+        "status": "Covered",
+        "ankvale": "separator",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Icons",
+        "status": "Partial",
+        "ankvale": "Phosphor imports",
+        "remaining": "Public icon convention and curated exports"
+      },
+      {
+        "name": "Material Icons",
+        "status": "Alternative",
+        "ankvale": "Phosphor",
+        "remaining": "Keep one icon family; do not duplicate catalog"
+      },
+      {
+        "name": "List",
+        "status": "Covered",
+        "ankvale": "item; list-view",
+        "remaining": "Advanced list work tracked separately"
+      },
+      {
+        "name": "Table",
+        "status": "Covered",
+        "ankvale": "table; data-grid",
+        "remaining": "Advanced grid work tracked separately"
+      },
+      {
+        "name": "Tooltip",
+        "status": "Covered",
+        "ankvale": "tooltip",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Typography",
+        "status": "Missing",
+        "ankvale": "Tailwind classes",
+        "remaining": "Semantic typography API and shared hierarchy"
+      },
+      {
+        "name": "Alert",
+        "status": "Covered",
+        "ankvale": "alert",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Backdrop",
+        "status": "Internal",
+        "ankvale": "dialog/sheet/drawer overlays",
+        "remaining": "Expose only if consumer use case needs it"
+      },
+      {
+        "name": "Dialog",
+        "status": "Covered",
+        "ankvale": "dialog; alert-dialog",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Progress",
+        "status": "Partial",
+        "ankvale": "progress; spinner; radial-chart",
+        "remaining": "Dedicated circular progress API"
+      },
+      {
+        "name": "Skeleton",
+        "status": "Covered",
+        "ankvale": "skeleton",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Snackbar",
+        "status": "Covered",
+        "ankvale": "toast",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Accordion",
+        "status": "Covered",
+        "ankvale": "accordion; collapsible",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "App Bar",
+        "status": "Covered",
+        "ankvale": "app-layout toolbar; navigation blocks",
+        "remaining": "Shared header recipe"
+      },
+      {
+        "name": "Card",
+        "status": "Covered",
+        "ankvale": "card; item-card; widget",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Paper",
+        "status": "Equivalent",
+        "ankvale": "card; semantic surface tokens",
+        "remaining": "Surface primitive can unify unframed surfaces"
+      },
+      {
+        "name": "Bottom Navigation",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Mobile bottom navigation"
+      },
+      {
+        "name": "Breadcrumbs",
+        "status": "Covered",
+        "ankvale": "breadcrumb",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Drawer",
+        "status": "Covered",
+        "ankvale": "drawer; sheet",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Link",
+        "status": "Missing",
+        "ankvale": "native anchors; framework Link",
+        "remaining": "Styled framework-neutral link"
+      },
+      {
+        "name": "Menu",
+        "status": "Covered",
+        "ankvale": "dropdown-menu; context-menu; navigation-menu",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Menubar",
+        "status": "Covered",
+        "ankvale": "menubar",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Pagination",
+        "status": "Covered",
+        "ankvale": "pagination",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Speed Dial",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Keyboard-accessible floating action menu"
+      },
+      {
+        "name": "Stepper",
+        "status": "Covered",
+        "ankvale": "stepper",
+        "remaining": "Workflow integration belongs in blocks"
+      },
+      {
+        "name": "Tabs",
+        "status": "Covered",
+        "ankvale": "tabs; segment",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Box",
+        "status": "Equivalent",
+        "ankvale": "HTML plus classes",
+        "remaining": "Optional shared layout primitive"
+      },
+      {
+        "name": "Container",
+        "status": "Missing",
+        "ankvale": "repeated max-width classes",
+        "remaining": "Public responsive container"
+      },
+      {
+        "name": "Grid",
+        "status": "Missing",
+        "ankvale": "repeated CSS grid classes",
+        "remaining": "Public responsive layout grid"
+      },
+      {
+        "name": "Stack",
+        "status": "Missing",
+        "ankvale": "repeated flex/gap classes",
+        "remaining": "Public stack/inline primitives"
+      },
+      {
+        "name": "Image List",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Responsive image collection"
+      },
+      {
+        "name": "Click-Away Listener",
+        "status": "Internal",
+        "ankvale": "Base UI dismiss behavior",
+        "remaining": "No need to duplicate primitive internals"
+      },
+      {
+        "name": "CSS Baseline",
+        "status": "Partial",
+        "ankvale": "globals.css Tailwind preflight",
+        "remaining": "Explicit optional reset and scoped package styles"
+      },
+      {
+        "name": "InitColorSchemeScript",
+        "status": "Partial",
+        "ankvale": "web app next-themes provider",
+        "remaining": "Package-level SSR-safe appearance integration"
+      },
+      {
+        "name": "Modal",
+        "status": "Internal",
+        "ankvale": "dialog; Base UI",
+        "remaining": "Use accessible dialog unless lower-level API is justified"
+      },
+      {
+        "name": "No SSR",
+        "status": "Missing",
+        "ankvale": "app-specific client boundaries",
+        "remaining": "Optional ClientOnly utility; no blanket SSR disabling"
+      },
+      {
+        "name": "Popover",
+        "status": "Covered",
+        "ankvale": "popover",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Popper",
+        "status": "Internal",
+        "ankvale": "Base UI positioning",
+        "remaining": "No need to duplicate primitive internals"
+      },
+      {
+        "name": "Portal",
+        "status": "Internal",
+        "ankvale": "Base UI portals",
+        "remaining": "Optional public overlay/portal target contract"
+      },
+      {
+        "name": "Textarea Autosize",
+        "status": "Partial",
+        "ankvale": "textarea field-sizing-content",
+        "remaining": "Document browser baseline or add JS fallback"
+      },
+      {
+        "name": "Transitions",
+        "status": "Partial",
+        "ankvale": "motion; CSS; Web Animations",
+        "remaining": "Presence/exit and shared layout/reorder motion"
+      },
+      {
+        "name": "useMediaQuery",
+        "status": "Partial",
+        "ankvale": "use-mobile",
+        "remaining": "General SSR-safe media/container utilities"
+      },
+      {
+        "name": "Masonry",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Masonry layout preserving reading order"
+      },
+      {
+        "name": "Timeline",
+        "status": "Covered",
+        "ankvale": "timeline",
+        "remaining": "Release validation"
+      }
+    ],
+    "daisyUI": [
+      {
+        "name": "Accordion",
+        "status": "Covered",
+        "ankvale": "accordion",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Alert",
+        "status": "Covered",
+        "ankvale": "alert",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Aura",
+        "status": "Defer",
+        "ankvale": "none",
+        "remaining": "Decorative border light conflicts with default style"
+      },
+      {
+        "name": "Avatar",
+        "status": "Covered",
+        "ankvale": "avatar",
+        "remaining": "Group recipe"
+      },
+      {
+        "name": "Badge",
+        "status": "Covered",
+        "ankvale": "badge",
+        "remaining": "Anchored indicators tracked separately"
+      },
+      {
+        "name": "Breadcrumbs",
+        "status": "Covered",
+        "ankvale": "breadcrumb",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Button",
+        "status": "Covered",
+        "ankvale": "button",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Calendar",
+        "status": "Covered",
+        "ankvale": "calendar; agenda",
+        "remaining": "Picker gaps tracked separately"
+      },
+      {
+        "name": "Card",
+        "status": "Covered",
+        "ankvale": "card",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Carousel",
+        "status": "Covered",
+        "ankvale": "carousel",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Chat bubble",
+        "status": "Covered",
+        "ankvale": "bubble; message; chat-message",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Checkbox",
+        "status": "Covered",
+        "ankvale": "checkbox",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Collapse",
+        "status": "Covered",
+        "ankvale": "collapsible",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Countdown",
+        "status": "Missing",
+        "ankvale": "number-value is numeric interpolation",
+        "remaining": "Time-based countdown with pause and announcements"
+      },
+      {
+        "name": "Diff",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Before/after comparison slider"
+      },
+      {
+        "name": "Divider",
+        "status": "Covered",
+        "ankvale": "separator",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Dock",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Mobile bottom navigation"
+      },
+      {
+        "name": "Drawer sidebar",
+        "status": "Covered",
+        "ankvale": "sidebar; app-layout; sheet",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Dropdown",
+        "status": "Covered",
+        "ankvale": "dropdown-menu",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "FAB / Speed Dial",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Floating action and expandable menu"
+      },
+      {
+        "name": "Fieldset",
+        "status": "Covered",
+        "ankvale": "FieldSet; FieldLegend in field",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "File Input",
+        "status": "Covered",
+        "ankvale": "Input type=file; drop-zone",
+        "remaining": "Standard file-field recipe"
+      },
+      {
+        "name": "Filter",
+        "status": "Partial",
+        "ankvale": "toggle-group; radio-button-group",
+        "remaining": "Filter control with selection/reset contract"
+      },
+      {
+        "name": "Footer",
+        "status": "Covered",
+        "ankvale": "three footer blocks",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Hero",
+        "status": "Covered",
+        "ankvale": "nine hero blocks",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Hover 3D Card",
+        "status": "Covered",
+        "ankvale": "holo-card has pointer tilt and reduced-motion CSS",
+        "remaining": "Keep effect optional; no glass or gradients"
+      },
+      {
+        "name": "Hover Gallery",
+        "status": "Missing",
+        "ankvale": "carousel only",
+        "remaining": "Pointer, keyboard and touch product-preview gallery"
+      },
+      {
+        "name": "Indicator",
+        "status": "Partial",
+        "ankvale": "marker; badge",
+        "remaining": "Anchored corner indicator"
+      },
+      {
+        "name": "Text Input",
+        "status": "Covered",
+        "ankvale": "input",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Join (group items)",
+        "status": "Partial",
+        "ankvale": "button-group; input-group",
+        "remaining": "Mixed-control attached group"
+      },
+      {
+        "name": "Kbd",
+        "status": "Covered",
+        "ankvale": "kbd",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Label",
+        "status": "Covered",
+        "ankvale": "label; field",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Link",
+        "status": "Missing",
+        "ankvale": "native anchors",
+        "remaining": "Styled link primitive"
+      },
+      {
+        "name": "List",
+        "status": "Covered",
+        "ankvale": "item; list-view",
+        "remaining": "Advanced virtualization tracked separately"
+      },
+      {
+        "name": "Loading",
+        "status": "Covered",
+        "ankvale": "loader; spinner; chat-loader",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Mask",
+        "status": "Defer",
+        "ankvale": "aspect-ratio is not a mask",
+        "remaining": "Optional static shape utility"
+      },
+      {
+        "name": "Megamenu",
+        "status": "Covered",
+        "ankvale": "NavbarMega; navigation-menu",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Menu",
+        "status": "Covered",
+        "ankvale": "navigation-menu; dropdown-menu; sidebar",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Browser mockup",
+        "status": "Missing",
+        "ankvale": "hero workspace has private window chrome",
+        "remaining": "Reusable browser frame"
+      },
+      {
+        "name": "Code mockup",
+        "status": "Covered",
+        "ankvale": "code-block",
+        "remaining": "Optional editor-like frame"
+      },
+      {
+        "name": "Phone mockup",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Reusable phone frame"
+      },
+      {
+        "name": "Window mockup",
+        "status": "Missing",
+        "ankvale": "private hero window chrome",
+        "remaining": "Reusable window frame"
+      },
+      {
+        "name": "Modal",
+        "status": "Covered",
+        "ankvale": "dialog; alert-dialog",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Navbar",
+        "status": "Covered",
+        "ankvale": "three navigation blocks",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "OTP",
+        "status": "Covered",
+        "ankvale": "input-otp",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Pagination",
+        "status": "Covered",
+        "ankvale": "pagination",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Progress",
+        "status": "Covered",
+        "ankvale": "progress",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Radial progress",
+        "status": "Partial",
+        "ankvale": "radial-chart",
+        "remaining": "Small accessible circular progress without chart engine"
+      },
+      {
+        "name": "Radio",
+        "status": "Covered",
+        "ankvale": "radio-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Range slider",
+        "status": "Covered",
+        "ankvale": "slider",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Rating",
+        "status": "Covered",
+        "ankvale": "rating",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Select",
+        "status": "Covered",
+        "ankvale": "select; native-select",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Skeleton",
+        "status": "Covered",
+        "ankvale": "skeleton",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Stack",
+        "status": "Missing",
+        "ankvale": "classes only",
+        "remaining": "Layered card/media stack; distinct from flex Stack"
+      },
+      {
+        "name": "Stat",
+        "status": "Covered",
+        "ankvale": "kpi; kpi-group; number-value; trend-chip",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Status",
+        "status": "Partial",
+        "ankvale": "badge can display text; marker is a separator label",
+        "remaining": "Dedicated status dot with text/semantic variants"
+      },
+      {
+        "name": "Steps",
+        "status": "Covered",
+        "ankvale": "stepper",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Swap",
+        "status": "Missing",
+        "ankvale": "local conditional rendering",
+        "remaining": "Accessible two-state content transition"
+      },
+      {
+        "name": "Tabs",
+        "status": "Covered",
+        "ankvale": "tabs; segment",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Table",
+        "status": "Covered",
+        "ankvale": "table; data-grid",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Text Rotate",
+        "status": "Defer",
+        "ankvale": "none",
+        "remaining": "Optional rotating copy with pause/reduced motion; no default loop"
+      },
+      {
+        "name": "Textarea",
+        "status": "Covered",
+        "ankvale": "textarea",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Theme Controller",
+        "status": "Partial",
+        "ankvale": "web-only theme toggle",
+        "remaining": "Package appearance provider/switch"
+      },
+      {
+        "name": "Timeline",
+        "status": "Covered",
+        "ankvale": "timeline",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Toast",
+        "status": "Covered",
+        "ankvale": "toast",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Toggle",
+        "status": "Covered",
+        "ankvale": "toggle; switch",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Tooltip",
+        "status": "Covered",
+        "ankvale": "tooltip",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Validator",
+        "status": "Partial",
+        "ankvale": "FieldError; aria-invalid",
+        "remaining": "Shared validation/form integration"
+      }
+    ],
+    "Ant Design": [
+      {
+        "name": "Button",
+        "status": "Covered",
+        "ankvale": "button",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "FloatButton",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Floating action and back-to-top"
+      },
+      {
+        "name": "Icon",
+        "status": "Partial",
+        "ankvale": "Phosphor imports",
+        "remaining": "Curated public icon contract"
+      },
+      {
+        "name": "Typography",
+        "status": "Missing",
+        "ankvale": "classes only",
+        "remaining": "Semantic text, headings, truncation/copy/edit recipes"
+      },
+      {
+        "name": "Divider",
+        "status": "Covered",
+        "ankvale": "separator",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Flex",
+        "status": "Equivalent",
+        "ankvale": "classes only",
+        "remaining": "Optional layout primitive"
+      },
+      {
+        "name": "Grid",
+        "status": "Missing",
+        "ankvale": "classes only",
+        "remaining": "Responsive layout grid"
+      },
+      {
+        "name": "Layout",
+        "status": "Covered",
+        "ankvale": "app-layout; sidebar",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Masonry",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Masonry layout"
+      },
+      {
+        "name": "Space",
+        "status": "Missing",
+        "ankvale": "classes; button-group; input-group",
+        "remaining": "Shared spacing and mixed attached group"
+      },
+      {
+        "name": "Splitter",
+        "status": "Covered",
+        "ankvale": "resizable",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Ankvale",
+        "status": "Partial",
+        "ankvale": "floating-toc",
+        "remaining": "Programmatic offsets/history/scroll-container behavior"
+      },
+      {
+        "name": "Breadcrumb",
+        "status": "Covered",
+        "ankvale": "breadcrumb",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Dropdown",
+        "status": "Covered",
+        "ankvale": "dropdown-menu",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Menu",
+        "status": "Covered",
+        "ankvale": "navigation-menu; sidebar",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Pagination",
+        "status": "Covered",
+        "ankvale": "pagination",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Steps",
+        "status": "Covered",
+        "ankvale": "stepper",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Tabs",
+        "status": "Covered",
+        "ankvale": "tabs",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "AutoComplete",
+        "status": "Partial",
+        "ankvale": "combobox",
+        "remaining": "Free-text/async recipes; do not create redundant primitive"
+      },
+      {
+        "name": "Cascader",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Hierarchical path selection"
+      },
+      {
+        "name": "Checkbox",
+        "status": "Covered",
+        "ankvale": "checkbox; checkbox-button-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "ColorPicker",
+        "status": "Partial",
+        "ankvale": "cell-color-picker native color input",
+        "remaining": "Solid-color palette, alpha, formats and input validation"
+      },
+      {
+        "name": "DatePicker",
+        "status": "Partial",
+        "ankvale": "calendar; Input type=date",
+        "remaining": "Popover/date-field, ranges, presets, month/quarter/year"
+      },
+      {
+        "name": "Form",
+        "status": "Missing",
+        "ankvale": "field is presentation only",
+        "remaining": "Validation, field arrays, async submission and error focus"
+      },
+      {
+        "name": "Input",
+        "status": "Partial",
+        "ankvale": "input; textarea; input-group; input-otp",
+        "remaining": "Password/search and consistent labeled field recipes"
+      },
+      {
+        "name": "InputNumber",
+        "status": "Partial",
+        "ankvale": "number-stepper",
+        "remaining": "Localized numbers, currency/percentage formatting"
+      },
+      {
+        "name": "Mentions",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Mention input with popup suggestions and keyboard support"
+      },
+      {
+        "name": "Radio",
+        "status": "Covered",
+        "ankvale": "radio-group; radio-button-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Rate",
+        "status": "Covered",
+        "ankvale": "rating",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Select",
+        "status": "Partial",
+        "ankvale": "select; combobox includes chips",
+        "remaining": "Ready-to-use multi/tag/async selectors; validate inherited capabilities"
+      },
+      {
+        "name": "Slider",
+        "status": "Covered",
+        "ankvale": "slider",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Switch",
+        "status": "Covered",
+        "ankvale": "switch",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "TimePicker",
+        "status": "Missing",
+        "ankvale": "Input type=time only",
+        "remaining": "Styled time and time-range selection"
+      },
+      {
+        "name": "Transfer",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Dual-list selection"
+      },
+      {
+        "name": "TreeSelect",
+        "status": "Missing",
+        "ankvale": "file-tree is not a popup field",
+        "remaining": "Single/multi hierarchical selector"
+      },
+      {
+        "name": "Upload",
+        "status": "Partial",
+        "ankvale": "drop-zone; attachment; progress",
+        "remaining": "Queue transport adapter, picture previews, paste/directory recipes"
+      },
+      {
+        "name": "Avatar",
+        "status": "Covered",
+        "ankvale": "avatar",
+        "remaining": "Group overflow recipe"
+      },
+      {
+        "name": "Badge",
+        "status": "Partial",
+        "ankvale": "badge; marker",
+        "remaining": "Anchored count/dot placement"
+      },
+      {
+        "name": "Calendar",
+        "status": "Covered",
+        "ankvale": "calendar; agenda",
+        "remaining": "Advanced scheduler features tracked separately"
+      },
+      {
+        "name": "Card",
+        "status": "Covered",
+        "ankvale": "card; widget",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Carousel",
+        "status": "Covered",
+        "ankvale": "carousel",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Collapse",
+        "status": "Covered",
+        "ankvale": "accordion; collapsible",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Descriptions",
+        "status": "Missing",
+        "ankvale": "handwritten label/value rows",
+        "remaining": "Responsive semantic description list"
+      },
+      {
+        "name": "Empty",
+        "status": "Covered",
+        "ankvale": "empty",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Image",
+        "status": "Missing",
+        "ankvale": "native img only",
+        "remaining": "Fallback/loading/preview/lightbox group"
+      },
+      {
+        "name": "List (deprecated)",
+        "status": "Covered",
+        "ankvale": "item; list-view",
+        "remaining": "Use current collection API"
+      },
+      {
+        "name": "Listy",
+        "status": "Partial",
+        "ankvale": "list-view; data-grid virtualizes tables",
+        "remaining": "Grouped virtual list, sticky headers, infinite loading and sorting"
+      },
+      {
+        "name": "Popover",
+        "status": "Covered",
+        "ankvale": "popover",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "QRCode",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "QR rendering/download and expired states"
+      },
+      {
+        "name": "Segmented",
+        "status": "Covered",
+        "ankvale": "segment; toggle-group",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Statistic",
+        "status": "Covered",
+        "ankvale": "kpi; number-value; trend-chip",
+        "remaining": "Countdown is separate"
+      },
+      {
+        "name": "Table",
+        "status": "Partial",
+        "ankvale": "table; data-grid",
+        "remaining": "Editing workflow, summaries, grouped headers and enterprise features"
+      },
+      {
+        "name": "Tag",
+        "status": "Partial",
+        "ankvale": "badge; combobox chips",
+        "remaining": "Standalone removable/checkable tag"
+      },
+      {
+        "name": "Timeline",
+        "status": "Covered",
+        "ankvale": "timeline",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Tooltip",
+        "status": "Covered",
+        "ankvale": "tooltip",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Tour",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Guided, focus-safe product tour"
+      },
+      {
+        "name": "Tree",
+        "status": "Partial",
+        "ankvale": "file-tree",
+        "remaining": "Generic/checkable/async/editable/virtual tree"
+      },
+      {
+        "name": "Alert",
+        "status": "Covered",
+        "ankvale": "alert",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Drawer",
+        "status": "Covered",
+        "ankvale": "drawer; sheet",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Message",
+        "status": "Covered",
+        "ankvale": "toast",
+        "remaining": "Ankvale message.tsx is a chat message, not this feedback API"
+      },
+      {
+        "name": "Modal",
+        "status": "Covered",
+        "ankvale": "dialog; alert-dialog",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Notification",
+        "status": "Partial",
+        "ankvale": "toast",
+        "remaining": "Persistent actionable notification API and inbox block"
+      },
+      {
+        "name": "Popconfirm",
+        "status": "Missing",
+        "ankvale": "popover plus alert-dialog pieces",
+        "remaining": "Anchored accessible confirmation"
+      },
+      {
+        "name": "Progress",
+        "status": "Partial",
+        "ankvale": "progress; radial-chart",
+        "remaining": "Dedicated circular/segmented progress"
+      },
+      {
+        "name": "Result",
+        "status": "Partial",
+        "ankvale": "empty; NotFoundPage",
+        "remaining": "Success/error/permission/result panel and pages"
+      },
+      {
+        "name": "Skeleton",
+        "status": "Covered",
+        "ankvale": "skeleton",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Spin",
+        "status": "Covered",
+        "ankvale": "spinner; loader",
+        "remaining": "Release validation"
+      },
+      {
+        "name": "Watermark",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Optional repeated watermark overlay"
+      },
+      {
+        "name": "Affix",
+        "status": "Missing",
+        "ankvale": "ad hoc CSS sticky",
+        "remaining": "Shared sticky/affix utility with container offsets"
+      },
+      {
+        "name": "App",
+        "status": "Partial",
+        "ankvale": "web app providers",
+        "remaining": "Public provider for overlay/feedback context"
+      },
+      {
+        "name": "BorderBeam",
+        "status": "Defer",
+        "ankvale": "none",
+        "remaining": "Decorative animated border conflicts with default language"
+      },
+      {
+        "name": "ConfigProvider",
+        "status": "Missing",
+        "ankvale": "design-system manifest plus web providers",
+        "remaining": "Unified locale/direction/density/motion/theme/overlay defaults"
+      },
+      {
+        "name": "Util",
+        "status": "Internal",
+        "ankvale": "hooks; cn; Base UI",
+        "remaining": "Expose stable utilities only when useful"
+      }
+    ],
+    "Ant Design Pro compositions": [
+      {
+        "name": "ProLayout",
+        "status": "Partial",
+        "ankvale": "app-layout",
+        "remaining": "Workspace/account switchers, routes and permission UI recipes"
+      },
+      {
+        "name": "ProForm",
+        "status": "Missing",
+        "ankvale": "field; questionnaire",
+        "remaining": "Schema-informed field recipes and async form workflow"
+      },
+      {
+        "name": "ProTable",
+        "status": "Partial",
+        "ankvale": "data-grid",
+        "remaining": "Query/filter toolbar, saved views, server adapter, CRUD composition"
+      },
+      {
+        "name": "ProDescriptions",
+        "status": "Missing",
+        "ankvale": "none",
+        "remaining": "Editable record details"
+      },
+      {
+        "name": "ProList",
+        "status": "Partial",
+        "ankvale": "list-view; item-card-group",
+        "remaining": "Query-driven list/card composition"
+      },
+      {
+        "name": "EditableProTable",
+        "status": "Partial",
+        "ankvale": "cell primitives; data-grid render cells",
+        "remaining": "Coordinated editable-row state, validation and commit/cancel"
+      }
+    ],
+    "MUI X families": [
+      {
+        "name": "Data Grid",
+        "status": "Partial",
+        "ankvale": "data-grid",
+        "remaining": "Enterprise depth; see enhancement backlog"
+      },
+      {
+        "name": "Date and Time Pickers",
+        "status": "Partial",
+        "ankvale": "calendar",
+        "remaining": "Complete typed date/time/range fields and picker compositions"
+      },
+      {
+        "name": "Charts",
+        "status": "Partial",
+        "ankvale": "seven Recharts wrappers",
+        "remaining": "More chart families and shared interaction/export APIs"
+      },
+      {
+        "name": "Tree View",
+        "status": "Partial",
+        "ankvale": "file-tree",
+        "remaining": "Generic tree, multi/check selection, editing, async data, virtualization"
+      },
+      {
+        "name": "Scheduler (preview)",
+        "status": "Partial",
+        "ankvale": "agenda",
+        "remaining": "Recurrence/resources/timezones and complete booking/editor workflow"
+      },
+      {
+        "name": "Chat (preview)",
+        "status": "Covered",
+        "ankvale": "chat components; ChatTemplate",
+        "remaining": "Local UI coverage; no claim of preview API or backend parity"
+      }
+    ]
+  },
+  "inventory": {
+    "components": [
+      "accordion",
+      "action-bar",
+      "advanced-chart",
+      "affix",
+      "agenda",
+      "alert",
+      "alert-dialog",
+      "ankvale-provider",
+      "animation",
+      "app-layout",
+      "approval-card",
+      "area-chart",
+      "aspect-ratio",
+      "attached-group",
+      "attachment",
+      "avatar",
+      "avatar-picker",
+      "badge",
+      "bar-chart",
+      "bottom-navigation",
+      "breadcrumb",
+      "bubble",
+      "button",
+      "button-group",
+      "calendar",
+      "card",
+      "carousel",
+      "cascader",
+      "cell-color-picker",
+      "cell-select",
+      "cell-slider",
+      "cell-switch",
+      "chain-of-thought",
+      "chart",
+      "chat-conversation",
+      "chat-list-view",
+      "chat-loader",
+      "chat-message",
+      "chat-message-actions",
+      "chat-source",
+      "chat-tool",
+      "checkbox",
+      "checkbox-button-group",
+      "chip",
+      "circular-progress",
+      "client-only",
+      "code-block",
+      "collapsible",
+      "collection-list",
+      "color-picker",
+      "combobox",
+      "command",
+      "composed-chart",
+      "container",
+      "content-transition",
+      "context-menu",
+      "countdown",
+      "data-analysis",
+      "data-grid",
+      "date-picker",
+      "date-time-picker",
+      "descriptions",
+      "dialog",
+      "direction",
+      "drawer",
+      "drop-zone",
+      "dropdown-menu",
+      "editable-grid",
+      "emoji-picker",
+      "emoji-reaction-button",
+      "empty",
+      "field",
+      "file-tree",
+      "floating-action",
+      "floating-toc",
+      "form",
+      "holo-card",
+      "hover-card",
+      "image",
+      "image-compare",
+      "image-cropper",
+      "image-list",
+      "indicator",
+      "inline-select",
+      "input",
+      "input-group",
+      "input-otp",
+      "item",
+      "item-card",
+      "item-card-group",
+      "kanban",
+      "kbd",
+      "kpi",
+      "kpi-group",
+      "label",
+      "layered-stack",
+      "layout-grid",
+      "line-chart",
+      "link",
+      "list-view",
+      "loader",
+      "map",
+      "markdown",
+      "marker",
+      "masonry",
+      "mentions",
+      "menubar",
+      "message",
+      "message-scroller",
+      "model-selector",
+      "motion",
+      "native-select",
+      "navigation-menu",
+      "notification",
+      "number-field",
+      "number-stepper",
+      "number-value",
+      "pagination",
+      "period-picker",
+      "pie-chart",
+      "popconfirm",
+      "popover",
+      "pressable-feedback",
+      "preview-frame",
+      "progress",
+      "prompt-input",
+      "prompt-suggestion",
+      "qr-code",
+      "query-builder",
+      "questionnaire",
+      "radar-chart",
+      "radial-chart",
+      "radio-button-group",
+      "radio-group",
+      "rating",
+      "reasoning",
+      "resizable",
+      "result",
+      "rich-text-editor",
+      "scheduler",
+      "scroll-area",
+      "segment",
+      "select",
+      "selection-field",
+      "separator",
+      "server-data-grid",
+      "sheet",
+      "sidebar",
+      "skeleton",
+      "slider",
+      "speed-dial",
+      "spinner",
+      "stack",
+      "stepper",
+      "surface",
+      "switch",
+      "table",
+      "tabs",
+      "text-field",
+      "text-shimmer",
+      "textarea",
+      "time-picker",
+      "timeline",
+      "toast",
+      "toggle",
+      "toggle-group",
+      "tooltip",
+      "tour",
+      "trace",
+      "transfer",
+      "tree",
+      "tree-select",
+      "trend-chip",
+      "typography",
+      "upload-manager",
+      "widget"
+    ],
+    "blocks": [
+      "app-auth",
+      "app-billing",
+      "app-commerce",
+      "app-data",
+      "app-files",
+      "app-integrations",
+      "app-projects",
+      "app-safety",
+      "app-settings",
+      "app-shared",
+      "app-support",
+      "cta",
+      "error-pages",
+      "faq",
+      "features",
+      "footers",
+      "hero-graphics",
+      "heroes",
+      "navigation",
+      "pricing",
+      "shared",
+      "site-announcement",
+      "site-careers",
+      "site-company",
+      "site-contact",
+      "site-documentation",
+      "site-download",
+      "site-editorial",
+      "site-events",
+      "site-evidence",
+      "site-legal",
+      "site-media",
+      "site-product",
+      "site-shared",
+      "site-starters",
+      "social-proof"
+    ],
+    "templates": [
+      "chat",
+      "crm",
+      "dashboard",
+      "finances",
+      "mail",
+      "shared"
+    ]
+  },
+  "dependencies": {
+    "@base-ui/react": {
+      "declared_range": "^1.9.0",
+      "source_files": [
+        "packages/ui/src/components/accordion.tsx",
+        "packages/ui/src/components/alert-dialog.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/avatar.tsx",
+        "packages/ui/src/components/badge.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/button-group.tsx",
+        "packages/ui/src/components/button.tsx",
+        "packages/ui/src/components/checkbox.tsx",
+        "packages/ui/src/components/collapsible.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/direction.tsx",
+        "packages/ui/src/components/drawer.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/hover-card.tsx",
+        "packages/ui/src/components/input.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/popover.tsx",
+        "packages/ui/src/components/progress.tsx",
+        "packages/ui/src/components/radio-group.tsx",
+        "packages/ui/src/components/scroll-area.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/separator.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/slider.tsx",
+        "packages/ui/src/components/switch.tsx",
+        "packages/ui/src/components/tabs.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/toggle.tsx",
+        "packages/ui/src/components/tooltip.tsx"
+      ]
+    },
+    "@phosphor-icons/react": {
+      "declared_range": "^2.1.10",
+      "source_files": [
+        "packages/ui/src/blocks/navigation.tsx",
+        "packages/ui/src/blocks/pricing.tsx",
+        "packages/ui/src/components/accordion.tsx",
+        "packages/ui/src/components/action-bar.tsx",
+        "packages/ui/src/components/app-layout.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/calendar.tsx",
+        "packages/ui/src/components/carousel.tsx",
+        "packages/ui/src/components/chain-of-thought.tsx",
+        "packages/ui/src/components/chat-list-view.tsx",
+        "packages/ui/src/components/chat-message-actions.tsx",
+        "packages/ui/src/components/chat-source.tsx",
+        "packages/ui/src/components/checkbox-button-group.tsx",
+        "packages/ui/src/components/checkbox.tsx",
+        "packages/ui/src/components/chip.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/command.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/data-grid.tsx",
+        "packages/ui/src/components/date-picker.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/drop-zone.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/file-tree.tsx",
+        "packages/ui/src/components/input-otp.tsx",
+        "packages/ui/src/components/kanban.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/native-select.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/notification.tsx",
+        "packages/ui/src/components/number-stepper.tsx",
+        "packages/ui/src/components/pagination.tsx",
+        "packages/ui/src/components/prompt-input.tsx",
+        "packages/ui/src/components/questionnaire.tsx",
+        "packages/ui/src/components/rating.tsx",
+        "packages/ui/src/components/reasoning.tsx",
+        "packages/ui/src/components/result.tsx",
+        "packages/ui/src/components/rich-text-editor.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/speed-dial.tsx",
+        "packages/ui/src/components/spinner.tsx",
+        "packages/ui/src/components/stepper.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/trace.tsx",
+        "packages/ui/src/components/trend-chip.tsx",
+        "packages/ui/src/templates/mail.tsx"
+      ]
+    },
+    "@shadcn/react": {
+      "declared_range": "^0.3.1",
+      "source_files": [
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/questionnaire.tsx"
+      ]
+    },
+    "@tanstack/react-table": {
+      "declared_range": "^9.3.1",
+      "source_files": [
+        "packages/ui/src/components/data-grid.tsx"
+      ]
+    },
+    "@tanstack/react-virtual": {
+      "declared_range": "^3.14.28",
+      "source_files": [
+        "packages/ui/src/components/data-grid.tsx"
+      ]
+    },
+    "@tiptap/extension-placeholder": {
+      "declared_range": "^3.35.0",
+      "source_files": [
+        "packages/ui/src/components/rich-text-editor.tsx"
+      ]
+    },
+    "@tiptap/react": {
+      "declared_range": "^3.35.0",
+      "source_files": [
+        "packages/ui/src/components/rich-text-editor.tsx"
+      ]
+    },
+    "@tiptap/starter-kit": {
+      "declared_range": "^3.35.0",
+      "source_files": [
+        "packages/ui/src/components/rich-text-editor.tsx"
+      ]
+    },
+    "class-variance-authority": {
+      "declared_range": "^0.7.1",
+      "source_files": [
+        "packages/ui/src/components/alert.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/badge.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/button-group.tsx",
+        "packages/ui/src/components/button.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/empty.tsx",
+        "packages/ui/src/components/field.tsx",
+        "packages/ui/src/components/input-group.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/tabs.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/toggle.tsx"
+      ]
+    },
+    "cmdk": {
+      "declared_range": "^1.1.1",
+      "source_files": [
+        "packages/ui/src/components/command.tsx"
+      ]
+    },
+    "cn": {
+      "declared_range": "^0.5.2",
+      "source_files": [
+        "packages/ui/src/components/accordion.tsx",
+        "packages/ui/src/components/alert-dialog.tsx",
+        "packages/ui/src/components/alert.tsx",
+        "packages/ui/src/components/aspect-ratio.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/avatar.tsx",
+        "packages/ui/src/components/badge.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/button-group.tsx",
+        "packages/ui/src/components/button.tsx",
+        "packages/ui/src/components/calendar.tsx",
+        "packages/ui/src/components/card.tsx",
+        "packages/ui/src/components/carousel.tsx",
+        "packages/ui/src/components/chart.tsx",
+        "packages/ui/src/components/checkbox.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/command.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/drawer.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/empty.tsx",
+        "packages/ui/src/components/field.tsx",
+        "packages/ui/src/components/hover-card.tsx",
+        "packages/ui/src/components/input-group.tsx",
+        "packages/ui/src/components/input-otp.tsx",
+        "packages/ui/src/components/input.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/kbd.tsx",
+        "packages/ui/src/components/label.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/message.tsx",
+        "packages/ui/src/components/native-select.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/pagination.tsx",
+        "packages/ui/src/components/popover.tsx",
+        "packages/ui/src/components/progress.tsx",
+        "packages/ui/src/components/questionnaire.tsx",
+        "packages/ui/src/components/radio-group.tsx",
+        "packages/ui/src/components/resizable.tsx",
+        "packages/ui/src/components/scroll-area.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/separator.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/skeleton.tsx",
+        "packages/ui/src/components/slider.tsx",
+        "packages/ui/src/components/spinner.tsx",
+        "packages/ui/src/components/switch.tsx",
+        "packages/ui/src/components/table.tsx",
+        "packages/ui/src/components/tabs.tsx",
+        "packages/ui/src/components/textarea.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/toggle.tsx",
+        "packages/ui/src/components/tooltip.tsx",
+        "packages/ui/src/components/trace.tsx",
+        "packages/ui/src/lib/utils.ts"
+      ]
+    },
+    "date-fns": {
+      "declared_range": "^4.4.0",
+      "source_files": [
+        "packages/ui/src/components/agenda.tsx"
+      ]
+    },
+    "embla-carousel-react": {
+      "declared_range": "^8.6.0",
+      "source_files": [
+        "packages/ui/src/components/carousel.tsx"
+      ]
+    },
+    "emojibase-data": {
+      "declared_range": "^18.0.0",
+      "source_files": [
+        "packages/ui/src/components/emoji-picker.tsx"
+      ]
+    },
+    "input-otp": {
+      "declared_range": "^1.5.0",
+      "source_files": [
+        "packages/ui/src/components/input-otp.tsx"
+      ]
+    },
+    "maplibre-gl": {
+      "declared_range": "^6.19.0",
+      "source_files": [
+        "packages/ui/src/components/map.tsx",
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "qrcode": {
+      "declared_range": "^1.5.4",
+      "source_files": [
+        "packages/ui/src/components/qr-code.tsx"
+      ]
+    },
+    "react": {
+      "declared_range": "19.3.1",
+      "source_files": [
+        "packages/ui/src/blocks/cta.tsx",
+        "packages/ui/src/blocks/error-pages.tsx",
+        "packages/ui/src/blocks/features.tsx",
+        "packages/ui/src/blocks/footers.tsx",
+        "packages/ui/src/blocks/hero-graphics.tsx",
+        "packages/ui/src/blocks/heroes.tsx",
+        "packages/ui/src/blocks/navigation.tsx",
+        "packages/ui/src/blocks/pricing.tsx",
+        "packages/ui/src/blocks/shared.tsx",
+        "packages/ui/src/blocks/social-proof.tsx",
+        "packages/ui/src/components/action-bar.tsx",
+        "packages/ui/src/components/affix.tsx",
+        "packages/ui/src/components/alert-dialog.tsx",
+        "packages/ui/src/components/alert.tsx",
+        "packages/ui/src/components/app-layout.tsx",
+        "packages/ui/src/components/approval-card.tsx",
+        "packages/ui/src/components/attached-group.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/avatar.tsx",
+        "packages/ui/src/components/bottom-navigation.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/calendar.tsx",
+        "packages/ui/src/components/card.tsx",
+        "packages/ui/src/components/carousel.tsx",
+        "packages/ui/src/components/cascader.tsx",
+        "packages/ui/src/components/cell-slider.tsx",
+        "packages/ui/src/components/chain-of-thought.tsx",
+        "packages/ui/src/components/chart.tsx",
+        "packages/ui/src/components/chat-conversation.tsx",
+        "packages/ui/src/components/chat-message-actions.tsx",
+        "packages/ui/src/components/chat-message.tsx",
+        "packages/ui/src/components/chat-source.tsx",
+        "packages/ui/src/components/chat-tool.tsx",
+        "packages/ui/src/components/checkbox-button-group.tsx",
+        "packages/ui/src/components/chip.tsx",
+        "packages/ui/src/components/circular-progress.tsx",
+        "packages/ui/src/components/client-only.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/command.tsx",
+        "packages/ui/src/components/container.tsx",
+        "packages/ui/src/components/content-transition.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/countdown.tsx",
+        "packages/ui/src/components/data-grid.tsx",
+        "packages/ui/src/components/date-picker.tsx",
+        "packages/ui/src/components/date-time-picker.tsx",
+        "packages/ui/src/components/descriptions.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/drawer.tsx",
+        "packages/ui/src/components/drop-zone.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/emoji-picker.tsx",
+        "packages/ui/src/components/emoji-reaction-button.tsx",
+        "packages/ui/src/components/field.tsx",
+        "packages/ui/src/components/file-tree.tsx",
+        "packages/ui/src/components/floating-action.tsx",
+        "packages/ui/src/components/floating-toc.tsx",
+        "packages/ui/src/components/form.tsx",
+        "packages/ui/src/components/holo-card.tsx",
+        "packages/ui/src/components/image-compare.tsx",
+        "packages/ui/src/components/image-list.tsx",
+        "packages/ui/src/components/image.tsx",
+        "packages/ui/src/components/indicator.tsx",
+        "packages/ui/src/components/inline-select.tsx",
+        "packages/ui/src/components/input-group.tsx",
+        "packages/ui/src/components/input-otp.tsx",
+        "packages/ui/src/components/input.tsx",
+        "packages/ui/src/components/item-card-group.tsx",
+        "packages/ui/src/components/item-card.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/kanban.tsx",
+        "packages/ui/src/components/kpi-group.tsx",
+        "packages/ui/src/components/kpi.tsx",
+        "packages/ui/src/components/label.tsx",
+        "packages/ui/src/components/layered-stack.tsx",
+        "packages/ui/src/components/layout-grid.tsx",
+        "packages/ui/src/components/link.tsx",
+        "packages/ui/src/components/list-view.tsx",
+        "packages/ui/src/components/loader.tsx",
+        "packages/ui/src/components/map.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/masonry.tsx",
+        "packages/ui/src/components/mentions.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/message.tsx",
+        "packages/ui/src/components/motion.tsx",
+        "packages/ui/src/components/native-select.tsx",
+        "packages/ui/src/components/notification.tsx",
+        "packages/ui/src/components/number-stepper.tsx",
+        "packages/ui/src/components/number-value.tsx",
+        "packages/ui/src/components/pagination.tsx",
+        "packages/ui/src/components/period-picker.tsx",
+        "packages/ui/src/components/popconfirm.tsx",
+        "packages/ui/src/components/popover.tsx",
+        "packages/ui/src/components/pressable-feedback.tsx",
+        "packages/ui/src/components/preview-frame.tsx",
+        "packages/ui/src/components/prompt-input.tsx",
+        "packages/ui/src/components/prompt-suggestion.tsx",
+        "packages/ui/src/components/qr-code.tsx",
+        "packages/ui/src/components/questionnaire.tsx",
+        "packages/ui/src/components/radio-button-group.tsx",
+        "packages/ui/src/components/rating.tsx",
+        "packages/ui/src/components/reasoning.tsx",
+        "packages/ui/src/components/result.tsx",
+        "packages/ui/src/components/rich-text-editor.tsx",
+        "packages/ui/src/components/scroll-area.tsx",
+        "packages/ui/src/components/segment.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/speed-dial.tsx",
+        "packages/ui/src/components/stack.tsx",
+        "packages/ui/src/components/stepper.tsx",
+        "packages/ui/src/components/surface.tsx",
+        "packages/ui/src/components/table.tsx",
+        "packages/ui/src/components/text-shimmer.tsx",
+        "packages/ui/src/components/textarea.tsx",
+        "packages/ui/src/components/time-picker.tsx",
+        "packages/ui/src/components/timeline.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/tour.tsx",
+        "packages/ui/src/components/trace.tsx",
+        "packages/ui/src/components/transfer.tsx",
+        "packages/ui/src/components/tree-select.tsx",
+        "packages/ui/src/components/trend-chip.tsx",
+        "packages/ui/src/components/typography.tsx",
+        "packages/ui/src/components/widget.tsx",
+        "packages/ui/src/hooks/use-controllable-state.ts",
+        "packages/ui/src/hooks/use-highlighted-code.ts",
+        "packages/ui/src/hooks/use-media-query.ts",
+        "packages/ui/src/hooks/use-mobile.ts",
+        "packages/ui/src/hooks/use-reduced-motion.ts",
+        "packages/ui/src/lib/highlighter.tsx",
+        "packages/ui/src/templates/chat.tsx",
+        "packages/ui/src/templates/crm.tsx",
+        "packages/ui/src/templates/dashboard.tsx",
+        "packages/ui/src/templates/finances.tsx",
+        "packages/ui/src/templates/mail.tsx",
+        "packages/ui/src/templates/shared.tsx"
+      ]
+    },
+    "react-big-calendar": {
+      "declared_range": "^1.20.0",
+      "source_files": [
+        "packages/ui/src/components/agenda.tsx",
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "react-day-picker": {
+      "declared_range": "^10.0.2",
+      "source_files": [
+        "packages/ui/src/components/calendar.tsx"
+      ]
+    },
+    "react-hook-form": {
+      "declared_range": "^7.92.0",
+      "source_files": [
+        "packages/ui/src/components/form.tsx"
+      ]
+    },
+    "react-resizable-panels": {
+      "declared_range": "^4.24.3",
+      "source_files": [
+        "packages/ui/src/components/resizable.tsx"
+      ]
+    },
+    "recharts": {
+      "declared_range": "^3.8.0",
+      "source_files": [
+        "packages/ui/src/components/area-chart.tsx",
+        "packages/ui/src/components/bar-chart.tsx",
+        "packages/ui/src/components/chart.tsx",
+        "packages/ui/src/components/composed-chart.tsx",
+        "packages/ui/src/components/line-chart.tsx",
+        "packages/ui/src/components/pie-chart.tsx",
+        "packages/ui/src/components/radar-chart.tsx",
+        "packages/ui/src/components/radial-chart.tsx"
+      ]
+    },
+    "shadcn": {
+      "declared_range": "^4.23.1",
+      "source_files": [
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "shiki": {
+      "declared_range": "^4.6.0",
+      "source_files": [
+        "packages/ui/src/lib/highlighter.tsx"
+      ]
+    },
+    "streamdown": {
+      "declared_range": "^2.8.1",
+      "source_files": [
+        "packages/ui/src/components/markdown.tsx"
+      ]
+    },
+    "tailwindcss": {
+      "declared_range": "^4",
+      "source_files": [
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "tw-animate-css": {
+      "declared_range": "^1.4.0",
+      "source_files": [
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "motion": {
+      "declared_range": "^14.14.0",
+      "source_files": [
+        "packages/ui/src/components/ankvale-provider.tsx",
+        "packages/ui/src/components/animation.tsx"
+      ]
+    }
+  },
+  "declared_but_no_direct_source_import": [
+    "@types/react-big-calendar",
+    "next-themes",
+    "react-dom",
+    "zod"
+  ],
+  "backlog": [
+    {
+      "id": "C01",
+      "title": "Typography",
+      "scope": "Heading, Text, prose, metadata, inline code, truncation; semantic elements without arbitrary styles",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/typography.tsx",
+      "preview": "/playground#typography",
+      "api": "/docs/typography",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C02",
+      "title": "Link",
+      "scope": "Consistent states, external indication, router composition and accessible disabled policy",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/link.tsx",
+      "preview": "/playground#link",
+      "api": "/docs/link",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C03",
+      "title": "Container",
+      "scope": "Responsive content widths and gutters for app/marketing layouts",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/container.tsx",
+      "preview": "/playground#container",
+      "api": "/docs/container",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C04",
+      "title": "Stack / Inline / Flex",
+      "scope": "Shared spacing, wrapping, alignment and responsive composition",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/stack.tsx",
+      "preview": "/playground#stack",
+      "api": "/docs/stack",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C05",
+      "title": "LayoutGrid",
+      "scope": "Responsive columns and gaps; unrelated to DataGrid",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/layout-grid.tsx",
+      "preview": "/playground#layout-grid",
+      "api": "/docs/layout-grid",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C06",
+      "title": "Surface / Box",
+      "scope": "Token-driven neutral surfaces and explicit elevation; no default nested cards",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/surface.tsx",
+      "preview": "/playground#surface",
+      "api": "/docs/surface",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C07",
+      "title": "Form integration",
+      "scope": "Shared field binding, sync/async validation, submit/error/focus lifecycle and field arrays; choose one adapter strategy",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/form.tsx",
+      "preview": "/playground#form",
+      "api": "/docs/form",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C08",
+      "title": "DatePicker / DateField / DateRangePicker",
+      "scope": "Typed input plus calendar popup, clear/presets, validation, localized parsing and keyboard behavior",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/date-picker.tsx",
+      "preview": "/playground#date-picker",
+      "api": "/docs/date-picker",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C09",
+      "title": "TimePicker / TimeRangePicker",
+      "scope": "Typed/spinner selection, intervals, validation and locale-aware display",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/time-picker.tsx",
+      "preview": "/playground#time-picker",
+      "api": "/docs/time-picker",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C10",
+      "title": "DateTimePicker / DateTimeRangePicker",
+      "scope": "Combined date/time with explicit timezone and DST contract",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/date-time-picker.tsx",
+      "preview": "/playground#date-time-picker",
+      "api": "/docs/date-time-picker",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C11",
+      "title": "PeriodPicker",
+      "scope": "Month, quarter, year, week and period-range selection as one coherent family",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/period-picker.tsx",
+      "preview": "/playground#period-picker",
+      "api": "/docs/period-picker",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C12",
+      "title": "Cascader",
+      "scope": "Hierarchical path selection, async branches, search and disabled paths",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/cascader.tsx",
+      "preview": "/playground#cascader",
+      "api": "/docs/cascader",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C13",
+      "title": "TreeSelect",
+      "scope": "Single/multi checkable popup tree with selected values and form semantics",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/tree-select.tsx",
+      "preview": "/playground#tree-select",
+      "api": "/docs/tree-select",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C14",
+      "title": "Transfer",
+      "scope": "Searchable dual-list selection with keyboard and narrow-screen alternative",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/transfer.tsx",
+      "preview": "/playground#transfer",
+      "api": "/docs/transfer",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C15",
+      "title": "Mentions",
+      "scope": "Mention suggestions, trigger/token model, async search and keyboard selection",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/mentions.tsx",
+      "preview": "/playground#mentions",
+      "api": "/docs/mentions",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C16",
+      "title": "Chip / Tag",
+      "scope": "Static, removable and checkable variants; icon/avatar; no nested button hazards",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/chip.tsx",
+      "preview": "/playground#chip",
+      "api": "/docs/chip",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C17",
+      "title": "Indicator / Status",
+      "scope": "Anchored count/dot/overflow and standalone status dot paired with text",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/indicator.tsx",
+      "preview": "/playground#indicator",
+      "api": "/docs/indicator",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C18",
+      "title": "CircularProgress",
+      "scope": "Determinate/indeterminate accessible progress without loading a chart engine",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/circular-progress.tsx",
+      "preview": "/playground#circular-progress",
+      "api": "/docs/circular-progress",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C19",
+      "title": "Descriptions",
+      "scope": "Semantic responsive label/value lists, columns and long values",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/descriptions.tsx",
+      "preview": "/playground#descriptions",
+      "api": "/docs/descriptions",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C20",
+      "title": "Image / ImagePreview",
+      "scope": "Loading/fallback, aspect ratio, zoom/lightbox gallery, captions, focus and Escape handling",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/image.tsx",
+      "preview": "/playground#image",
+      "api": "/docs/image",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C21",
+      "title": "ImageList / Gallery",
+      "scope": "Responsive image collections with captions and selection",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/image-list.tsx",
+      "preview": "/playground#image-list",
+      "api": "/docs/image-list",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C22",
+      "title": "Masonry",
+      "scope": "Variable-height layout with predictable reading order and responsive fallbacks",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/masonry.tsx",
+      "preview": "/playground#masonry",
+      "api": "/docs/masonry",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C23",
+      "title": "BottomNavigation",
+      "scope": "Mobile app destinations, current state, safe-area behavior and labels",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/bottom-navigation.tsx",
+      "preview": "/playground#bottom-navigation",
+      "api": "/docs/bottom-navigation",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C24",
+      "title": "FloatingAction",
+      "scope": "Optional fixed primary action with safe areas and overlay collision policy",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/floating-action.tsx",
+      "preview": "/playground#floating-action",
+      "api": "/docs/floating-action",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C25",
+      "title": "SpeedDial",
+      "scope": "Expandable contextual actions with keyboard/focus/dismiss semantics",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/speed-dial.tsx",
+      "preview": "/playground#speed-dial",
+      "api": "/docs/speed-dial",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C26",
+      "title": "Affix / BackToTop",
+      "scope": "Sticky/container offsets, accessible return target and reduced-motion scrolling",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/affix.tsx",
+      "preview": "/playground#affix",
+      "api": "/docs/affix",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C27",
+      "title": "Popconfirm",
+      "scope": "Anchored confirmation, async pending/error and focus return",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/popconfirm.tsx",
+      "preview": "/playground#popconfirm",
+      "api": "/docs/popconfirm",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C28",
+      "title": "Notification",
+      "scope": "Persistent/actionable feedback and grouped delivery; reuse toast internals where suitable",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/notification.tsx",
+      "preview": "/playground#notification",
+      "api": "/docs/notification",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C29",
+      "title": "Result",
+      "scope": "Success, failure, warning, permission and recovery panel; 404 remains route-specific",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/result.tsx",
+      "preview": "/playground#result",
+      "api": "/docs/result",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C30",
+      "title": "Tour",
+      "scope": "Anchored steps, scrolling, focus, portal boundaries, skip/resume and reduced motion",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/tour.tsx",
+      "preview": "/playground#tour",
+      "api": "/docs/tour",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C31",
+      "title": "QRCode",
+      "scope": "SVG rendering, accessible description, download and expiration/refresh state",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/qr-code.tsx",
+      "preview": "/playground#qr-code",
+      "api": "/docs/qr-code",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C32",
+      "title": "Countdown",
+      "scope": "Time-based display, pause/expiry and sensible live-region frequency",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/countdown.tsx",
+      "preview": "/playground#countdown",
+      "api": "/docs/countdown",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C33",
+      "title": "ImageCompare",
+      "scope": "Keyboard/pointer before-after slider with two labeled images",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/image-compare.tsx",
+      "preview": "/playground#image-compare",
+      "api": "/docs/image-compare",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C34",
+      "title": "PreviewFrame",
+      "scope": "Browser, window and phone frames; reusable beyond hero internals",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/preview-frame.tsx",
+      "preview": "/playground#preview-frame",
+      "api": "/docs/preview-frame",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C35",
+      "title": "AttachedGroup",
+      "scope": "Mixed inputs/buttons/selects sharing boundaries without doubled borders",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/attached-group.tsx",
+      "preview": "/playground#attached-group",
+      "api": "/docs/attached-group",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C36",
+      "title": "Swap / ContentTransition",
+      "scope": "Two-state content replacement with accessible state and reduced-motion fallback",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/content-transition.tsx",
+      "preview": "/playground#content-transition",
+      "api": "/docs/content-transition",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C37",
+      "title": "LayeredStack",
+      "scope": "Overlapping card/media stack; separate from flex Stack and AvatarGroup",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/layered-stack.tsx",
+      "preview": "/playground#layered-stack",
+      "api": "/docs/layered-stack",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "C38",
+      "title": "ClientOnly / media utilities",
+      "scope": "Optional client-only branch and SSR-safe general media-query hook with documented hydration behavior",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "new component or utility",
+      "source": "packages/ui/src/components/client-only.tsx",
+      "preview": "/playground#client-only",
+      "api": "/docs/client-only",
+      "verification": "tests/system-components.test.tsx; generated API/consumer checks",
+      "notes": "First public implementation; contracts and further hardening documented in docs/implementation/components.md."
+    },
+    {
+      "id": "E01",
+      "title": "Combobox / Select",
+      "scope": "Ship supported single/multi/tag/free-text/async recipes, loading/error/empty states, cancellation and large-option virtualization. Chips already exist; do not list multi-select as wholly absent",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/selection-field.tsx",
+      "preview": "/playground#selection-field",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E02",
+      "title": "Input / Field",
+      "scope": "Ready labeled search/password/clearable fields; shared validation; help/counter; test reset/autofill/disabled/readonly",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/text-field.tsx",
+      "preview": "/playground#text-field",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E03",
+      "title": "NumberStepper",
+      "scope": "Locale parsing, currency/percentage formatting and decimal precision contract",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/number-field.tsx",
+      "preview": "/playground#number-field",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E04",
+      "title": "CellColorPicker",
+      "scope": "Full reusable solid-color picker with palette, hex/RGB/HSL/alpha and invalid-text handling. No gradient selection needed",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/color-picker.tsx",
+      "preview": "/playground#color-picker",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E05",
+      "title": "DataGrid editing",
+      "scope": "Cell/row edit lifecycle, validation, keyboard navigation, save/cancel and pending/error; render callbacks alone are not a coordinated editor",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/editable-grid.tsx",
+      "preview": "/playground#editable-grid",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Coordinated row editing and SpreadsheetGrid rectangles/TSV drafts with validated async atomic batch contract; see grid-analysis.md."
+    },
+    {
+      "id": "E06",
+      "title": "DataGrid presentation",
+      "scope": "Column visibility/order UI, grouped headers, row details, row/column spans and summary/footer composition",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/editable-grid.tsx",
+      "preview": "/playground#editable-grid",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E07",
+      "title": "DataGrid operations",
+      "scope": "Typed server adapter, filter operators/query builder, saved views and import/export/print contracts",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/server-data-grid.tsx",
+      "preview": "/playground#server-data-grid",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Nested typed query builder, server cancellation, saved views, CSV, and explicit XLSX/PDF/print callback contracts; actual file writers are consumer adapters.",
+      "additional_source": [
+        "packages/ui/src/components/query-builder.tsx",
+        "packages/ui/src/lib/query.ts"
+      ]
+    },
+    {
+      "id": "E08",
+      "title": "DataGrid analytics",
+      "scope": "Grouping/aggregation/pivot/formula/clipboard/undo contracts only when business demand justifies complexity",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/data-analysis.tsx",
+      "preview": "/playground#data-analysis",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Numeric aggregation/pivots, safe computed dependency graph with cycle checks, TSV rectangles, validated batch commits and undo/redo. No Excel function/fill-handle engine."
+    },
+    {
+      "id": "E09",
+      "title": "Tree / FileTree",
+      "scope": "Generic content, checkbox/multi selection, lazy loading, editing and reordering; preserve keyboard focus",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/tree.tsx",
+      "preview": "/playground#tree",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E10",
+      "title": "ListView",
+      "scope": "Grouped virtual list, sticky section headers, infinite loading, query states and item sorting",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/collection-list.tsx",
+      "preview": "/playground#collection-list",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E11",
+      "title": "DropZone / Attachment",
+      "scope": "Preview/crop/paste/directory support; queue concurrency, retry/cancel and provider-neutral transport adapter; existing progress/error UI must remain",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/upload-manager.tsx",
+      "preview": "/playground#upload-manager",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "ImageCropper exports actual cropped image Blob; queued transport supports paste, recursive directory traversal/relative paths, retry/cancel and bounds. Resumable protocol remains a transport adapter.",
+      "additional_source": [
+        "packages/ui/src/components/image-cropper.tsx"
+      ]
+    },
+    {
+      "id": "E12",
+      "title": "Agenda",
+      "scope": "Event editor and booking flow; timezone/DST, recurring events and exceptions, resource lanes, conflicts and keyboard alternatives",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/scheduler.tsx",
+      "preview": "/playground#scheduler",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "IANA zone/DST policies, simultaneous resource-day lanes, individual occurrence override/skip and series editor, bounded recurrence and future/self-conflicts. Optional Agenda week/month view explicitly uses browser timezone."
+    },
+    {
+      "id": "E13",
+      "title": "Charts",
+      "scope": "Scatter/bubble, sparkline, gauge, heatmap, funnel, sankey, candlestick, radial-line families where justified. Existing line/area/bar/pie/radar/radial/composed wrappers remain",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/advanced-chart.tsx",
+      "preview": "/playground#advanced-chart",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Nine additional SVG families including validated multistage acyclic Sankey. Cyclic/optimized specialized network layouts remain outside core."
+    },
+    {
+      "id": "E14",
+      "title": "Chart infrastructure",
+      "scope": "Shared formatting, accessible data view, export, zoom/pan/brush and loading/error/empty states",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/advanced-chart.tsx",
+      "preview": "/playground#advanced-chart",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Accessible data tables/export and bounded geometric pan/zoom/range brush with keyboard/pointer controls for Cartesian chart families."
+    },
+    {
+      "id": "E15",
+      "title": "Rating",
+      "scope": "Fractional precision/clear/hover preview and custom icon recipes if needed; whole-star keyboard form already exists",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/rating.tsx",
+      "preview": "/playground#rating",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E16",
+      "title": "Avatar",
+      "scope": "Group overlap, overflow count, avatar picker and robust image fallback",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/avatar-picker.tsx",
+      "preview": "/playground#avatar-picker",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E17",
+      "title": "FloatingToc",
+      "scope": "General scroll container, offset, active-location/history and affix integration",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/floating-toc.tsx",
+      "preview": "/playground#floating-toc",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E18",
+      "title": "Motion",
+      "scope": "Presence/exit, shared-element/layout/reorder support where useful, route/tab/list transitions and deterministic testing; keep existing one-shot Motion and live reduced-motion support",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/animation.tsx",
+      "preview": "/playground#animation",
+      "details": "docs/implementation/animation-system.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E19",
+      "title": "Textarea",
+      "scope": "Browser support contract or autosize fallback for `field-sizing: content`",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/textarea.tsx",
+      "preview": "/playground#textarea",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E20",
+      "title": "Provider / appearance",
+      "scope": "Package AnkvaleProvider, SSR appearance setup, direction, locale, density, motion, portal and feedback defaults. A saved design manifest is not a runtime provider",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/components/ankvale-provider.tsx",
+      "preview": "/playground#ankvale-provider",
+      "details": "docs/implementation/animation-system.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "E21",
+      "title": "Templates",
+      "scope": "Replace hardcoded navigation/sample workflows with explicit typed slots/data/action adapters and documented error/loading/empty states; retain useful demo fixtures separately",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "existing family enhancement",
+      "source": "packages/ui/src/templates",
+      "preview": "/templates",
+      "details": "docs/implementation/component-depth.md",
+      "notes": "Public initial implementation. See documented APIs, integration contracts and verification boundaries."
+    },
+    {
+      "id": "B01",
+      "title": "Sign in / sign up",
+      "scope": "Credential/social slots, validation, pending/error, callback contract",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-auth.tsx"
+      ],
+      "previews": [
+        "/blocks#app-auth"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B02",
+      "title": "Password recovery/reset",
+      "scope": "Request, sent, expired and reset states",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-auth.tsx"
+      ],
+      "previews": [
+        "/blocks#app-password-recovery"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B03",
+      "title": "Verification / MFA",
+      "scope": "OTP, resend cooldown, recovery codes and error states",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-auth.tsx"
+      ],
+      "previews": [
+        "/blocks#app-verification"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B04",
+      "title": "Organization onboarding",
+      "scope": "Create/join workspace, company details, invite, progress and resumption",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-auth.tsx"
+      ],
+      "previews": [
+        "/blocks#app-onboarding"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B05",
+      "title": "Account / workspace switchers",
+      "scope": "Identity, organization list, create/join and keyboard behavior",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-auth.tsx"
+      ],
+      "previews": [
+        "/blocks#app-workspace-switcher"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B06",
+      "title": "Profile settings",
+      "scope": "Personal details/avatar, async save and validation",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-settings.tsx"
+      ],
+      "previews": [
+        "/blocks#app-profile-settings"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B07",
+      "title": "Workspace settings",
+      "scope": "Brand, contact details, defaults and destructive action confirmation",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-settings.tsx"
+      ],
+      "previews": [
+        "/blocks#app-workspace-settings"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B08",
+      "title": "Members / invitations",
+      "scope": "Member table, invite, pending invites, role change and remove",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-settings.tsx"
+      ],
+      "previews": [
+        "/blocks#app-members"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B09",
+      "title": "Roles / permissions editor",
+      "scope": "Capability matrix, inheritance/explanations and permission-denied state",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-settings.tsx"
+      ],
+      "previews": [
+        "/blocks#app-permissions"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B10",
+      "title": "Security settings",
+      "scope": "Password, MFA setup, sessions and revoke workflow",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-settings.tsx"
+      ],
+      "previews": [
+        "/blocks#app-security-settings"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B11",
+      "title": "Notification preferences",
+      "scope": "Channel/category controls, save/error state",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-settings.tsx"
+      ],
+      "previews": [
+        "/blocks#app-notification-preferences"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B12",
+      "title": "Billing / subscription",
+      "scope": "Current plan, usage, change/cancel and invoices; service callbacks",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-billing.tsx"
+      ],
+      "previews": [
+        "/blocks#app-billing"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B13",
+      "title": "Payment / invoice details",
+      "scope": "Payment-method display/edit slots, invoice viewer and receipt/download callback",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-billing.tsx"
+      ],
+      "previews": [
+        "/blocks#app-invoice"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B14",
+      "title": "Integrations",
+      "scope": "Integration catalog, connect/disconnect, permissions and failure state",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-integrations.tsx"
+      ],
+      "previews": [
+        "/blocks#app-integrations"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B15",
+      "title": "API keys / webhooks",
+      "scope": "Create/reveal/copy/revoke UI, delivery log and retry; no pretend secrets",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-integrations.tsx"
+      ],
+      "previews": [
+        "/blocks#app-api-keys"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B16",
+      "title": "Audit/activity log",
+      "scope": "Filters, actor/action/object, detail view and export",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-data.tsx"
+      ],
+      "previews": [
+        "/blocks#app-audit-log"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B17",
+      "title": "Notification center",
+      "scope": "Unread/read, grouping, deep links, empty/error and pagination",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-data.tsx"
+      ],
+      "previews": [
+        "/blocks#app-notifications"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B18",
+      "title": "Global search",
+      "scope": "Search dialog/page, recent queries, grouped results and async states",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-data.tsx"
+      ],
+      "previews": [
+        "/blocks#app-search"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B19",
+      "title": "Collection toolbar / filter builder",
+      "scope": "Query input, operators, chips, date range, reset and saved views",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-data.tsx"
+      ],
+      "previews": [
+        "/blocks#app-collection-toolbar"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B20",
+      "title": "CRUD collection",
+      "scope": "List/table/card modes, create/edit/view/delete, selection and bulk actions",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-data.tsx"
+      ],
+      "previews": [
+        "/blocks#app-crud"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B21",
+      "title": "Record detail",
+      "scope": "Page header, descriptions, tabs, activity, related records and edit drawer",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-data.tsx"
+      ],
+      "previews": [
+        "/blocks#app-record-detail"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B22",
+      "title": "Import / export wizard",
+      "scope": "File mapping, validation preview, duplicates, progress and result",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-files.tsx"
+      ],
+      "previews": [
+        "/blocks#app-import-export"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B23",
+      "title": "File / asset manager",
+      "scope": "Folder/tree, list/grid, preview, upload, rename, move and sharing UI",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-files.tsx"
+      ],
+      "previews": [
+        "/blocks#app-files"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B24",
+      "title": "Task/project detail",
+      "scope": "Board/list/calendar switch, task editor, assignees, due dates and comments",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-projects.tsx"
+      ],
+      "previews": [
+        "/blocks#app-project-detail"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B25",
+      "title": "Comment / activity thread",
+      "scope": "Replies, mentions, editing, resolve and attachment callbacks",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-projects.tsx"
+      ],
+      "previews": [
+        "/blocks#app-comments"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B26",
+      "title": "Booking flow",
+      "scope": "Availability, timezone, details, confirmation and reschedule/cancel",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-support.tsx"
+      ],
+      "previews": [
+        "/blocks#app-booking"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B27",
+      "title": "Guided setup checklist",
+      "scope": "Progress, actionable tasks, skipped/completed state and resume",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-support.tsx"
+      ],
+      "previews": [
+        "/blocks#app-setup"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B28",
+      "title": "Support/help center",
+      "scope": "Searchable topics, article layout, contact/support form",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-support.tsx"
+      ],
+      "previews": [
+        "/blocks#app-help"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B29",
+      "title": "Feedback / issue report",
+      "scope": "Category, description, attachments and real submit states",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-support.tsx"
+      ],
+      "previews": [
+        "/blocks#app-feedback"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B30",
+      "title": "App state pages",
+      "scope": "401/403/500, offline, maintenance, service unavailable and session expiry; keep existing 404",
+      "priority": "P0",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-safety.tsx"
+      ],
+      "previews": [
+        "/blocks#app-state"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B31",
+      "title": "Unsaved changes / danger zone",
+      "scope": "Leave-page confirmation, async delete and reauthentication slots",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-safety.tsx"
+      ],
+      "previews": [
+        "/blocks#app-danger-zone"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B32",
+      "title": "Product catalog / detail",
+      "scope": "Search/filter, item options, media and actions",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-commerce.tsx"
+      ],
+      "previews": [
+        "/blocks#app-catalog"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B33",
+      "title": "Cart / checkout / order result",
+      "scope": "Editable quantities, address, payment-provider slot and success/failure",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-commerce.tsx"
+      ],
+      "previews": [
+        "/blocks#app-checkout"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "B34",
+      "title": "Order management",
+      "scope": "Orders list/detail, fulfillment and refund-request UI callbacks",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "application block or flow",
+      "source": [
+        "packages/ui/src/blocks/app-commerce.tsx"
+      ],
+      "previews": [
+        "/blocks#app-orders"
+      ],
+      "details": "docs/implementation/app-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W01",
+      "title": "Contact",
+      "scope": "Contact form/details, department routing, validation and actual service callback",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-contact.tsx"
+      ],
+      "previews": [
+        "/blocks#contact-section"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W02",
+      "title": "About / company story",
+      "scope": "Mission, narrative, history/timeline and visual sections",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-company.tsx"
+      ],
+      "previews": [
+        "/blocks#about-story"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W03",
+      "title": "Team",
+      "scope": "Team grid, leadership and profile detail",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-company.tsx"
+      ],
+      "previews": [
+        "/blocks#team-grid",
+        "/blocks#team-profile"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W04",
+      "title": "Careers",
+      "scope": "Job listings, filters, role detail and application form",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-careers.tsx"
+      ],
+      "previews": [
+        "/blocks#careers-list",
+        "/blocks#job-detail",
+        "/blocks#job-application"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W05",
+      "title": "Blog / editorial",
+      "scope": "Post grid/list, category/search, article header/body/TOC/related content",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-editorial.tsx"
+      ],
+      "previews": [
+        "/blocks#blog-index",
+        "/blocks#article-layout"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W06",
+      "title": "Case studies",
+      "scope": "Index, customer story, outcomes/evidence and related stories",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-editorial.tsx"
+      ],
+      "previews": [
+        "/blocks#case-study-index",
+        "/blocks#case-study-story"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W07",
+      "title": "How it works",
+      "scope": "Process steps, diagram, demo and outcome sections",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-product.tsx"
+      ],
+      "previews": [
+        "/blocks#how-it-works"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W08",
+      "title": "Integrations / ecosystem",
+      "scope": "Logo cards, search/categories and integration detail",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-product.tsx"
+      ],
+      "previews": [
+        "/blocks#integration-directory",
+        "/blocks#integration-detail"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W09",
+      "title": "Product comparison",
+      "scope": "Comparison table, alternatives and migration narrative",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-product.tsx"
+      ],
+      "previews": [
+        "/blocks#product-comparison"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W10",
+      "title": "Changelog / roadmap",
+      "scope": "Releases with filters and public roadmap; callbacks if voting exists",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-product.tsx"
+      ],
+      "previews": [
+        "/blocks#release-feed",
+        "/blocks#roadmap"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W11",
+      "title": "Documentation",
+      "scope": "Docs shell, navigation, search, API/article layout and version selector",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-documentation.tsx"
+      ],
+      "previews": [
+        "/blocks#documentation-shell"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W12",
+      "title": "Gallery / media / video",
+      "scope": "Image collection, video poster/dialog, keyboard controls and captions",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-media.tsx"
+      ],
+      "previews": [
+        "/blocks#media-gallery",
+        "/blocks#video-showcase"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W13",
+      "title": "Download / app badges",
+      "scope": "Platforms, versions, requirements and download actions",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-download.tsx"
+      ],
+      "previews": [
+        "/blocks#download-section"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W14",
+      "title": "Events / webinars",
+      "scope": "Event index, detail, speakers and registration",
+      "priority": "P2",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-events.tsx"
+      ],
+      "previews": [
+        "/blocks#event-index",
+        "/blocks#event-detail",
+        "/blocks#event-registration"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W15",
+      "title": "Metrics / evidence",
+      "scope": "Standalone stats/counters and comparison evidence; reuse KPI components",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-evidence.tsx"
+      ],
+      "previews": [
+        "/blocks#evidence-metrics"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W16",
+      "title": "Announcement / promotion",
+      "scope": "Dismissible announcement bar and release highlights",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-announcement.tsx"
+      ],
+      "previews": [
+        "/blocks#announcement-bar",
+        "/blocks#release-highlights"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W17",
+      "title": "Legal / privacy / consent",
+      "scope": "Readable policy layout and configurable consent-preference UI",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-legal.tsx"
+      ],
+      "previews": [
+        "/blocks#policy-layout",
+        "/blocks#consent-preferences"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    },
+    {
+      "id": "W18",
+      "title": "Complete site compositions",
+      "scope": "Product/SaaS, business service, content/publication and ecommerce starter pages assembled from blocks",
+      "priority": "P1",
+      "status": "implemented-initial",
+      "kind": "marketing/content block",
+      "source": [
+        "packages/ui/src/blocks/site-starters.tsx"
+      ],
+      "previews": [
+        "/blocks#product-site",
+        "/blocks#business-site",
+        "/blocks#publication-site",
+        "/blocks#commerce-site"
+      ],
+      "details": "docs/implementation/website-blocks.md",
+      "notes": "Reusable UI and caller-owned data/action contracts. Service integration, persistence and authorization remain with the consuming application."
+    }
+  ],
+  "backlog_summary": {
+    "C": 38,
+    "E": 21,
+    "B": 34,
+    "W": 18
+  },
+  "implementation_update": {
+    "date": "2026-11-26",
+    "initial_components_added": 38,
+    "enhancement_modules_added": 17,
+    "web_component_modules": 176,
+    "application_block_variants_added": 34,
+    "website_block_variants_added": 33,
+    "total_blocks_including_heroes": 97,
+    "details": [
+      "docs/implementation/components.md",
+      "docs/implementation/component-depth.md",
+      "docs/implementation/animation-system.md",
+      "docs/implementation/app-blocks.md",
+      "docs/implementation/website-blocks.md",
+      "docs/implementation/grid-analysis.md",
+      "docs/implementation/query-builder.md",
+      "docs/implementation/image-cropper.md",
+      "docs/implementation/upload-directory.md",
+      "docs/implementation/scheduler.md",
+      "docs/implementation/chart-interactions.md"
+    ],
+    "scope": "All C/E/B/W families have public initial implementations, copyable examples and documented integration contracts. Specialist limits remain explicit in implementation articles; this is not exhaustive enterprise parity certification. Standalone compiled npm distribution is not migrated or published."
+  },
+  "inventory_at_audit": {
+    "components": [
+      "accordion",
+      "action-bar",
+      "agenda",
+      "alert-dialog",
+      "alert",
+      "app-layout",
+      "approval-card",
+      "area-chart",
+      "aspect-ratio",
+      "attachment",
+      "avatar",
+      "badge",
+      "bar-chart",
+      "breadcrumb",
+      "bubble",
+      "button-group",
+      "button",
+      "calendar",
+      "card",
+      "carousel",
+      "cell-color-picker",
+      "cell-select",
+      "cell-slider",
+      "cell-switch",
+      "chain-of-thought",
+      "chart",
+      "chat-conversation",
+      "chat-list-view",
+      "chat-loader",
+      "chat-message-actions",
+      "chat-message",
+      "chat-source",
+      "chat-tool",
+      "checkbox-button-group",
+      "checkbox",
+      "code-block",
+      "collapsible",
+      "combobox",
+      "command",
+      "composed-chart",
+      "context-menu",
+      "data-grid",
+      "dialog",
+      "direction",
+      "drawer",
+      "drop-zone",
+      "dropdown-menu",
+      "emoji-picker",
+      "emoji-reaction-button",
+      "empty",
+      "field",
+      "file-tree",
+      "floating-toc",
+      "holo-card",
+      "hover-card",
+      "inline-select",
+      "input-group",
+      "input-otp",
+      "input",
+      "item-card-group",
+      "item-card",
+      "item",
+      "kanban",
+      "kbd",
+      "kpi-group",
+      "kpi",
+      "label",
+      "line-chart",
+      "list-view",
+      "loader",
+      "map",
+      "markdown",
+      "marker",
+      "menubar",
+      "message-scroller",
+      "message",
+      "model-selector",
+      "motion",
+      "native-select",
+      "navigation-menu",
+      "number-stepper",
+      "number-value",
+      "pagination",
+      "pie-chart",
+      "popover",
+      "pressable-feedback",
+      "progress",
+      "prompt-input",
+      "prompt-suggestion",
+      "questionnaire",
+      "radar-chart",
+      "radial-chart",
+      "radio-button-group",
+      "radio-group",
+      "rating",
+      "reasoning",
+      "resizable",
+      "rich-text-editor",
+      "scroll-area",
+      "segment",
+      "select",
+      "separator",
+      "sheet",
+      "sidebar",
+      "skeleton",
+      "slider",
+      "spinner",
+      "stepper",
+      "switch",
+      "table",
+      "tabs",
+      "text-shimmer",
+      "textarea",
+      "timeline",
+      "toast",
+      "toggle-group",
+      "toggle",
+      "tooltip",
+      "trace",
+      "trend-chip",
+      "widget"
+    ],
+    "blocks": [
+      "cta",
+      "error-pages",
+      "faq",
+      "features",
+      "footers",
+      "hero-graphics",
+      "heroes",
+      "navigation",
+      "pricing",
+      "shared",
+      "social-proof"
+    ],
+    "templates": [
+      "chat",
+      "crm",
+      "dashboard",
+      "finances",
+      "mail",
+      "shared"
+    ]
+  },
+  "dependencies_at_audit": {
+    "@base-ui/react": {
+      "declared_range": "^1.9.0",
+      "source_files": [
+        "packages/ui/src/components/accordion.tsx",
+        "packages/ui/src/components/alert-dialog.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/avatar.tsx",
+        "packages/ui/src/components/badge.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/button-group.tsx",
+        "packages/ui/src/components/button.tsx",
+        "packages/ui/src/components/checkbox.tsx",
+        "packages/ui/src/components/collapsible.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/direction.tsx",
+        "packages/ui/src/components/drawer.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/hover-card.tsx",
+        "packages/ui/src/components/input.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/popover.tsx",
+        "packages/ui/src/components/progress.tsx",
+        "packages/ui/src/components/radio-group.tsx",
+        "packages/ui/src/components/scroll-area.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/separator.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/slider.tsx",
+        "packages/ui/src/components/switch.tsx",
+        "packages/ui/src/components/tabs.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/toggle.tsx",
+        "packages/ui/src/components/tooltip.tsx"
+      ]
+    },
+    "@phosphor-icons/react": {
+      "declared_range": "^2.1.10",
+      "source_files": [
+        "packages/ui/src/blocks/navigation.tsx",
+        "packages/ui/src/blocks/pricing.tsx",
+        "packages/ui/src/components/accordion.tsx",
+        "packages/ui/src/components/action-bar.tsx",
+        "packages/ui/src/components/app-layout.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/calendar.tsx",
+        "packages/ui/src/components/carousel.tsx",
+        "packages/ui/src/components/chain-of-thought.tsx",
+        "packages/ui/src/components/chat-list-view.tsx",
+        "packages/ui/src/components/chat-message-actions.tsx",
+        "packages/ui/src/components/chat-source.tsx",
+        "packages/ui/src/components/checkbox-button-group.tsx",
+        "packages/ui/src/components/checkbox.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/command.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/data-grid.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/drop-zone.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/file-tree.tsx",
+        "packages/ui/src/components/input-otp.tsx",
+        "packages/ui/src/components/kanban.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/native-select.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/number-stepper.tsx",
+        "packages/ui/src/components/pagination.tsx",
+        "packages/ui/src/components/prompt-input.tsx",
+        "packages/ui/src/components/questionnaire.tsx",
+        "packages/ui/src/components/rating.tsx",
+        "packages/ui/src/components/reasoning.tsx",
+        "packages/ui/src/components/rich-text-editor.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/spinner.tsx",
+        "packages/ui/src/components/stepper.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/trace.tsx",
+        "packages/ui/src/components/trend-chip.tsx",
+        "packages/ui/src/templates/mail.tsx"
+      ]
+    },
+    "@shadcn/react": {
+      "declared_range": "^0.3.1",
+      "source_files": [
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/questionnaire.tsx"
+      ]
+    },
+    "@tanstack/react-table": {
+      "declared_range": "^9.3.1",
+      "source_files": [
+        "packages/ui/src/components/data-grid.tsx"
+      ]
+    },
+    "@tanstack/react-virtual": {
+      "declared_range": "^3.14.28",
+      "source_files": [
+        "packages/ui/src/components/data-grid.tsx"
+      ]
+    },
+    "@tiptap/extension-placeholder": {
+      "declared_range": "^3.35.0",
+      "source_files": [
+        "packages/ui/src/components/rich-text-editor.tsx"
+      ]
+    },
+    "@tiptap/react": {
+      "declared_range": "^3.35.0",
+      "source_files": [
+        "packages/ui/src/components/rich-text-editor.tsx"
+      ]
+    },
+    "@tiptap/starter-kit": {
+      "declared_range": "^3.35.0",
+      "source_files": [
+        "packages/ui/src/components/rich-text-editor.tsx"
+      ]
+    },
+    "class-variance-authority": {
+      "declared_range": "^0.7.1",
+      "source_files": [
+        "packages/ui/src/components/alert.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/badge.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/button-group.tsx",
+        "packages/ui/src/components/button.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/empty.tsx",
+        "packages/ui/src/components/field.tsx",
+        "packages/ui/src/components/input-group.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/tabs.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/toggle.tsx"
+      ]
+    },
+    "cmdk": {
+      "declared_range": "^1.1.1",
+      "source_files": [
+        "packages/ui/src/components/command.tsx"
+      ]
+    },
+    "cn": {
+      "declared_range": "^0.5.2",
+      "source_files": [
+        "packages/ui/src/components/accordion.tsx",
+        "packages/ui/src/components/alert-dialog.tsx",
+        "packages/ui/src/components/alert.tsx",
+        "packages/ui/src/components/aspect-ratio.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/avatar.tsx",
+        "packages/ui/src/components/badge.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/button-group.tsx",
+        "packages/ui/src/components/button.tsx",
+        "packages/ui/src/components/calendar.tsx",
+        "packages/ui/src/components/card.tsx",
+        "packages/ui/src/components/carousel.tsx",
+        "packages/ui/src/components/chart.tsx",
+        "packages/ui/src/components/checkbox.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/command.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/drawer.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/empty.tsx",
+        "packages/ui/src/components/field.tsx",
+        "packages/ui/src/components/hover-card.tsx",
+        "packages/ui/src/components/input-group.tsx",
+        "packages/ui/src/components/input-otp.tsx",
+        "packages/ui/src/components/input.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/kbd.tsx",
+        "packages/ui/src/components/label.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/message.tsx",
+        "packages/ui/src/components/native-select.tsx",
+        "packages/ui/src/components/navigation-menu.tsx",
+        "packages/ui/src/components/pagination.tsx",
+        "packages/ui/src/components/popover.tsx",
+        "packages/ui/src/components/progress.tsx",
+        "packages/ui/src/components/questionnaire.tsx",
+        "packages/ui/src/components/radio-group.tsx",
+        "packages/ui/src/components/resizable.tsx",
+        "packages/ui/src/components/scroll-area.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/separator.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/skeleton.tsx",
+        "packages/ui/src/components/slider.tsx",
+        "packages/ui/src/components/spinner.tsx",
+        "packages/ui/src/components/switch.tsx",
+        "packages/ui/src/components/table.tsx",
+        "packages/ui/src/components/tabs.tsx",
+        "packages/ui/src/components/textarea.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/toggle.tsx",
+        "packages/ui/src/components/tooltip.tsx",
+        "packages/ui/src/components/trace.tsx",
+        "packages/ui/src/lib/utils.ts"
+      ]
+    },
+    "date-fns": {
+      "declared_range": "^4.4.0",
+      "source_files": [
+        "packages/ui/src/components/agenda.tsx"
+      ]
+    },
+    "embla-carousel-react": {
+      "declared_range": "^8.6.0",
+      "source_files": [
+        "packages/ui/src/components/carousel.tsx"
+      ]
+    },
+    "emojibase-data": {
+      "declared_range": "^18.0.0",
+      "source_files": [
+        "packages/ui/src/components/emoji-picker.tsx"
+      ]
+    },
+    "input-otp": {
+      "declared_range": "^1.5.0",
+      "source_files": [
+        "packages/ui/src/components/input-otp.tsx"
+      ]
+    },
+    "maplibre-gl": {
+      "declared_range": "^6.19.0",
+      "source_files": [
+        "packages/ui/src/components/map.tsx",
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "react": {
+      "declared_range": "19.3.1",
+      "source_files": [
+        "packages/ui/src/blocks/cta.tsx",
+        "packages/ui/src/blocks/error-pages.tsx",
+        "packages/ui/src/blocks/features.tsx",
+        "packages/ui/src/blocks/footers.tsx",
+        "packages/ui/src/blocks/hero-graphics.tsx",
+        "packages/ui/src/blocks/heroes.tsx",
+        "packages/ui/src/blocks/navigation.tsx",
+        "packages/ui/src/blocks/pricing.tsx",
+        "packages/ui/src/blocks/shared.tsx",
+        "packages/ui/src/blocks/social-proof.tsx",
+        "packages/ui/src/components/action-bar.tsx",
+        "packages/ui/src/components/alert-dialog.tsx",
+        "packages/ui/src/components/alert.tsx",
+        "packages/ui/src/components/app-layout.tsx",
+        "packages/ui/src/components/approval-card.tsx",
+        "packages/ui/src/components/attachment.tsx",
+        "packages/ui/src/components/avatar.tsx",
+        "packages/ui/src/components/breadcrumb.tsx",
+        "packages/ui/src/components/bubble.tsx",
+        "packages/ui/src/components/calendar.tsx",
+        "packages/ui/src/components/card.tsx",
+        "packages/ui/src/components/carousel.tsx",
+        "packages/ui/src/components/cell-slider.tsx",
+        "packages/ui/src/components/chain-of-thought.tsx",
+        "packages/ui/src/components/chart.tsx",
+        "packages/ui/src/components/chat-conversation.tsx",
+        "packages/ui/src/components/chat-message-actions.tsx",
+        "packages/ui/src/components/chat-message.tsx",
+        "packages/ui/src/components/chat-source.tsx",
+        "packages/ui/src/components/chat-tool.tsx",
+        "packages/ui/src/components/checkbox-button-group.tsx",
+        "packages/ui/src/components/code-block.tsx",
+        "packages/ui/src/components/combobox.tsx",
+        "packages/ui/src/components/command.tsx",
+        "packages/ui/src/components/context-menu.tsx",
+        "packages/ui/src/components/data-grid.tsx",
+        "packages/ui/src/components/dialog.tsx",
+        "packages/ui/src/components/drawer.tsx",
+        "packages/ui/src/components/drop-zone.tsx",
+        "packages/ui/src/components/dropdown-menu.tsx",
+        "packages/ui/src/components/emoji-picker.tsx",
+        "packages/ui/src/components/emoji-reaction-button.tsx",
+        "packages/ui/src/components/field.tsx",
+        "packages/ui/src/components/file-tree.tsx",
+        "packages/ui/src/components/floating-toc.tsx",
+        "packages/ui/src/components/holo-card.tsx",
+        "packages/ui/src/components/inline-select.tsx",
+        "packages/ui/src/components/input-group.tsx",
+        "packages/ui/src/components/input-otp.tsx",
+        "packages/ui/src/components/input.tsx",
+        "packages/ui/src/components/item-card-group.tsx",
+        "packages/ui/src/components/item-card.tsx",
+        "packages/ui/src/components/item.tsx",
+        "packages/ui/src/components/kanban.tsx",
+        "packages/ui/src/components/kpi-group.tsx",
+        "packages/ui/src/components/kpi.tsx",
+        "packages/ui/src/components/label.tsx",
+        "packages/ui/src/components/list-view.tsx",
+        "packages/ui/src/components/loader.tsx",
+        "packages/ui/src/components/map.tsx",
+        "packages/ui/src/components/marker.tsx",
+        "packages/ui/src/components/menubar.tsx",
+        "packages/ui/src/components/message-scroller.tsx",
+        "packages/ui/src/components/message.tsx",
+        "packages/ui/src/components/motion.tsx",
+        "packages/ui/src/components/native-select.tsx",
+        "packages/ui/src/components/number-stepper.tsx",
+        "packages/ui/src/components/number-value.tsx",
+        "packages/ui/src/components/pagination.tsx",
+        "packages/ui/src/components/popover.tsx",
+        "packages/ui/src/components/pressable-feedback.tsx",
+        "packages/ui/src/components/prompt-input.tsx",
+        "packages/ui/src/components/prompt-suggestion.tsx",
+        "packages/ui/src/components/questionnaire.tsx",
+        "packages/ui/src/components/radio-button-group.tsx",
+        "packages/ui/src/components/rating.tsx",
+        "packages/ui/src/components/reasoning.tsx",
+        "packages/ui/src/components/rich-text-editor.tsx",
+        "packages/ui/src/components/scroll-area.tsx",
+        "packages/ui/src/components/segment.tsx",
+        "packages/ui/src/components/select.tsx",
+        "packages/ui/src/components/sheet.tsx",
+        "packages/ui/src/components/sidebar.tsx",
+        "packages/ui/src/components/stepper.tsx",
+        "packages/ui/src/components/table.tsx",
+        "packages/ui/src/components/text-shimmer.tsx",
+        "packages/ui/src/components/textarea.tsx",
+        "packages/ui/src/components/timeline.tsx",
+        "packages/ui/src/components/toast.tsx",
+        "packages/ui/src/components/toggle-group.tsx",
+        "packages/ui/src/components/trace.tsx",
+        "packages/ui/src/components/trend-chip.tsx",
+        "packages/ui/src/components/widget.tsx",
+        "packages/ui/src/hooks/use-controllable-state.ts",
+        "packages/ui/src/hooks/use-highlighted-code.ts",
+        "packages/ui/src/hooks/use-mobile.ts",
+        "packages/ui/src/hooks/use-reduced-motion.ts",
+        "packages/ui/src/lib/highlighter.tsx",
+        "packages/ui/src/templates/chat.tsx",
+        "packages/ui/src/templates/crm.tsx",
+        "packages/ui/src/templates/dashboard.tsx",
+        "packages/ui/src/templates/finances.tsx",
+        "packages/ui/src/templates/mail.tsx",
+        "packages/ui/src/templates/shared.tsx"
+      ]
+    },
+    "react-big-calendar": {
+      "declared_range": "^1.20.0",
+      "source_files": [
+        "packages/ui/src/components/agenda.tsx",
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "react-day-picker": {
+      "declared_range": "^10.0.2",
+      "source_files": [
+        "packages/ui/src/components/calendar.tsx"
+      ]
+    },
+    "react-resizable-panels": {
+      "declared_range": "^4.24.3",
+      "source_files": [
+        "packages/ui/src/components/resizable.tsx"
+      ]
+    },
+    "recharts": {
+      "declared_range": "^3.8.0",
+      "source_files": [
+        "packages/ui/src/components/area-chart.tsx",
+        "packages/ui/src/components/bar-chart.tsx",
+        "packages/ui/src/components/chart.tsx",
+        "packages/ui/src/components/composed-chart.tsx",
+        "packages/ui/src/components/line-chart.tsx",
+        "packages/ui/src/components/pie-chart.tsx",
+        "packages/ui/src/components/radar-chart.tsx",
+        "packages/ui/src/components/radial-chart.tsx"
+      ]
+    },
+    "shadcn": {
+      "declared_range": "^4.23.1",
+      "source_files": [
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "shiki": {
+      "declared_range": "^4.6.0",
+      "source_files": [
+        "packages/ui/src/lib/highlighter.tsx"
+      ]
+    },
+    "streamdown": {
+      "declared_range": "^2.8.1",
+      "source_files": [
+        "packages/ui/src/components/markdown.tsx"
+      ]
+    },
+    "tailwindcss": {
+      "declared_range": "^4",
+      "source_files": [
+        "packages/ui/src/styles/globals.css"
+      ]
+    },
+    "tw-animate-css": {
+      "declared_range": "^1.4.0",
+      "source_files": [
+        "packages/ui/src/styles/globals.css"
+      ]
+    }
+  },
+  "implementation_status_summary": {
+    "implemented-initial": 111
+  }
+}

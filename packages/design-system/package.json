@@ -1,0 +1,19 @@
+{
+  "name": "@ankvale/design-system",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "eslint": "^10",
+    "@workspace/eslint-config": "*"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

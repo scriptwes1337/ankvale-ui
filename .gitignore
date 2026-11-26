@@ -43,3 +43,30 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Generated shadcn registry (rebuilt by predev/prebuild)
+apps/web/public/r/
+
+# Generated component API metadata
+apps/web/public/api/
+
+.cache/
+
+apps/web/components/generated-previews/
+
+apps/web/public/downloads/
+
+apps/web/public/ankvale-assets/
+
+apps/web/public/llms.txt
+apps/web/public/llms-full.txt
+
+apps/web/components/generated-block-previews/
+apps/web/lib/block-examples.json
+
+# Generated Phosphor website previews (rebuilt by predev/prebuild)
+apps/web/public/icon-assets/
+apps/web/lib/icon-catalog.json
+
+# Published documentation generated from repository Markdown
+apps/web/public/documentation/

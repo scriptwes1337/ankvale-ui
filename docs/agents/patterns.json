@@ -1,0 +1,553 @@
+[
+  {
+    "id": "landing-page",
+    "task": "Product landing page",
+    "keywords": ["landing page", "marketing", "product website"],
+    "blocks": [
+      "navbar-standard",
+      "hero-blocks",
+      "feature-split",
+      "cta-banner",
+      "footer-columns"
+    ],
+    "components": ["button"],
+    "templates": [],
+    "guidance": "Choose one hero and only the sections the product needs. Add pricing or evidence when the brief supplies it."
+  },
+  {
+    "id": "pricing",
+    "task": "Plan selection and comparison",
+    "keywords": ["pricing", "plans", "billing"],
+    "blocks": ["pricing-cards", "pricing-comparison", "faq-accordion"],
+    "components": ["segment"],
+    "templates": [],
+    "guidance": "Cards select a plan; comparison explains differences. Supply real action URLs."
+  },
+  {
+    "id": "features",
+    "task": "Explain product capabilities",
+    "keywords": ["features", "capabilities", "benefits"],
+    "blocks": [
+      "feature-grid",
+      "feature-split",
+      "feature-tabs",
+      "feature-bento"
+    ],
+    "components": [],
+    "templates": [],
+    "guidance": "Select a single layout based on whether items are comparable, visual or alternate views."
+  },
+  {
+    "id": "navigation",
+    "task": "Website navigation and footer",
+    "keywords": ["navigation", "navbar", "footer"],
+    "blocks": [
+      "navbar-standard",
+      "navbar-mega",
+      "footer-minimal",
+      "footer-columns"
+    ],
+    "components": ["navigation-menu"],
+    "templates": [],
+    "guidance": "Standard navigation is the default; use a mega menu only for grouped destinations."
+  },
+  {
+    "id": "not-found",
+    "task": "Unknown route or 404",
+    "keywords": ["404", "not found", "unknown route", "missing page"],
+    "blocks": ["not-found-page"],
+    "components": ["empty"],
+    "templates": [],
+    "guidance": "Use NotFoundPage for unknown URLs; Empty is for an empty collection, not a route."
+  },
+  {
+    "id": "dashboard",
+    "task": "Business overview",
+    "keywords": ["dashboard", "admin", "metrics", "analytics"],
+    "blocks": [],
+    "components": [
+      "app-layout",
+      "kpi-group",
+      "data-grid",
+      "area-chart",
+      "widget"
+    ],
+    "templates": ["dashboard"],
+    "guidance": "Start from the application template, then replace sample data and callbacks."
+  },
+  {
+    "id": "records",
+    "task": "Filter and manage records",
+    "keywords": ["records", "table", "grid", "directory"],
+    "blocks": [
+      "app-collection-toolbar",
+      "app-crud",
+      "app-record-detail",
+      "app-import-export"
+    ],
+    "components": [
+      "data-grid",
+      "editable-grid",
+      "server-data-grid",
+      "collection-list",
+      "data-analysis"
+    ],
+    "templates": [],
+    "guidance": "Start with CrudCollection and CollectionToolbar. Use EditableGrid for validated row drafts or ServerDataGrid source(query, {signal}) returning {rows, rowCount}; stable IDs and backend authorization remain required."
+  },
+  {
+    "id": "crm",
+    "task": "Customer pipeline",
+    "keywords": ["crm", "sales", "pipeline", "customers"],
+    "blocks": [],
+    "components": ["kanban", "data-grid", "timeline"],
+    "templates": ["crm"],
+    "guidance": "Use records for scanning, Kanban for stages and the aside for details."
+  },
+  {
+    "id": "mail",
+    "task": "Inbox and composition",
+    "keywords": ["mail", "email", "inbox", "compose"],
+    "blocks": [],
+    "components": ["input", "rich-text-editor", "attachment"],
+    "templates": ["mail"],
+    "guidance": "Template is local UI; wire the send callback to the intended service."
+  },
+  {
+    "id": "chat",
+    "task": "AI conversation workspace",
+    "keywords": ["chat", "assistant", "conversation", "ai"],
+    "blocks": [],
+    "components": [
+      "chat-conversation",
+      "chat-message",
+      "prompt-input",
+      "model-selector",
+      "chat-source",
+      "chat-tool",
+      "approval-card"
+    ],
+    "templates": ["chat"],
+    "guidance": "Use real source and tool results. Connect streaming and cancellation to the service."
+  },
+  {
+    "id": "finances",
+    "task": "Portfolio and transactions",
+    "keywords": [
+      "finance",
+      "finances",
+      "portfolio",
+      "spending",
+      "transactions"
+    ],
+    "blocks": [],
+    "components": ["line-chart", "pie-chart", "data-grid", "kpi-group"],
+    "templates": ["finances"],
+    "guidance": "Keep financial units and status clear. Sample values are illustrative."
+  },
+  {
+    "id": "settings",
+    "task": "Account or workspace settings",
+    "keywords": ["settings", "profile", "preferences", "account"],
+    "blocks": [
+      "app-profile-settings",
+      "app-workspace-settings",
+      "app-security-settings",
+      "app-notification-preferences",
+      "app-danger-zone"
+    ],
+    "components": [
+      "app-layout",
+      "field",
+      "input",
+      "switch",
+      "select",
+      "button",
+      "alert"
+    ],
+    "templates": [],
+    "guidance": "Reuse settings blocks with owner-supplied values and async save callbacks. Preserve failed drafts; exact-name confirmation is presentation, while authorization and reauthentication belong to the service."
+  },
+  {
+    "id": "scheduling",
+    "task": "Calendar and timed events",
+    "keywords": ["schedule", "scheduling", "agenda", "calendar", "events"],
+    "blocks": ["app-booking"],
+    "components": ["scheduler", "agenda", "calendar", "dialog"],
+    "templates": [],
+    "guidance": "Use BookingFlow for available service slots. Scheduler supplies simultaneous resource-day lanes, per-occurrence overrides/skips and daily/weekly series editing. Pass timeZone and deterministic initialDate, await onSave(updatedSeries), then own onEventsChange. resolveZonedWallTime rejects DST gaps; choose earlier/later for overlaps, and gapPolicy skip/reject for recurrence. Recheck conflicts on the server; the optional Agenda calendar uses browser timezone."
+  },
+  {
+    "id": "uploads",
+    "task": "File upload workflow",
+    "keywords": ["upload", "uploads", "attachments", "files"],
+    "blocks": ["app-files", "app-import-export"],
+    "components": [
+      "upload-manager",
+      "drop-zone",
+      "attachment",
+      "progress",
+      "alert",
+      "image-cropper"
+    ],
+    "templates": [],
+    "guidance": "Use FileManager for folders, ImportExportWizard for CSV, or UploadManager upload(file, {signal, onProgress, relativePath}) for real transport. allowDirectory reads supported browser directory drops and preserves path metadata; enforce storage-key policy on the server. Bridge ImageCropper through a serialized beforeUpload crop-dialog queue; reject cancelled requests and settle pending transforms on unmount."
+  },
+  {
+    "id": "onboarding",
+    "task": "Multi-step task",
+    "keywords": ["onboarding", "wizard", "multi step", "questionnaire"],
+    "blocks": ["app-onboarding", "app-setup"],
+    "components": ["stepper", "questionnaire", "field", "button"],
+    "templates": [],
+    "guidance": "Use OrganizationOnboarding for workspace setup and SetupChecklist for owner-controlled completed/skipped items. Await real service callbacks; preserve answers and route only after success."
+  },
+  {
+    "id": "feedback",
+    "task": "Feedback and failure recovery",
+    "keywords": ["error", "loading", "empty", "success", "feedback"],
+    "blocks": ["app-state", "app-feedback"],
+    "components": [
+      "alert",
+      "empty",
+      "skeleton",
+      "spinner",
+      "toast",
+      "progress"
+    ],
+    "templates": [],
+    "guidance": "Use AppStatePage for access, maintenance, offline and collection states, FeedbackForm for submitted feedback, and NotFoundPage for unknown routes. Rejected operations must retain input and offer recovery."
+  },
+  {
+    "id": "social-proof",
+    "task": "Evidence and customer stories",
+    "keywords": ["testimonials", "logos", "social proof", "customer stories"],
+    "blocks": ["logo-cloud", "testimonial-grid", "testimonial-spotlight"],
+    "components": [],
+    "templates": [],
+    "guidance": "Use actual authorized assets and quotes; remove fictional preview endorsements."
+  },
+  {
+    "id": "motion",
+    "task": "Purposeful motion",
+    "keywords": ["motion", "animation", "animate", "transition", "reveal"],
+    "blocks": [],
+    "components": [
+      "ankvale-provider",
+      "motion",
+      "animation",
+      "pressable-feedback",
+      "number-value"
+    ],
+    "templates": [],
+    "guidance": "Use AnkvaleProvider motion=\"system\" (or \"none\"), Motion for one-shot reveals, Presence present for exits, AnimatedSwitch stateKey for replacement and ReorderList items/onItemsChange for ordering. Durations are milliseconds; avoid nested entrances and remounting focused fields. GSAP/Lottie/Three.js are optional project integrations."
+  },
+  {
+    "id": "identity",
+    "task": "Sign-in, recovery and verification",
+    "keywords": [
+      "authentication",
+      "sign in",
+      "sign up",
+      "password reset",
+      "mfa"
+    ],
+    "blocks": ["app-auth", "app-password-recovery", "app-verification"],
+    "components": ["text-field"],
+    "templates": [],
+    "guidance": "Connect AuthPanel onSubmit, recovery and verification callbacks to the identity service. UI success is not a session. Signup password length does not apply to existing sign-in credentials; use recovery-code and MFA slots only with real services."
+  },
+  {
+    "id": "workspace-access",
+    "task": "Workspace membership and permissions",
+    "keywords": [
+      "workspace",
+      "switch workspace",
+      "members",
+      "roles",
+      "permissions",
+      "invite"
+    ],
+    "blocks": ["app-workspace-switcher", "app-members", "app-permissions"],
+    "components": ["avatar-picker"],
+    "templates": [],
+    "guidance": "Supply authoritative workspaces, members and grants. Await switching/invite/role callbacks and refresh owned data. Inherited grants are read-only UI; enforce authorization on the backend."
+  },
+  {
+    "id": "subscription",
+    "task": "Subscription and invoice management",
+    "keywords": ["subscription", "invoice", "payment method", "upgrade"],
+    "blocks": ["app-billing", "app-invoice"],
+    "components": [],
+    "templates": [],
+    "guidance": "Use BillingOverview for plan/usage/payment actions and InvoiceDetails for an actual invoice. Service callbacks own checkout, payment methods and invoice downloads; do not collect card details in ordinary fields."
+  },
+  {
+    "id": "developer-settings",
+    "task": "Connected services and credentials",
+    "keywords": [
+      "api keys",
+      "webhooks",
+      "oauth",
+      "integrations settings",
+      "audit log"
+    ],
+    "blocks": ["app-integrations", "app-api-keys", "app-audit-log"],
+    "components": [],
+    "templates": [],
+    "guidance": "IntegrationsPanel delegates connect/disconnect; ApiKeysPanel reveals only the secret returned by onCreate. WebhooksPanel is exported by app-integrations. Supply real delivery logs and audit records; never generate production credentials in a preview handler."
+  },
+  {
+    "id": "app-discovery",
+    "task": "Application search and notifications",
+    "keywords": ["global search", "notification center", "unread"],
+    "blocks": ["app-search", "app-notifications"],
+    "components": ["command"],
+    "templates": [],
+    "guidance": "GlobalSearch takes an abortable service query; respect its AbortSignal. NotificationCenter uses controlled records/read state. Navigation and authoritative unread updates remain caller responsibilities."
+  },
+  {
+    "id": "project-collaboration",
+    "task": "Project work and discussion",
+    "keywords": ["project", "tasks", "comments", "replies", "mentions"],
+    "blocks": ["app-project-detail", "app-comments"],
+    "components": ["mentions", "avatar-picker"],
+    "templates": [],
+    "guidance": "ProjectDetail supplies board/list/date task views; CommentThread supplies replies, edit and resolve callbacks. Persist task/comment mutations before refreshing owned data; mention suggestions and attachments need real data/upload handlers."
+  },
+  {
+    "id": "support",
+    "task": "Help and feedback",
+    "keywords": ["help center", "support", "knowledge base", "contact support"],
+    "blocks": ["app-help", "app-feedback"],
+    "components": [],
+    "templates": [],
+    "guidance": "HelpCenter searches supplied articles and invokes contact actions. FeedbackForm awaits its submission callback and optional attachment handler. Preview state is not a support ticket service."
+  },
+  {
+    "id": "commerce",
+    "task": "Catalog, checkout and orders",
+    "keywords": ["store", "commerce", "cart", "checkout", "orders", "refund"],
+    "blocks": ["app-catalog", "app-checkout", "app-orders"],
+    "components": [],
+    "templates": [],
+    "guidance": "ProductDetail and CartPanel are companion exports in app-commerce. Supply products, options, controlled cart and onPlaceOrder({shipping, items}) returning an actual OrderReceipt. Backend pricing, stock, tax, payment and refund authorization remain authoritative; use a payment-provider slot."
+  },
+  {
+    "id": "company-site",
+    "task": "Company, team and contact pages",
+    "keywords": ["about", "team", "company", "contact"],
+    "blocks": ["about-story", "team-grid", "team-profile", "contact-section"],
+    "components": [],
+    "templates": [],
+    "guidance": "Supply actual people and company content. ContactSection requires departments and onSend(ContactMessage); await transport success and retain entries after rejection."
+  },
+  {
+    "id": "careers-site",
+    "task": "Hiring pages and applications",
+    "keywords": ["careers", "jobs", "hiring", "application"],
+    "blocks": ["careers-list", "job-detail", "job-application"],
+    "components": [],
+    "templates": [],
+    "guidance": "Use the searchable careers index then a real job detail. JobApplication onApply receives entered values and an optional File; the application validates, uploads and stores that file."
+  },
+  {
+    "id": "editorial-site",
+    "task": "Publication and customer stories",
+    "keywords": ["blog", "article", "case study", "publication"],
+    "blocks": [
+      "blog-index",
+      "article-layout",
+      "case-study-index",
+      "case-study-story"
+    ],
+    "components": ["floating-toc"],
+    "templates": [],
+    "guidance": "Supply stable article IDs/headings, destinations and authorized story evidence. Index filters operate on supplied records; fetching and route integration belong to the product."
+  },
+  {
+    "id": "product-information",
+    "task": "Product explanation and ecosystem",
+    "keywords": [
+      "how it works",
+      "integration directory",
+      "comparison",
+      "migration",
+      "roadmap",
+      "changelog"
+    ],
+    "blocks": [
+      "how-it-works",
+      "integration-directory",
+      "integration-detail",
+      "product-comparison",
+      "release-feed",
+      "roadmap"
+    ],
+    "components": [],
+    "templates": [],
+    "guidance": "Use HowItWorks for a user-selected process, directory/detail for ecosystem entries and comparison for factual differences. Roadmap is read-only without onVote; items remain authoritative after voting."
+  },
+  {
+    "id": "documentation-site",
+    "task": "Documentation and release announcements",
+    "keywords": [
+      "documentation",
+      "docs site",
+      "announcement",
+      "release highlights"
+    ],
+    "blocks": ["documentation-shell", "announcement-bar", "release-highlights"],
+    "components": ["floating-toc"],
+    "templates": [],
+    "guidance": "DocumentationShell owns local page/version selection; connect routes and richer search explicitly. AnnouncementBar dismissal is local unless the owner persists it. Use real version-specific bodies and destinations."
+  },
+  {
+    "id": "media-downloads",
+    "task": "Media gallery and downloads",
+    "keywords": ["gallery", "video", "downloads", "desktop app"],
+    "blocks": ["media-gallery", "video-showcase", "download-section"],
+    "components": ["image", "image-list"],
+    "templates": [],
+    "guidance": "Supply actual media, caption tracks/transcripts and release files. VideoShowcase never autoplays; DownloadSection links to real files with versions and requirements. Honor reduced motion in embedded assets."
+  },
+  {
+    "id": "events-site",
+    "task": "Events and registration",
+    "keywords": ["webinar", "conference", "event registration"],
+    "blocks": ["event-index", "event-detail", "event-registration"],
+    "components": [],
+    "templates": [],
+    "guidance": "Use EventIndex for supplied event search and EventDetail for timezone/venue information. EventRegistration awaits onRegister; seat inventory, reminders and payment are service responsibilities."
+  },
+  {
+    "id": "trust-site",
+    "task": "Evidence and privacy choices",
+    "keywords": ["metrics evidence", "privacy", "policy", "consent", "cookies"],
+    "blocks": ["evidence-metrics", "policy-layout", "consent-preferences"],
+    "components": [],
+    "templates": [],
+    "guidance": "Provide source-backed metrics and reviewed policy text. ConsentPreferences onSave persists the choice; required categories stay enabled. The product must actually gate optional services and cookies."
+  },
+  {
+    "id": "complete-website",
+    "task": "Assembled website starter",
+    "keywords": [
+      "complete website",
+      "business website",
+      "publication website",
+      "store website"
+    ],
+    "blocks": [
+      "product-site",
+      "business-site",
+      "publication-site",
+      "commerce-site"
+    ],
+    "components": [],
+    "templates": [],
+    "guidance": "Start with the matching site composition and provide brand, hero, navigation and footer data. The route owns the main landmark and one h1. CommerceSite is a storefront homepage; use app-checkout for its service-backed purchase flow."
+  },
+  {
+    "id": "advanced-fields",
+    "task": "Rich fields and selectors",
+    "keywords": [
+      "async select",
+      "creatable",
+      "password visibility",
+      "currency input",
+      "color picker"
+    ],
+    "blocks": [],
+    "components": [
+      "text-field",
+      "selection-field",
+      "number-field",
+      "color-picker"
+    ],
+    "templates": [],
+    "guidance": "TextField/SearchField/PasswordField expose controlled values. SelectionField loadOptions(query, signal) is abortable. NumberField stores canonical numbers (0.125 for 12.5%); ColorPicker outputs normalized solid colors. Read per-component APIs rather than inferring competitor props."
+  },
+  {
+    "id": "hierarchical-collections",
+    "task": "Hierarchical or large collections",
+    "keywords": ["lazy tree", "virtual list", "grouped list", "tree rename"],
+    "blocks": [],
+    "components": ["tree", "collection-list"],
+    "templates": [],
+    "guidance": "Tree uses exact-node selection and caller-owned movement/rename operations; checkbox propagation is not automatic. CollectionList supports load-more and optional virtualization; preserve stable IDs and verify real browser measurements."
+  },
+  {
+    "id": "advanced-analytics",
+    "task": "Specialized charts and data analysis",
+    "keywords": [
+      "heatmap",
+      "scatter",
+      "candlestick",
+      "sankey",
+      "pivot",
+      "formula"
+    ],
+    "blocks": [],
+    "components": ["advanced-chart", "data-analysis"],
+    "templates": [],
+    "guidance": "DataAnalysis computedColumns uses compileComputedColumns(columns, inputFields) to validate an arithmetic dependency DAG and evaluate numeric records without eval; computed fields participate in aggregates/pivots. AdvancedChart keeps exact values and controlled viewport/onViewportChange for geometric pan/zoom/brush on Cartesian kinds. Sankey validates acyclic multistage flows. Neither arithmetic nor clipboard APIs imply Excel formula compatibility."
+  },
+  {
+    "id": "frontend-defaults",
+    "task": "Shared frontend defaults",
+    "keywords": [
+      "provider",
+      "locale",
+      "timezone",
+      "rtl",
+      "density",
+      "theme",
+      "reduced motion"
+    ],
+    "blocks": [],
+    "components": ["ankvale-provider"],
+    "templates": [],
+    "guidance": "AnkvaleProvider scopes locale/timeZone/direction/density/appearance/motion and optional toasts without storage or document mutation. Keep appearance=\"inherit\" for a server-themed site; system uses serverAppearance for SSR. External portal targets require matching styles and scope; not every control automatically consumes locale defaults."
+  },
+  {
+    "id": "spreadsheet-entry",
+    "task": "Rectangular data entry and TSV clipboard",
+    "keywords": [
+      "spreadsheet",
+      "clipboard",
+      "paste cells",
+      "batch edit",
+      "computed columns"
+    ],
+    "blocks": [],
+    "components": ["editable-grid", "data-analysis"],
+    "templates": [],
+    "guidance": "EditableGrid spreadsheet or its SpreadsheetGrid export supports keyboard rectangles, quoted TSV copy/paste and staged cell validation. Own data/onDataChange and await onBatchCommit(changes), where each change is {previous, row}; optionally return canonical rows with exactly the edited IDs. Preserve failed drafts and enforce atomic versioned persistence on the server. No fill handles, row appending, virtualization or Excel formula import is supplied."
+  },
+  {
+    "id": "structured-queries",
+    "task": "Nested filters and service exports",
+    "keywords": [
+      "query builder",
+      "nested filters",
+      "and or",
+      "export xlsx",
+      "export pdf",
+      "print records"
+    ],
+    "blocks": [],
+    "components": ["query-builder", "server-data-grid"],
+    "templates": [],
+    "guidance": "QueryBuilder edits controlled value: QueryGroup with fields/onChange. validateQuery and compileQuery handle typed nested all/any rules; validate again on the backend and bind values. Pass filterTree into ServerDataGrid; onExport({format, query}) and onPrint(query) delegate actual CSV/XLSX/PDF/print generation. No SQL translator or file writer is implicit."
+  },
+  {
+    "id": "image-editing",
+    "task": "Crop an image before saving",
+    "keywords": ["crop image", "avatar crop", "image editing", "crop upload"],
+    "blocks": [],
+    "components": ["image-cropper", "upload-manager"],
+    "templates": [],
+    "guidance": "ImageCropper accepts source: Blob|string|null and awaits onCrop(blob, crop, {signal}); source-coordinate geometry and output bounds drive the raster export. Honour cancellation and actual Blob.type. The owner selects/uploads files and coordinates queued beforeUpload crop dialogs. Remote URLs need CORS; rotation/EXIF/vector editing is outside this cropper."
+  }
+]
