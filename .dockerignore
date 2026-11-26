@@ -1,0 +1,10 @@
+.git
+**/node_modules
+**/.next
+**/.turbo
+.release
+.DS_Store
+**/.DS_Store
+**/.env*
+*.log
+coverage

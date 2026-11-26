@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "test:release": "node scripts/test-release.mjs",
+    "release:build": "npm run registry:build && node scripts/prepare-release.mjs",
+    "release:pack": "node scripts/pack-release.mjs",
     "pretest:documentation": "npm run registry:build",
     "test:documentation": "node scripts/test-tooling.mjs tests/documentation.test.ts",
     "audit:dependencies": "node scripts/audit-dependencies.mjs",

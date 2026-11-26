@@ -70,3 +70,6 @@ apps/web/lib/icon-catalog.json
 
 # Published documentation generated from repository Markdown
 apps/web/public/documentation/
+
+# Generated npm release candidates and tarballs
+.release/

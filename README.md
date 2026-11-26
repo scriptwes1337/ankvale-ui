@@ -2,7 +2,7 @@
 
 Components, blocks, and templates by **Ankvale Labs**, built for people and coding agents. Ankvale takes its name from Anchorvale, Singapore, where the business began.
 
-The workspace packages are `@ankvale/ui`, `@ankvale/native-ui`, and `@ankvale/design-system`. Install web components through the shadcn registry; these source packages remain private and are not published to npm.
+The source workspace packages `@ankvale/ui`, `@ankvale/native-ui`, and `@ankvale/design-system` remain private. The standalone release candidate is `@ankvalelabs/ui`, including its setup CLI; it is not published yet. The existing shadcn source registry remains available. See [npm release preparation](docs/internal/npm-release.md).
 
 Read the [project documentation](docs/README.md) for intentions, installation, supported technologies, customization, animations, agent workflows and maintenance. The customer-facing handbook is available at `/docs`, with Markdown and a downloadable reference bundle.
 
@@ -18,17 +18,27 @@ A shadcn preset built on Base UI. Notion is the sole design reference: bold ink-
 
 Ankvale is a complete frontend system for teams and coding agents: design tokens, typography, icons, illustrations, motion, components, blocks, templates and implementation guidance. Track unfinished system layers here alongside runtime and distribution work.
 
-Keep this checklist updated as work progresses. These distribution and release tasks are deferred while we discuss and improve the library showcase.
+Keep this checklist updated as work progresses. Release candidates are built locally; npm publication and catalog-wide release hardening remain pending.
 
-- [ ] **Standalone npm package:** compile JavaScript and TypeScript declarations, ship bundled CSS and per-component imports, and remove the consumer requirement for shadcn or Tailwind setup. Publish dedicated system/CLI artifacts that exclude the customer-facing website, hosted docs application and showcase-only assets; include local agent documentation.
-- [ ] **Fresh-project validation:** install the packed package into clean Next.js and Vite applications; verify styling, portals, animations and bundle splitting.
+- [x] **Standalone npm build:** compiled ESM/types, scoped precompiled CSS, per-feature imports, and one runtime/CLI package with local agent resources. Marketing and hosted documentation apps are excluded.
+- [ ] **npm publication:** publish reviewed the `@ankvalelabs/ui` release artifact after artifact-specific licensing review and npm authentication.
+- [x] **Fresh-project validation:** packed packages build in isolated Next.js and Vite apps; browser checks cover styles, portal dialogs, animation and host-style isolation.
+- [ ] **Bundle optimization:** measure feature-specific production chunks and set dependency/CSS size budgets.
 - [ ] **Team starter:** provide shared providers, typography, an app shell, authentication screens and error/loading states so projects can begin with features and content.
-- [ ] **Agent distribution and automatic setup:** the CLI creates or extends project `AGENTS.md`, installs project-local coding/design skills and version-matched documentation/catalogs, and updates its managed sections without replacing project instructions. See [the CLI setup contract](docs/implementation/cli-setup.md).
+- [x] **Agent distribution and automatic setup:** the CLI creates or extends project `AGENTS.md`, installs project-local coding/design skills and version-matched documentation/catalogs, and updates its managed sections without replacing project instructions. See [the CLI setup contract](docs/implementation/cli-setup.md).
 - [ ] **Release hardening:** review responsive layouts, keyboard interactions and accessibility across the catalog.
 - [ ] **Icon system:** build on the existing Phosphor family with consistent sizes and weights, accessible labeling, semantic action/status mappings, RTL rules and searchable previews with copyable imports.
 - [ ] **Illustration system:** ship an original SVG family for empty/search states, onboarding, uploads, permissions, connectivity, success, errors and 404 pages; include compact and large compositions, theme support and optional reduced-motion-aware animation.
 - [ ] **Product graphics:** extract reusable browser/phone frames, diagrams, connectors and product scenes from bespoke showcase artwork; compose them into blocks and templates.
 - [ ] **Asset catalog and agent guidance:** document when to choose an icon, illustration or product scene; provide exact asset IDs, imports, editable SVG downloads, provenance and usage terms. Integrate the catalog into agent recipes and ship only assets a project uses.
+
+## Standalone setup (after npm publication)
+
+```sh
+npx @ankvalelabs/ui init
+```
+
+The same package supplies runtime imports and the `ankvale` command. Initialization adds the provider, styles, project-local agent instructions, skills and documentation. Use `npx @ankvalelabs/ui doctor` to inspect an installation. These commands become publicly available after the first release.
 
 ## Develop
 

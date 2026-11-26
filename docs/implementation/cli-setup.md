@@ -1,6 +1,6 @@
 # CLI setup contract
 
-Status: planned. This describes the intended standalone installation experience; a working installer is not yet shipped.
+Status: implemented as an unpublished 0.1.0 candidate for Next.js App Router. The contract below remains the acceptance target; [release preparation](../internal/npm-release.md) records verified behavior and remaining gates. One public package, `@ankvalelabs/ui`, contains both runtime exports and an `ankvale` executable. Initialize with `npx @ankvalelabs/ui init` after publication.
 
 Installing Ankvale into a Next.js project must also set up the local context needed by coding agents. This is part of normal initialization, not a separate manual documentation step. The package supplies shared runtime behavior; scaffolded application screens belong to the consuming project.
 
@@ -17,7 +17,7 @@ The repository contains both the customer-facing website and the installable fro
 | CLI | Setup/scaffolding tool; does not require the customer to clone this repository |
 | Repository tests, audit history, build tools and development configuration | Excluded from customer-facing distribution unless specifically required to run the CLI |
 
-Keep the repository root and customer website private/non-publishable as npm packages. Publish dedicated runtime and CLI artifacts with explicit file allowlists. Shared code must not import from `apps/web`, and neither the runtime nor the CLI may depend on the website workspace. Selected reusable website templates remain legitimate system features; the Ankvale site's own pages are excluded.
+Keep the repository root and customer website private/non-publishable as npm packages. Publish one combined runtime/CLI artifact with an explicit file allowlist and separate browser and Node entry points. Shared code must not import from `apps/web`, and neither the runtime nor the CLI may depend on the website workspace. Selected reusable website templates remain legitimate system features; the Ankvale site's own pages are excluded.
 
 The CLI installs dependencies and required local context into the target project. It must not copy the repository, add Ankvale marketing routes, replace the project's homepage or install every template automatically. Route scaffolding is an explicit selection.
 
@@ -27,7 +27,7 @@ Check packed artifact contents in release validation, including transitive works
 
 - If project-root `AGENTS.md` is absent, create it with an Ankvale section.
 - If it exists, preserve its contents and append a clearly marked Ankvale-managed section. Do not replace project instructions, framework-generated sections or instructions belonging to other tools.
-- Repeated initialization updates only the existing managed section and must not create duplicate sections. Detect locally edited managed content and present a diff before replacing it.
+- Repeated initialization updates only the existing managed section and must not create duplicate sections. Detect locally edited managed content before replacing it. The current installer stops with a conflict; an interactive diff/merge workflow remains future work.
 - Keep the section short: point to the installed local guide, explain template/block/component selection, and require reading exact APIs before implementation.
 - Respect the project's instructions and the user's design choices. Ankvale defaults are fallbacks, not overrides.
 - Resolve the target application and instruction scope explicitly in monorepos; do not silently configure sibling applications.

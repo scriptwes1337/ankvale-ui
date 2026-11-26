@@ -9,6 +9,8 @@ These records support Ankvale Labs and project contributors. They are kept in th
 - [Transitive dependency inventory](../legal/dependency-inventory.json) and [CSV](../legal/dependency-inventory.csv)
 - [Asset/source provenance and hashes](asset-provenance.md)
 - [Planned CLI contract](../implementation/cli-setup.md)
+- [Standalone npm candidates and release verification](npm-release.md)
+- [Coolify website deployment](coolify-deployment.md)
 - [Authoring/server administration](../tooling/README.md)
 
 ## Develop Ankvale
